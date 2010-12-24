@@ -6,4 +6,7 @@ setup(
     namespace_packages=[
         'aclark'
         ]
+    install_requires=[
+        'setuptools'
+        ]
     )
