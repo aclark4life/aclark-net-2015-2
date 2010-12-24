@@ -1,6 +1,7 @@
 <rules xmlns="http://namespaces.plone.org/xdv"
        xmlns:css="http://namespaces.plone.org/xdv+css">
 
+    <theme href="index.html" >
     <replace content="/html/head/title" theme="/html/head/title" />
     <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
