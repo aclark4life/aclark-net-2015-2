@@ -28,6 +28,7 @@
                value="Search"
                i18n:attributes="value label_search;" />
 
+<tal:comment replace="nothing">
         <div class="searchSection">
             <input id="searchbox_currentfolder_only"
                    class="noborder"
@@ -41,6 +42,7 @@
                 only in current section
             </label>
         </div>
+</tal:comment>
 
         <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
         </div>
