@@ -1,2 +1,18 @@
-<configure>
+<configure
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+    <plone:portlet
+        name="aclark.site.portlets.PloneSiteAdmin"
+        interface=".plone_site_admin.IPloneSiteAdmin"
+
+        assignment=".plone_site_admin.Assignment"
+        renderer=".plone_site_admin.Renderer"
+
+        addview=".plone_site_admin.AddForm"
+        editview=".plone_site_admin.EditForm"
+
+        view_permission="zope2.View"
+        edit_permission="cmf.ManagePortal"
+        />
+
 </configure>
