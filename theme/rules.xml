@@ -5,7 +5,7 @@
     <replace content="/html/head/title" theme="/html/head/title" />
     <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
-    <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
+    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="content"]' />
     <replace content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
     <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
