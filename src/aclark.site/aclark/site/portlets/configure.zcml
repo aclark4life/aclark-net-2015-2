@@ -2,7 +2,7 @@
     xmlns:plone="http://namespaces.plone.org/plone">
 
     <plone:portlet
-        name="aclark.site.portlets.PloneSiteAdmin"
+        name="portlets.PloneSiteAdmin"
         interface=".plone_site_admin.IPloneSiteAdmin"
 
         assignment=".plone_site_admin.Assignment"
