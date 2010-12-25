@@ -1,0 +1,42 @@
+<dl class="portlet portletPloneSiteAdmin"
+    i18n:domain="Products.aclark_net">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           Plone 3.3 Site Administration
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+
+        <p>
+            <a class="internal-link" href="http://www.packtpub.com/plone-3-3-site-administration/book?utm_source=blog.aclark.net&
+utm_medium=link&utm_content=authorsite&utm_campaign=mdb_004027"><img src="7047_MockupCover.jpg"/></a>
+        </p>
+
+        <p>Alex Clark is the author of Plone 3.3 Site Administration;
+            a beginners guide to managing Plone sites with Buildout
+            (available now from PACKT Publishing).
+        </p>
+
+        <p>PACKT will donate a portion of the proceeds from the sale
+            of this book directly to the Plone Foundation.
+        </p>
+
+    </dd>
+
+    <dd class="portletFooter">
+
+        <span class="portletBottomLeft"></span>
+
+        <span>           <a href="http://www.packtpub.com/plone-3-3-site-administration/book?utm_source=blog.aclark.net&utm_medium=link&utm_con
+tent=authorsite&utm_campaign=mdb_004027">Support Plone. Purchase your copy now!</a>
+        </span>
+
+        <span class="portletBottomRight"></span>
+
+    </dd>
+
+</dl>

@@ -9,10 +9,8 @@
         renderer=".plone_site_admin.Renderer"
 
         addview=".plone_site_admin.AddForm"
-        editview=".plone_site_admin.EditForm"
 
         view_permission="zope2.View"
-        edit_permission="cmf.ManagePortal"
         />
 
 </configure>
