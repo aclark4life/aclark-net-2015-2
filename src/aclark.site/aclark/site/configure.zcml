@@ -1,5 +1,5 @@
 <configure>
 
-    <include ".portlets" />
+    <include package=".portlets" />
 
 </configure>
