@@ -8,27 +8,31 @@ from zope.interface import Interface
 from zope.interface import implements
 
 
-class IPloneSiteAdmin(IPortletDataProvider):
-    """Plone Site Admin portlet interface"""
+class IPloneSiteAdminPortlet(IPortletDataProvider):
+
+    portlet_title = schema.TextLine(title=u"Title", required=True)
+    portlet_body = schema.Text(title=u"Body", required=False)
+    portlet_link = schema.TextLine(title=u"Link", required=False)
+    portlet_footer = schema.TextLine(title=u"Footer", required=False)
 
 class Assignment(base.Assignment):
-    """Plone Site Admin portlet assignment"""
-
-    implements(IPloneSiteAdmin)
+    implements(IPloneSiteAdminPortlet)
 
     def __init__(self):
         pass
 
     @property
     def title(self):
-        return u"Plone Site Admin portlet"
+        return u"Plone Site Admin"
 
 class Renderer(base.Renderer):
-    """Plone Site Admin portlet add form"""
     render = ViewPageTemplateFile('plone_site_admin.pt')
 
 class AddForm(base.AddForm):
-    form_fields = form.Fields(IPloneSiteAdmin)
+    form_fields = form.Fields(IPloneSiteAdminPortlet)
 
     def create(self, data):
         return Assignment(**data)
+
+class EditForm(base.EditForm):
+    form_fields = form.Fields(IPloneSiteAdminPortlet)
