@@ -23,12 +23,12 @@
                                id search_input_id"
                class="searchField inputLabel" />
 
+<tal:comment replace="nothing">
         <input class="searchButton"
                type="submit"
                value="Search"
                i18n:attributes="value label_search;" />
 
-<tal:comment replace="nothing">
         <div class="searchSection">
             <input id="searchbox_currentfolder_only"
                    class="noborder"
