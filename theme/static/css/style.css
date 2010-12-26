@@ -246,7 +246,7 @@ img.aligncenter {
 .post .meta a {
 }
 
-.post .entry {
+.post .entry, #content-core {
 	text-align: justify;
 	margin-bottom: 25px;
 	padding: 10px 0px 0px 0px;
