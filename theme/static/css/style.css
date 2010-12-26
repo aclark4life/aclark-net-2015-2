@@ -310,7 +310,7 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
-#sidebar p {
+#sidebar p, .portletItem {
 	margin: 0 0px;
 	padding: 0px 20px 20px 20px;
 	text-align: justify;
