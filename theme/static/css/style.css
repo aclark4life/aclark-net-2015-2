@@ -232,7 +232,7 @@ img.aligncenter {
 	letter-spacing: -1px;
 }
 
-.post .title a {
+.post .title a, h1 {
 	color: #D71D3E;
 	border: none;
 }
