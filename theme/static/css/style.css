@@ -352,9 +352,7 @@ img.aligncenter {
 /* Footer */
 
 #footer {
-	width: 1000px;
-	height: 55px;
-	margin: 0px auto 40px auto;
+	background: url(++resource++static/images/img03.gif); 
 	font-family: Arial, Helvetica, sans-serif;
 }
 
