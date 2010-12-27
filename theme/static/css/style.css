@@ -68,7 +68,7 @@ img.aligncenter {
 }
 
 #wrapper {
-	margin: 0 auto;
+	margin: 0; 
 	padding: 0;
 	background: url(++resource++static/images/img03.gif) no-repeat center top;
 }
@@ -352,6 +352,8 @@ img.aligncenter {
 /* Footer */
 
 #footer {
+    position: absolute;
+    width: 100%;
 	background: url(++resource++static/images/img03.gif); 
 	font-family: Arial, Helvetica, sans-serif;
 }
