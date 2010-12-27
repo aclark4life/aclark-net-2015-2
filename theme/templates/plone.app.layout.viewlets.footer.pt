@@ -24,7 +24,7 @@
                     <span i18n:name="license" tal:omit-tag="">
                         <a href="http://creativecommons.org/licenses/GPL/2.0/" i18n:translate="label_gnu_gpl_licence">GNU GPL license</a></span>.
                 </span>
-                <span>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</span>
+                <span>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a> and <a href="team#aclark">aclark</a>.</span>
             </p>
 
         </div>
