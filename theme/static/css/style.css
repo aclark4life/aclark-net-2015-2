@@ -354,7 +354,7 @@ img.aligncenter {
 #footer {
     position: absolute;
     width: 100%;
-	background: url(++resource++static/images/img03.gif); 
+	background: #aa001f; 
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -370,4 +370,10 @@ img.aligncenter {
 
 #footer a {
 	color: #FFFFFF;
+}
+
+.colophonWrapper, #portal-siteactions {
+	width: 1000px;
+	height: 120px;
+	margin: 0 auto;
 }
