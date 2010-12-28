@@ -385,3 +385,7 @@ img.aligncenter {
     color: #aa001f !important;
     border-radius: 2px;
 }
+
+#portal-column-one { 
+    background: #191919;
+}
