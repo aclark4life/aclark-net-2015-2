@@ -381,9 +381,9 @@ img.aligncenter {
 }
 
 #portal-globalnav li a:hover, .selected a {
-    background: white !important;
+    background: white; 
     color: #aa001f !important;
-    border-radius: 2px !important;
+    border-radius: 2px; 
 }
 
 #portal-column-one { 
