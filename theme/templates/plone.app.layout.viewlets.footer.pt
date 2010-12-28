@@ -30,7 +30,41 @@
                 <span>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a> and <a tal:attributes="href python:context.portal_url() + '/team#aclark'" href="team#aclark">aclark</a>.</span>
             </p>
 
+            <div class="colophonWrapper">
+            <ul>
+              <li>
+                <a href="http://plone.org"
+                   title="This site was built using the Plone Open Source CMS/WCM."
+                   i18n:attributes="title title_built_with_plone;"
+                   i18n:translate="label_powered_by_plone">
+                  Powered by Python &amp; Plone</a>
+              </li>
+            </ul>
+            </div>
+
+            <div id="portal-siteactions">
+                <ul tal:define="accesskeys python: {'sitemap' : '3', 'accessibility' : '0', 'contact' : '9'};"
+                    tal:condition="view/site_actions"
+                    i18n:domain="plone">
+
+                    <li tal:repeat="saction view/site_actions"
+                        tal:attributes="id string:siteaction-${saction/id}"><a
+                           href=""
+                           tal:define="title saction/title;
+                                       id saction/id;
+                                       accesskey python: accesskeys.get(id, '');"
+                           i18n:attributes="title"
+                           i18n:translate=""
+                           tal:content="title"
+                           tal:attributes="href saction/url;
+                                           title title;
+                                           accesskey accesskey;"
+                           >Site action</a></li>
+                </ul>
+            </div>
+
         </div>
 
     </div>
+
 </div>
