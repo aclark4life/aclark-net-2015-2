@@ -372,8 +372,20 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
+/* ACLARK additions */
+
 .colophonWrapper, #portal-siteactions {
 	width: 1000px;
 	height: 120px;
 	margin: 0 auto;
+}
+
+#portal-globalnav li a {
+    border: 1px solid #aa001f; 
+}
+
+#portal-globalnav li a:hover {
+    border: 1px solid white;
+    background: white;
+    color: #aa001f; 
 }
