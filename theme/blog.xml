@@ -2,5 +2,6 @@
          css="http://namespaces.plone.org/xdv+css">
 
     <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
+    <copy content='//*[@id="site-title"]' theme='//*[@id="logo"]' />
 
 </rules>
