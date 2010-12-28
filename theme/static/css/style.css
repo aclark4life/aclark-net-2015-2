@@ -383,4 +383,5 @@ img.aligncenter {
 #portal-globalnav li a:hover, .selected a {
     background: white;
     color: #aa001f !important;
+    border-radius: 2px;
 }
