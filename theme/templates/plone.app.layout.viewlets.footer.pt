@@ -5,6 +5,9 @@
 
         <div id="portal-footer">
             <p>
+                <span>
+                Site content copyright &copy; 2006-2011 ACLARK.NET, LLC All rights reserved.
+                </span>
                 <span i18n:translate="description_copyright" tal:omit-tag="">
                 The
                 <span i18n:name="plonecms" tal:omit-tag="">
