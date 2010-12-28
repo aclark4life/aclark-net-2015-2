@@ -70,7 +70,7 @@ img.aligncenter {
 #wrapper {
 	margin: 0; 
 	padding: 0;
-	background: #000000 url(++resource++static/images/img03.gif) repeat-x; 
+	background: #000000 url(/static/images/img03.gif) repeat-x; 
 }
 
 /* Header */
@@ -292,7 +292,7 @@ img.aligncenter {
 #sidebar li li {
 	padding-left: 15px;
 	line-height: 35px;
-	background: url(++resource++static/images/img01.gif) no-repeat left 14px;
+	background: url(/static/images/img01.gif) no-repeat left 14px;
 }
 
 #sidebar li li span {
