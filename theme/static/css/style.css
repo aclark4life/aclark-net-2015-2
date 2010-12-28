@@ -388,5 +388,6 @@ img.aligncenter {
 
 #portal-column-one { 
     background: #191919;
+    border-radius: 2px; 
 }
 
