@@ -380,12 +380,7 @@ img.aligncenter {
 	margin: 0 auto;
 }
 
-#portal-globalnav li a {
-    border: 1px solid #aa001f; 
-}
-
-#portal-globalnav li a:hover {
-    border: 1px solid white;
+#portal-globalnav li a:hover, .selected a {
     background: white;
-    color: #aa001f; 
+    color: #aa001f !important;
 }
