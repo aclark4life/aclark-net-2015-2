@@ -391,3 +391,8 @@ img.aligncenter {
     border-radius: 2px; 
     padding-bottom: 1em;
 }
+
+#portal-footer div { 
+    display: inline;
+}
+
