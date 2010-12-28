@@ -1,8 +1,6 @@
 <rules xmlns="http://namespaces.plone.org/xdv"
          css="http://namespaces.plone.org/xdv+css">
 
-    <replace content='//*[@id="main"]' theme='//*[@id="main"]' />
-    <replace content='//*[@id="menu-portal-tabs"]' theme='/html/body/div/div/ul' />
-    <copy content='//*[@id="search"]' theme='//*[@id="searchbox"]' /> 
+    <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
 
 </rules>
