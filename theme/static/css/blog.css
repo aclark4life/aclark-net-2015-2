@@ -54,16 +54,16 @@ img.border {
 	border: 6px solid #E1F1F6;
 }
 
-img.alignleft {
+img.alignleft, .alignleft {
 	float: left;
 	margin-right: 25px;
 }
 
-img.alignright {
+img.alignright, .alignright {
 	float: right;
 }
 
-img.aligncenter {
+img.aligncenter, .aligncenter {
 	margin: 0px auto;
 }
 
