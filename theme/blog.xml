@@ -1,8 +1,10 @@
 <rules xmlns="http://namespaces.plone.org/xdv"
          css="http://namespaces.plone.org/xdv+css">
 
+    <replace content="/html/head/title" theme="/html/head/title" />
     <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
     <copy content='//*[@id="site-title"]' theme='//*[@id="logo"]' />
     <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
+    <copy content='//*[@id="search"]' theme='//*[@id="search"]' />
 
 </rules>
