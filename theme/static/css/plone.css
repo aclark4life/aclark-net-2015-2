@@ -292,7 +292,6 @@ img.aligncenter {
 #sidebar li li, .navTreeItem {
 	padding-left: 15px;
 	line-height: 35px;
-	background: url(++resource++static/images/img01.gif) no-repeat left 14px;
 }
 
 #sidebar li li span {
@@ -428,4 +427,8 @@ pre {
 
 #portal-footer li {
     list-style-image: url(++resource++static/images/img01.gif); 
+}
+
+#portlet-static-check-out-plone-3-3-site-administration {
+
 }
