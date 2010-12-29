@@ -3,7 +3,6 @@
 
     <replace content="/html/head/title" theme="/html/head/title" />
     <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
-    <copy content='//*[@id="site-title"]' theme='//*[@id="logo"]' />
     <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
     <copy content='//*[@id="searchform"]' theme='//*[@id="search"]' />
     <drop content='//*[@id="searchsubmit"]' /> 
