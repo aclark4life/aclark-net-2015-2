@@ -352,8 +352,6 @@ img.aligncenter, .aligncenter {
 /* Footer */
 
 #footer {
-    position: absolute;
-    width: 100%;
 	background: #aa001f; 
 	font-family: Arial, Helvetica, sans-serif;
 }
