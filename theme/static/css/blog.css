@@ -380,7 +380,7 @@ img.aligncenter {
 	margin: 0 auto;
 }
 
-#portal-globalnav li a:hover, .selected a, #menu-item-258 {
+#portal-globalnav li a:hover, .selected a, #menu-item-258 a, .menu-item a {
     background: white; 
     color: #aa001f !important;
     border-radius: 2px; 
