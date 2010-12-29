@@ -441,6 +441,6 @@ pre {
 }
 
 #portal-footer li {
-    list-style-image: url(++resource++static/images/img01.gif); 
+    list-style-image: url(/static/images/img01.gif); 
 }
 
