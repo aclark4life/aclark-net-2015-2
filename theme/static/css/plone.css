@@ -375,11 +375,8 @@ img.aligncenter {
 /* ACLARK additions - rip off http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
 
 #portal-footer {
-  background:none repeat scroll 0 0 #aa001f;
-  font-size:75%;
-  margin:1em 0;
-  float: left;
-  width: 100%;
+  background: #aa001f;
+  font-size: 75%;
 }
 #portal-footer h2 {
   margin: 0.5em 0.5em 0px 0.5em;
@@ -395,7 +392,6 @@ img.aligncenter {
 }
 #portal-footer .doormatColumn {
   float: left;
-  margin: 0px 1em;
 }
 #portal-footer.columns-2 .doormatColumn {
   width: 48%;
