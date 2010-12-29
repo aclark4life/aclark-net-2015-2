@@ -3,5 +3,6 @@
 
     <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
     <copy content='//*[@id="site-title"]' theme='//*[@id="logo"]' />
+    <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
 
 </rules>
