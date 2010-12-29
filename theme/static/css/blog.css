@@ -439,3 +439,8 @@ pre {
 #portal-footer.columns-7 .doormatColumn {
   width: 12%;
 }
+
+#portal-footer li {
+    list-style-image: url(++resource++static/images/img01.gif); 
+}
+
