@@ -372,25 +372,7 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
-/* ACLARK additions */
-
-.colophonWrapper, #portal-siteactions {
-	width: 1000px;
-	height: 120px;
-	margin: 0 auto;
-}
-
-#portal-globalnav li a:hover, .selected a {
-    background: white; 
-    color: #aa001f !important;
-    border-radius: 2px; 
-}
-
-pre {
-    background: #191919;
-}
-
-/* Rip off http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
+/* ACLARK additions - rip off http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
 
 #portal-footer {
   background:none repeat scroll 0 0 #aa001f;
@@ -415,8 +397,6 @@ pre {
   float: left;
   margin: 0px 1em;
 }
-
-/* Make all columns equally wide */
 #portal-footer.columns-2 .doormatColumn {
   width: 48%;
 }
@@ -435,3 +415,26 @@ pre {
 #portal-footer.columns-7 .doormatColumn {
   width: 12%;
 }
+
+/* ACLARK additions */
+
+.colophonWrapper, #portal-siteactions {
+	width: 1000px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+#portal-globalnav li a:hover, .selected a {
+    background: white; 
+    color: #aa001f !important;
+    border-radius: 2px; 
+}
+
+pre {
+    background: #191919;
+}
+
+#content-views li, #contentActionMenus li {
+    display: inline;
+}
+
