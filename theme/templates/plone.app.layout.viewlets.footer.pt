@@ -5,19 +5,19 @@
 
         <div id="portal-footer" class="columns-3">
 
+            <div class="doormatColumn">
+                <ul>
+                <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li>
+                </ul>
+            </div>
+
             <div class="doormatColumn"> 
                 <ul>
                 <li><a tal:attributes="href python: context.portal_url() + '/services#development'">Development</a></li>
                 <li><a tal:attributes="href python: context.portal_url() + '/services#hosting'">Hosting</a></li>
                 <li><a tal:attributes="href python: context.portal_url() + '/services#training'">Training</a></li>
                 <li><a tal:attributes="href python: context.portal_url() + '/services#support'">Support</a></li>
-                </ul>
-            </div>
-
-            <div class="doormatColumn">
-                <ul>
-                <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
-                <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li>
                 </ul>
             </div>
 
@@ -42,7 +42,6 @@
                         <a href="http://creativecommons.org/licenses/GPL/2.0/" i18n:translate="label_gnu_gpl_licence">GNU GPL license</a></span>.
                 </span>
             </div>
-
 
         </div>
 
