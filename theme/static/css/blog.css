@@ -219,7 +219,7 @@ img.aligncenter {
 
 #content {
 	float: right;
-	width: 620px;
+	width: 640px;
 	padding: 0px 20px 0px 0px;
 }
 
@@ -395,3 +395,8 @@ img.aligncenter {
 #portal-footer div { 
     display: inline;
 }
+
+#pre {
+    background: #191919;
+}
+
