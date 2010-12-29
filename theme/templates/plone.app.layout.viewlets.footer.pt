@@ -4,6 +4,23 @@
     <div class="cell width-full position-0">
 
         <div id="portal-footer" class="columns-3">
+
+            <div class="doormatColumn"> 
+                <ul>
+                <li><a tal:attributes="href python: context.portal_url() + '/services#development'">Development</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services#hosting'">Hosting</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services#training'">Training</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services#support'">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="doormatColumn">
+                <ul>
+                <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li>
+                </ul>
+            </div>
+
             <div class="doormatColumn">
                 <span i18n:translate="description_copyright" tal:omit-tag="">
                 The
@@ -26,21 +43,6 @@
                 </span>
             </div>
 
-            <div class="doormatColumn"> 
-                <ul>
-                <li><a tal:attributes="href python: context.portal_url() + '/services#development'">Development</a></li>
-                <li><a tal:attributes="href python: context.portal_url() + '/services#hosting'">Hosting</a></li>
-                <li><a tal:attributes="href python: context.portal_url() + '/services#training'">Training</a></li>
-                <li><a tal:attributes="href python: context.portal_url() + '/services#support'">Support</a></li>
-                </ul>
-            </div>
-
-            <div class="doormatColumn">
-                <ul>
-                <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
-                <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li>
-                </ul>
-            </div>
 
         </div>
 
