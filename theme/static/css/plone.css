@@ -425,10 +425,6 @@ pre {
     display: inline;
 }
 
-#portal-footer li, .navTree li {
+#portal-footer li, .navTree li, #portal-sitemap li {
     list-style-image: url(++resource++static/images/img01.gif); 
-}
-
-#portlet-static-check-out-plone-3-3-site-administration {
-
 }
