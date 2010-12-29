@@ -426,3 +426,6 @@ pre {
     display: inline;
 }
 
+#portal-footer li {
+    list-style-image: url(++resource++static/images/img01.gif); 
+}
