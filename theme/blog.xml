@@ -5,7 +5,8 @@
     <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
     <copy content='//*[@id="site-title"]' theme='//*[@id="logo"]' />
     <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
-    <replace content='//*[@id="search"]' theme='//*[@id="search"]' />
+    <copy content='//*[@id="searchform"]' theme='//*[@id="search"]' />
+    <drop content='//*[@id="searchsubmit"]' /> 
     <copy content='//*[@id="archives"]' theme='//*[@id="archives"]' />
     <copy content='//*[@id="meta"]' theme='//*[@id="meta"]' />
 
