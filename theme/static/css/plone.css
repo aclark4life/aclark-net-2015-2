@@ -425,7 +425,7 @@ pre {
     display: inline;
 }
 
-#portal-footer li {
+#portal-footer li, .navTree li {
     list-style-image: url(++resource++static/images/img01.gif); 
 }
 
