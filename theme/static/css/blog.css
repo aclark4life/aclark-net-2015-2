@@ -401,3 +401,43 @@ pre {
     padding: 5px;
 }
 
+
+/* ACLARK additions - rip off http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
+
+#portal-footer {
+  background: #aa001f;
+  font-size: 75%;
+}
+#portal-footer h2 {
+  margin: 0.5em 0.5em 0px 0.5em;
+}
+#portal-footer h3 {
+  margin: 0.5em 0px;
+}
+#portal-footer dl {
+  margin: 0.5em 0px;
+}
+#portal-footer dl dd {
+  margin-left: 0px;
+}
+#portal-footer .doormatColumn {
+  float: left;
+}
+#portal-footer.columns-2 .doormatColumn {
+  width: 48%;
+}
+#portal-footer.columns-3 .doormatColumn {
+  width: 31%;
+}
+#portal-footer.columns-4 .doormatColumn {
+  width: 23%;
+}
+#portal-footer.columns-5 .doormatColumn {
+  width: 18%;
+}
+#portal-footer.columns-6 .doormatColumn {
+  width: 14%;
+}
+#portal-footer.columns-7 .doormatColumn {
+  width: 12%;
+}
