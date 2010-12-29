@@ -289,7 +289,7 @@ img.aligncenter {
 	padding-bottom: 30px;
 }
 
-#sidebar li li {
+#sidebar li li, .navTreeItem {
 	padding-left: 15px;
 	line-height: 35px;
 	background: url(++resource++static/images/img01.gif) no-repeat left 14px;
@@ -386,7 +386,7 @@ img.aligncenter {
     border-radius: 2px; 
 }
 
-#portal-column-one { 
+#portlet-static-check-out-plone-3-3-site-administration {
     background: #191919;
     border-radius: 2px; 
     padding-bottom: 1em;
