@@ -6,7 +6,10 @@
    i18n:domain="plone"
    i18n:attributes="title">
 
-<span style="font-size: 460%">&alpha;</span><span style="font-size: 350%"> ACLARK.NET, LLC </span> <br />
+<span style="font-size: 360%; font-style: italic">&alpha;</span>
+
+
+<span style="font-family: 'Times New Roman'; font-size: 36px; letter-spacing: -.04em; margin: 0; font-size: 350%"> ACLARK.NET, LLC </span> <br />
 
 We are Python software professionals
 
