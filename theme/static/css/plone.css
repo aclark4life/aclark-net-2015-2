@@ -303,7 +303,7 @@ img.aligncenter {
 	font-style: italic;
 }
 
-#sidebar h2, .portletHeader {
+#sidebar h2, {
 	height: 38px;
 	margin-bottom: 20px;
 	padding: 12px 0 0 15px;
@@ -428,4 +428,8 @@ pre {
 
 #portal-footer li, .navTree li, #portal-sitemap li {
     list-style-image: url(++resource++static/images/img01.gif); 
+}
+
+.portletHeader { 
+    padding-left: 40px;
 }
