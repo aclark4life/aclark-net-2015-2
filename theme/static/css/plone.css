@@ -303,7 +303,7 @@ img.aligncenter {
 	font-style: italic;
 }
 
-#sidebar h2, {
+#sidebar h2, .portletHeader {
 	height: 38px;
 	margin-bottom: 20px;
 	padding: 12px 0 0 15px;
