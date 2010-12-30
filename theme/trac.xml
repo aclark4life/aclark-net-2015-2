@@ -1,0 +1,10 @@
+<rules xmlns="http://namespaces.plone.org/xdv"
+         css="http://namespaces.plone.org/xdv+css">
+
+    <replace content='//*[@id="main"]' theme='//*[@id="main"]' />
+    <drop theme='//*[@id="sidebar"]' />
+    <replace content='//*[@id="mainnav"]' theme='/html/body/div/div/ul' />
+    <copy content='//*[@id="search"]' theme='//*[@id="searchbox"]' />
+    <drop content='/html/body/div/div/div[2]/form/div/label' />
+
+</rules>
