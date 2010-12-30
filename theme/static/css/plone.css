@@ -437,3 +437,7 @@ pre {
 .portlet-static-new-release-plone-3-3-site-administration {
     width: 230px;
 }
+
+.portlet-static-new-release-plone-3-3-site-administration .portletHeader {
+    text-align: center;
+}
