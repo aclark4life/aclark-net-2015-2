@@ -3,7 +3,7 @@
 
     <copy content='//*[@id="search"]' theme='//*[@id="search"]' />
     <drop theme='//*[@id="sidebar"]' />
-    <prepend content='//*[@id="ctxtnav"]' theme='//*[@id="content"]' />
+    <before content='//*[@id="ctxtnav"]' theme='//*[@id="content"]' />
     <replace content="/html/head/title" theme="/html/head/title" />
     <replace content='//*[@id="content"]' theme='//*[@id="content"]' />
     <replace content='//*[@id="mainnav"]' theme='/html/body/div/div/ul' />
