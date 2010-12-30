@@ -430,14 +430,12 @@ pre {
     list-style-image: url(++resource++static/images/img01.gif); 
 }
 
-.portletHeader { 
-    padding-left: 40px;
-}
-
 .portlet-static-new-release-plone-3-3-site-administration {
-    width: 230px;
 }
 
-.portlet-static-new-release-plone-3-3-site-administration .portletHeader {
-    text-align: center;
+dd {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    padding-left: 5px;
 }
