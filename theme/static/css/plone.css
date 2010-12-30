@@ -61,6 +61,7 @@ img.alignleft {
 
 img.alignright {
 	float: right;
+	margin-left: 25px;
 }
 
 img.aligncenter {
