@@ -433,3 +433,7 @@ pre {
 .portletHeader { 
     padding-left: 40px;
 }
+
+.portlet-static-new-release-plone-3-3-site-administration {
+    width: 240px;
+}
