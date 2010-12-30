@@ -18,7 +18,7 @@
                 <ul>
                 <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
                 <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li>
-                <li><a href="https://svn.aclark.net/trac/aclark">Code</a></li>
+                <li><a href="http://svn.aclark.net/trac/public">Code</a></li>
                 </ul>
             </div>
 
