@@ -377,6 +377,8 @@ img.aligncenter {
 #portal-footer {
   background: #aa001f;
   font-size: 75%;
+  margin-left: 100px;
+  margin-top: 15px;
 }
 #portal-footer h2 {
   margin: 0.5em 0.5em 0px 0.5em;
@@ -448,4 +450,3 @@ dd {
 .documentDescription {
     font-size: 90%;
 }
-
