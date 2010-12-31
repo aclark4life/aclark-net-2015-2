@@ -446,7 +446,7 @@ pre {
     list-style-image: url(/static/images/img01.gif); 
 }
 
-#ctxtnav h2 {
+#ctxtnav h2, hr {
     display: none;
 }
 
