@@ -444,3 +444,7 @@ dd {
 #portal-breadcrumbs { 
     margin-left: 10px;
 }
+
+.documentDescription {
+    font-size: 90%;
+}
