@@ -456,3 +456,8 @@ pre {
     float: right;
     padding: 5px;
 }
+
+a.ext-link .icon {
+    background:url("http://aclark.net/static/extlink.gif") no-repeat scroll center center transparent;
+    padding-left:12px;
+}
