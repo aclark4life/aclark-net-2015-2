@@ -162,9 +162,9 @@ img.aligncenter {
 /* Menu */
 
 #menu {
-	width: 960px;
+	width: 930px;
 	height: 49px;
-	margin: 0 auto;
+	margin: auto;
 	padding: 0;
 }
 
