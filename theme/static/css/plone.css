@@ -164,8 +164,9 @@ img.aligncenter {
 #menu {
 	width: 960px;
 	height: 49px;
-	margin: 5px auto;
+	margin: 0 auto;
 	padding: 0;
+    margin-left: 10px;
 }
 
 #menu ul {
