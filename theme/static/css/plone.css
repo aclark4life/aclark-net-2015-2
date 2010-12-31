@@ -414,6 +414,10 @@ img.aligncenter {
 
 /* ACLARK additions */
 
+#portal-globalnav {
+    margin-left: 5px;
+}
+
 #portal-globalnav li a:hover, .selected a {
     background: white; 
     color: #aa001f !important;
