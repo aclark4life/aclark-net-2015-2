@@ -1,0 +1,30 @@
+<div metal:define-macro="portal_footer"
+     i18n:domain="plone"
+     class="row">
+    <div class="cell width-full position-0">
+
+        <div id="portal-footer" class="columns-3">
+
+            <div class="doormatColumn"> 
+                <ul>
+                <li><a tal:attributes="href python: context.portal_url() + '/services#development'">Development</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services#hosting'">Hosting</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services#training'">Training</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services#support'">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="doormatColumn">
+                <ul>
+                <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li>
+                <li><a href="http://svn.aclark.net/trac/public">Code</a></li>
+                </ul>
+            </div>
+            <div class="doormatColumn">
+                Copyright &copy; 2004-2011 ACLARK.NET, LLC. All rights reserved. Powered by <a href="http://python.org">Python</a> and <a href="http://plone.org">Plone</a>.
+            </div>
+        </div>
+
+    </div>
+</div>
