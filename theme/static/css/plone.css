@@ -222,7 +222,8 @@ img.aligncenter {
 	float: left;
 	width: 620px;
 	padding: 0px 20px 0px 0px;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 .post {
