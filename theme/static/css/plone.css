@@ -164,7 +164,7 @@ img.aligncenter {
 #menu {
 	width: 960px;
 	height: 49px;
-	margin: 0 auto;
+	margin: 5px auto;
 	padding: 0;
 }
 
@@ -413,10 +413,6 @@ img.aligncenter {
 }
 
 /* ACLARK additions */
-
-#portal-globalnav {
-    margin-left: 5px;
-}
 
 #portal-globalnav li a:hover, .selected a {
     background: white; 
