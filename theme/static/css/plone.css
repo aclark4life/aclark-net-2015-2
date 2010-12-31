@@ -219,7 +219,7 @@ img.aligncenter {
 /* Content */
 
 #content {
-	float: right;
+	float: left;
 	width: 620px;
 	padding: 0px 20px 0px 0px;
 }
@@ -269,7 +269,7 @@ img.aligncenter {
 /* Sidebar */
 
 #sidebar {
-	float: left;
+	float: right;
 	width: 250px;
 	padding: 0px 0px 0px 0px;
 }
