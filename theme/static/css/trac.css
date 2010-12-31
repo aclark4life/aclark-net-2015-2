@@ -446,3 +446,7 @@ pre {
     list-style-image: url(/static/images/img01.gif); 
 }
 
+#ctxtnav li {
+    display: inline;
+    list-style: none;
+}
