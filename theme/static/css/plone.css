@@ -449,34 +449,3 @@ dd {
     font-size: 90%;
 }
 
-/* Rip off http://www.perotsystems.com/default */
-
-.homeFeatureStory .homeFeatureStoryImg {
-    float: left;
-    padding-bottom: 10px;
-}
-.homeFeatureStory .homeFeatureStorytxt {
-    padding-bottom: 7px;
-    padding-top: 1px;
-}
-.homeFeatureStory .homeFeatureStorytxt h3 {
-    color: #CC0000;
-    font-size: 0.85em;
-    font-weight: bold;
-    margin: 0 0 0.4em;
-    padding: 0;
-}
-.homeFeatureStory .homeFeatureStorytxt p {
-    font-size: 0.78em;
-    font-weight: normal;
-    line-height: 1.1em;
-    margin: 0 0 0.3em;
-    padding: 0;
-}
-.homeFeatureStory .homeFeatureStorytxt p.more {
-    margin-top: 5px;
-}
-.homeFeatureStory .homeFeatureStorytxt p.more a {
-    font-weight: bold;
-}
-
