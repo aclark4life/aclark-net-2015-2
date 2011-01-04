@@ -57,6 +57,7 @@ img.border {
 img.alignleft {
 	float: left;
 	margin-right: 25px;
+    padding-bottom: 1em;
 }
 
 img.alignright {
