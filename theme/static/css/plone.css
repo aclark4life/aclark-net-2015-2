@@ -252,7 +252,6 @@ img.aligncenter {
 }
 
 .post .entry, #content-core {
-	text-align: justify;
 	margin-bottom: 25px;
 	padding: 10px 0px 0px 0px;
 }
@@ -317,7 +316,6 @@ img.aligncenter {
 #sidebar p, {
 	margin: 0 0px;
 	padding: 0px 20px 20px 20px;
-	text-align: justify;
 }
 
 #sidebar a {
