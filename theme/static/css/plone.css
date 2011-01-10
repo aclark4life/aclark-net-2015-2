@@ -57,7 +57,6 @@ img.border {
 img.alignleft {
 	float: left;
 	margin-right: 25px;
-    margin-bottom: 3em;
 }
 
 img.alignright {
@@ -251,7 +250,6 @@ img.aligncenter {
 }
 
 .post .entry, #content-core {
-	margin-bottom: 25px;
 	padding: 10px 0px 0px 0px;
 }
 
@@ -304,7 +302,6 @@ img.aligncenter {
 
 #sidebar h2, .portletHeader {
 	height: 38px;
-	margin-bottom: 20px;
 	padding: 12px 5px 0 15px;
 	letter-spacing: -1px;
 	font-size: 18px;
