@@ -229,7 +229,6 @@ img.aligncenter {
 
 .post {
 	padding-top: 20px;
-	padding-bottom: 10px;
 }
 
 .post .title {
@@ -242,7 +241,6 @@ img.aligncenter {
 }
 
 .post .meta {
-	padding-bottom: 5px;
 	text-align: left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
@@ -289,7 +287,6 @@ img.aligncenter {
 
 #sidebar li ul {
 	margin: 0px 15px;
-	padding-bottom: 30px;
 }
 
 #sidebar li li, .navTreeItem {
