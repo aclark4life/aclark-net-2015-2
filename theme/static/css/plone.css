@@ -300,7 +300,7 @@ img.aligncenter {
 	font-style: italic;
 }
 
-#sidebar h2, .portletHeader {
+#sidebar h2 { 
 	height: 38px;
 	padding: 12px 5px 0 15px;
 	letter-spacing: -1px;
@@ -315,7 +315,7 @@ img.aligncenter {
 
 #sidebar a {
 	border: none;
-	color: #D71112;
+	color: white;
 }
 
 /*
