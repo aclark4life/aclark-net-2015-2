@@ -439,3 +439,7 @@ dd {
 .documentDescription {
     font-size: 90%;
 }
+
+.small {
+    font-size: 75%;
+}
