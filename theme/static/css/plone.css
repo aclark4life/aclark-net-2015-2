@@ -443,3 +443,7 @@ dd {
 .small {
     font-size: 90%;
 }
+
+.portletFooter {
+    padding-top: 5px;
+}
