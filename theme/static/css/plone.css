@@ -275,7 +275,6 @@ img.aligncenter {
 #sidebar ul {
 	margin: 0;
 	padding: 0;
-	list-style: none;
 }
 
 #sidebar li {
@@ -315,7 +314,7 @@ img.aligncenter {
 
 #sidebar a {
 	border: none;
-	color: white;
+	color: #D71112;
 }
 
 #sidebar a:hover {
