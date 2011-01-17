@@ -317,7 +317,7 @@ img.aligncenter {
 	color: #D71112;
 }
 
-#sidebar .portletHeader a {
+#sidebar .portletHeader a, #sidebar .portletFooter a  {
 	border: none;
 	color: white;
     text-decoration: none;
@@ -326,6 +326,11 @@ img.aligncenter {
 #sidebar a:hover {
 	text-decoration: underline;
 	color: #D71112;
+}
+
+#sidebar .portletFooter a:hover, #sidebar .portetFooter a:hover {
+	text-decoration: none;
+	color: white;
 }
 
 /* Calendar */
