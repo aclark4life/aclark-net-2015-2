@@ -317,6 +317,12 @@ img.aligncenter {
 	color: #D71112;
 }
 
+#sidebar .portletHeader a {
+	border: none;
+	color: white;
+    text-decoration: none;
+}
+
 #sidebar a:hover {
 	text-decoration: underline;
 	color: #D71112;
