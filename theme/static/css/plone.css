@@ -57,18 +57,18 @@ img.border {
 img.alignleft {
 	float: left;
 	margin-right: 25px;
-    margin-bottom: 1em;
+    margin-bottom: 10em;
 }
 
 img.alignright {
 	float: right;
 	margin-left: 25px;
-    margin-bottom: 1em;
+    margin-bottom: 10em;
 }
 
 img.aligncenter {
 	margin: 0px auto;
-    margin-bottom: 1em;
+    margin-bottom: 10em;
 }
 
 #wrapper {
