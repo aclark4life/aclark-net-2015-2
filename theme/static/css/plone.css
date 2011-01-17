@@ -450,12 +450,13 @@ dd {
 
 .col1 {
     float: left;
-    height: 50%;
+    height: 33%;
     width: 40%;
 }
 
 .col2 {
     float: right;
+    height: 33%;
     width: 60%;
 }
 
