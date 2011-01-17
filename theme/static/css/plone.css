@@ -330,7 +330,7 @@ img.aligncenter {
 
 #sidebar .portletFooter a:hover, #sidebar .portetFooter a:hover {
 	text-decoration: none;
-	color: white;
+	color: white !important;
 }
 
 /* Calendar */
