@@ -329,7 +329,6 @@ img.aligncenter {
 }
 
 #sidebar .portletHeader a:hover, #sidebar .portletFooter a:hover {
-	text-decoration: none;
 	color: white; 
 }
 
