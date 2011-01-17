@@ -328,9 +328,9 @@ img.aligncenter {
 	color: #D71112;
 }
 
-#sidebar .portletFooter a:hover, #sidebar .portetFooter a:hover {
+#sidebar .portletHeader a:hover, #sidebar .portetFooter a:hover {
 	text-decoration: none;
-	color: white !important;
+	color: white; 
 }
 
 /* Calendar */
