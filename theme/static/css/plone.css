@@ -451,13 +451,13 @@ dd {
 .col1 {
     float: left;
     height: 15em;
-    width: 55%;
+    width: 45%;
 }
 
 .col2 {
     float: right;
     height: 15em;
-    width: 45%;
+    width: 55%;
 }
 
 .page {
