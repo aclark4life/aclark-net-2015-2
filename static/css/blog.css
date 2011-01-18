@@ -217,7 +217,7 @@ img.aligncenter, .aligncenter {
 
 /* Content */
 
-#content, .entry-content {
+#content {
 	float: right;
 	width: 640px;
 	padding: 0px 20px 0px 0px;
@@ -446,3 +446,7 @@ pre {
     list-style-image: url(/static/images/img01.gif); 
 }
 
+
+.entry-content { 
+    margin-top: 1em;
+}
