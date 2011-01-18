@@ -445,3 +445,7 @@ pre {
 #portal-footer li {
     list-style-image: url(/static/images/img01.gif); 
 }
+
+.entry-content { 
+    margin-top: 2em;
+}
