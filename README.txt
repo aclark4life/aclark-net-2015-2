@@ -6,6 +6,20 @@ The ACLARK.NET, LLC website.
 
 .. image:: screenshot.png
 
+Buildout
+--------
+
+This is a Plone buildout. To run it you need Python 2.6.x and git::
+
+    $ git clone https://github.com/aclark4life/aclark_net_website
+    $ cd aclark_net_website
+    $ python2.6 bootstrap.py -d
+    $ bin/buildout
+    $ bin/plone fg
+
+This will get you a working Plone site on http://localhost:8080 at
+which point you may install collective.xdv and configure it with the
+plone.xml rules file in theme/rules/.
 
 Diazo theme
 -----------
