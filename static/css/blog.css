@@ -217,7 +217,7 @@ img.aligncenter, .aligncenter {
 
 /* Content */
 
-#content, #entry-content {
+#content, .entry-content {
 	float: right;
 	width: 640px;
 	padding: 0px 20px 0px 0px;
