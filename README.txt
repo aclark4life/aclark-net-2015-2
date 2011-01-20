@@ -33,10 +33,14 @@ which includes:
 Static resources
 ----------------
 
-    Static resources for the Diazo theme are included in the static/
+    Static resources for the theme are included in the static/
     directory.
 
-    They are made available by the webserver, outside of Plone.
+    In the case of Plone, they are made available in Plone via the
+    ZCML browser:resourceDirectory directive.
+
+    In they case of Wordpress & Trac, they are made available by the
+    webserver, outside of Plone.
 
 
 Custom templates
