@@ -463,14 +463,12 @@ dd {
     float: left;
     height: 15em;
     width: 40%;
-    padding-top: 1em;
 }
 
 .col2 {
     float: right;
     height: 15em;
     width: 60%;
-    padding-top: 1em;
 }
 
 .page {
