@@ -6,7 +6,7 @@
     <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
     <copy content='//*[@id="searchform"]' theme='//*[@id="search"]' />
     <drop content='//*[@id="searchsubmit"]' /> 
-    <copy content='//*[@id="archives"]' theme='//*[@id="archives"]' />
-    <copy content='//*[@id="meta"]' theme='//*[@id="meta"]' />
+    <replace content='//*[@id="archives"]' theme='//*[@id="archives"]' />
+    <replace content='//*[@id="meta"]' theme='//*[@id="meta"]' />
 
 </rules>
