@@ -452,6 +452,9 @@ pre {
     margin-top: 2em;
 }
 
+.wp-caption-text {
+    text-align: center;
+}
 
 <style type="text/css"><!--
 /**
@@ -475,7 +478,3 @@ pre {
 .ini span.xtra { display:block; }
 
 --!></style>
-
-.wp-caption-text {
-    text-align: center;
-}
