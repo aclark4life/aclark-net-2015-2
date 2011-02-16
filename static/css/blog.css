@@ -471,3 +471,7 @@ pre {
 .ini .re1 {color: #000099;}
 .ini .re2 {color: #660066;}
 .ini span.xtra { display:block; }
+
+blockquote {
+    font-style: italic;
+}
