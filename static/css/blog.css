@@ -456,11 +456,6 @@ pre {
     text-align: center;
 }
 
-<style type="text/css"><!--
-/**
- * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
- * (http://qbnz.com/highlighter/ and http://geshi.org/)
- */
 .ini .de1, .ini .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;}
 .ini  {font-family:monospace;color: #006; border: 1px solid #d0d0d0; background-color: #f0f0f0;}
 .ini a:link {color: #000060;}
@@ -476,5 +471,3 @@ pre {
 .ini .re1 {color: #000099;}
 .ini .re2 {color: #660066;}
 .ini span.xtra { display:block; }
-
---!></style>
