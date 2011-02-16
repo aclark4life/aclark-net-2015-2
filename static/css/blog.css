@@ -475,3 +475,7 @@ pre {
 .ini span.xtra { display:block; }
 
 --!></style>
+
+.wp-caption-text {
+    text-align: center;
+}
