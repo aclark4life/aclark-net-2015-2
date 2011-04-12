@@ -54,7 +54,7 @@ img.border {
 	border: 6px solid #E1F1F6;
 }
 
-img.alignleft {
+img.alignleft, .image-left {
 	float: left;
     clear: both;
     margin: 0.5em 1em 0.5em 0;
