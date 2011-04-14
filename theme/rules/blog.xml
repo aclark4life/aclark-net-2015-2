@@ -6,7 +6,8 @@
     <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
     <copy content='//*[@id="searchform"]' theme='//*[@id="search"]' />
     <drop content='//*[@id="searchsubmit"]' /> 
-    <replace content='//*[@id="archives"]' theme='//*[@id="archives"]' />
-    <replace content='//*[@id="meta"]' theme='//*[@id="meta"]' />
+    <replace content='//*[@id="text-3"]' theme='//*[@id="training"]' />
+    <replace content='//*[@id="archives-3"]' theme='//*[@id="archives"]' />
+    <replace content='//*[@id="meta-3"]' theme='//*[@id="meta"]' />
 
 </rules>
