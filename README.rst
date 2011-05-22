@@ -27,26 +27,26 @@ Diazo theme
 The Diazo theme for this website is contained within the theme/ directory,
 which includes:
 
-    theme/templates - XHTML theme templates for Plone, Trac, and Wordpress.
-    theme/rules - XML rules to apply theme templates to Plone content.
+* theme/templates - XHTML theme templates for Plone, Trac, and Wordpress.
+* theme/rules - XML rules to apply theme templates to Plone content.
 
 Static resources
 ----------------
 
-    Static resources for the theme are included in the static/
-    directory.
+* Static resources for the theme are included in the static/
+  directory.
 
-    In the case of Plone, they are made available in Plone via the
-    ZCML browser:resourceDirectory directive.
+* In the case of Plone, they are made available in Plone via the
+  ZCML browser:resourceDirectory directive.
 
-    In they case of Wordpress & Trac, they are made available by the
-    webserver, outside of Plone.
+* In they case of Wordpress & Trac, they are made available by the
+  webserver, outside of Plone.
 
 
 Custom templates
 ----------------
 
-    Custom Plone templates live in the templates/ directory.
+* Custom Plone templates live in the templates/ directory.
 
 Apache
 ------
