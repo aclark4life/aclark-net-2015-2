@@ -4,7 +4,7 @@ Introduction
 
 The ACLARK.NET, LLC website.
 
-.. image:: screenshot.png
+.. image:: https://github.com/aclark4life/aclark_net_website/raw/master/screenshot.png
 
 Buildout
 --------
