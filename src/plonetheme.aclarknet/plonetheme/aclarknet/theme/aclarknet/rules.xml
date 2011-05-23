@@ -1,0 +1,17 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <theme href="index.html" />
+
+    <replace content="/html/head/title" theme="/html/head/title" />
+
+    <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' />
+    <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
+    <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
+    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="content"]' />
+    <copy content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
+    <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+
+</rules>
