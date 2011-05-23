@@ -21,7 +21,7 @@ Wordpress
 
 The Diazo theme for Wordpress is contained within the `theme/`_ directory.
 
-.. _`src/plonetheme.aclarknet`: https://github.com/ACLARKNET/aclark_net_website/tree/master/theme
+.. _`src/plonetheme.aclarknet/`: https://github.com/ACLARKNET/aclark_net_website/tree/master/theme
 .. _`theme/`: https://github.com/ACLARKNET/aclark_net_website/tree/master/theme
 .. _`plone.app.theming`: http://pypi.python.org/pypi/plone.app.theming
 .. _`Diazo`: http://pypi.python.org/pypi/Diazo
