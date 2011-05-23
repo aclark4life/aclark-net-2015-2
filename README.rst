@@ -9,7 +9,7 @@ The ACLARK.NET, LLC website.
 Diazo theme
 -----------
 
-This repository contains two Diazo themes: one for Plone and one for Wordpress. The Plone theme is installed via `plone.app.theming`_ and the Wordpress theme is compiled with `Diazo`_ and served by Apache and `mod_transform`_.
+This repository contains two Diazo themes: one for Plone and one for Wordpress. The Plone theme is installed via `plone.app.theming`_ and the Wordpress theme is compiled with `Diazo`_ and served by Apache via `mod_transform`_.
 
 Plone
 ~~~~~
