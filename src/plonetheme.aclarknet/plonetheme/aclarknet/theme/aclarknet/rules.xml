@@ -18,7 +18,10 @@
     <copy content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
 
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+
+<!--
     <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
     <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
+-->
 
 </rules>
