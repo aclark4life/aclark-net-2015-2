@@ -4,4 +4,7 @@
 
     <plone:static directory="theme/aclarknet" type="theme" />
 
+    <include package="z3c.jbot" file="meta.zcml" />
+    <browser:jbot directory="templates" />
+
 </configure>
