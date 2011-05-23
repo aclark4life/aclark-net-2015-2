@@ -7,7 +7,7 @@ setup(
     namespace_packages=[
         'plonetheme',
     ],
-    install_package_data=True,
+    include_package_data=True,
     install_requires=[
         'setuptools',
         'plone.app.theming',
