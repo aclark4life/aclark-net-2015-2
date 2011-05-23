@@ -1,4 +1,3 @@
-
 Introduction
 ============
 
@@ -21,10 +20,10 @@ This will get you a working Plone site on http://localhost:8080 at
 which point you may install collective.xdv and configure it with the
 plone.xml rules file in theme/rules/.
 
-Diazo theme
------------
+XDV theme
+---------
 
-The Diazo theme for this website is contained within the theme/ directory,
+The XDV theme for this website is contained within the theme/ directory,
 which includes:
 
     theme/templates - XHTML theme templates for Plone, Trac, and Wordpress.
