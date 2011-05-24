@@ -5,7 +5,9 @@
 
     <theme href="index.html" />
 
+<!--
     <prepend content='//*[@id="portal-personaltools"]' theme='//*[@id="search"]' />
+-->
 
     <replace content="/html/head/title" theme="/html/head/title" />
 
