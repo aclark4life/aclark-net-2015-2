@@ -419,7 +419,7 @@ img.aligncenter {
 
 /* ACLARK additions */
 
-#portal-globalnav li a:hover, .selected a {
+#portal-globalnav li a:hover, .selected a, .menu-item a:hover {
     background: white; 
     color: #aa001f !important;
     border-radius: 2px; 
