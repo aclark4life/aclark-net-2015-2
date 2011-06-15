@@ -425,6 +425,10 @@ img.aligncenter {
     border-radius: 2px; 
 }
 
+.menu-item-258 a {
+    color: #aa001f !important;
+}
+
 pre {
     background: #191919;
 }
