@@ -430,10 +430,11 @@ img.aligncenter {
 }
 
 pre {
-    padding: 1em;
+    padding: 2em;
     background: #191919;
     color: green;
     border: 1px solid white;
+    font-size: 110%;
 }
 
 #content-views li, #contentActionMenus li {
