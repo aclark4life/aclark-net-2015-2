@@ -437,6 +437,10 @@ pre {
     font-size: 110%;
 }
 
+strong {
+    color: #D71112;
+}
+
 #content-views li, #contentActionMenus li {
     display: inline;
 }
