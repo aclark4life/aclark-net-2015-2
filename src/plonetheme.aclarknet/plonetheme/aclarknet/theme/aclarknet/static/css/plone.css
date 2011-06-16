@@ -491,3 +491,9 @@ dd {
 .service-images {
     margin-top: 100px;
 }
+
+/* Wordpress */
+
+.entry-meta { 
+    padding: 1em;
+}
