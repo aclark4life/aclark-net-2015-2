@@ -433,6 +433,7 @@ pre {
     padding: 1em;
     background: #191919;
     color: green;
+    border: 1px solid white;
 }
 
 #content-views li, #contentActionMenus li {
