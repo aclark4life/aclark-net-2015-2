@@ -497,3 +497,8 @@ dd {
 .entry-meta { 
     padding: 1em;
 }
+
+.entry-content p {
+    color: #F7F7F7;
+    font-size: 110%;
+}
