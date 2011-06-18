@@ -13,6 +13,8 @@
     <notheme if-path="source_editor.htm" />
     <notheme if-path="table.htm" />
 
+    <prepend content='//*[@id="portal-personaltools"]' theme='//*[@id="search"]' />
+
     <before content='/html/head' theme='/html/head' />
     <drop attributes="id" css:content="#portal-globalnav" />
     <drop attributes="id" css:content="#content" />
