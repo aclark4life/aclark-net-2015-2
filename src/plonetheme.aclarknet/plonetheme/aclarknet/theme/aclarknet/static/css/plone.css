@@ -225,6 +225,18 @@ img.aligncenter {
 	padding: 0px 20px 0px 0px;
     margin-top: 10px;
     margin-left: 10px;
+    font-size: 100%;
+}
+
+#content a {
+    color: #D71010 !important;
+    text-decoration: none;
+    border-bottom: none !important;
+}
+
+#content a:hover {
+    color: #D71010 !important;
+    border-bottom: 1px solid #D71010 !important; 
 }
 
 .post {
@@ -508,3 +520,7 @@ dd {
     text-transform: uppercase;
 }
 
+
+dl.portlet {
+    font-size: 100%;
+}

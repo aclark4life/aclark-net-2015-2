@@ -18,9 +18,9 @@
     <before content='/html/head' theme='/html/head' />
     <drop attributes="id" css:content="#portal-globalnav" />
     <drop attributes="id" css:content="#content" />
-    <drop attributes="class" css:content=".documentDescription" />
-    <drop attributes="class" css:content=".documentFirstHeading" />
     <drop attributes="class" css:content=".cell" />
+    <drop attributes="class" css:content=".documentFirstHeading" />
+    <drop attributes="class" css:content=".documentDescription" />
 
     <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' />
     <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
