@@ -370,7 +370,7 @@ img.aligncenter {
 /* Footer */
 
 #footer {
-	background: #aa001f; 
+	background: black;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -391,11 +391,13 @@ img.aligncenter {
 /* ACLARK additions - rip off http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
 
 #portal-footer {
-  background: #aa001f;
-  font-size: 75%;
-  width: 1064px;
-  margin-top: 15px;
+    background: #aa001f;
+    font-size: 75%;
+    width: 1064px;
+    margin-top: 15px;
+    border-radius: 20px 20px 0 0 !important;
 }
+
 #portal-footer h2 {
   margin: 0.5em 0.5em 0px 0.5em;
 }
