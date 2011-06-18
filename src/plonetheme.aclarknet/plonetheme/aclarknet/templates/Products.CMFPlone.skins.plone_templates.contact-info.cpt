@@ -63,7 +63,7 @@
                  tal:define="error errors/sender_fullname|nothing"
                  tal:attributes="class python:test(error, 'field error', 'field')">
                 <label for="sender_fullname" i18n:translate="label_sender_fullname">
-                    Name
+                    Please tell us your name
                 </label>
 
                 <div tal:condition="error"
@@ -87,7 +87,7 @@
                  tal:attributes="class python:test(error, 'field error', 'field')">
 
                 <label for="sender_from_address" i18n:translate="label_sender_from_address">
-                    E-Mail
+                    And your e-mail address?
                 </label>
 
                 <div tal:condition="error"
@@ -107,7 +107,7 @@
                  tal:attributes="class python:test(error, 'field error', 'field')">
 
                 <label for="message" i18n:translate="label_message">
-                    Message
+                   How can we help you today?
                 </label>
 
                 <div tal:condition="error"
