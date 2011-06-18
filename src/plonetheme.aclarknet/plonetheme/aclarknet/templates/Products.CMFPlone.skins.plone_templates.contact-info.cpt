@@ -66,6 +66,8 @@
                     Please tell us your name
                 </label>
 
+                <br />
+
                 <div tal:condition="error"
                    tal:content="error">Validation error output</div>
                 <input type="text" 
@@ -90,6 +92,8 @@
                     And your e-mail address
                 </label>
 
+                <br />
+
                 <div tal:condition="error"
                      tal:content="error">Validation error output</div>
 
@@ -110,6 +114,8 @@
                    And how we can help you today?
                 </label>
 
+                <br />
+
                 <div tal:condition="error"
                      tal:content="error">Validation error output</div>
 
@@ -121,12 +127,11 @@
                           > </textarea>
             </div>
 
-            <br />
-
             <div>
 
-                When you are done, please click send <br />
+                When you are done, please click send
 
+                <br />
 
                 <input class="button"
                        type="submit"
