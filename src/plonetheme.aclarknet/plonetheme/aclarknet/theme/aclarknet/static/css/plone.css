@@ -460,8 +460,9 @@ strong {
     display: inline;
 }
 
-#portal-footer li, .navTree li, #portal-sitemap li {
-    list-style-image: url(../images/img01.gif); 
+#footer li, .navTree li, #portal-sitemap li {
+    list-style-image: url(../images/img01.gif) !important; 
+    display: block;
 }
 
 dd {
