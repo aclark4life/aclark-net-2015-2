@@ -21,14 +21,15 @@
 
     <p>
         ACLARK.NET, LLC <br />
-        Bethesda, MD 20817 USA <br />
-        Phone: (301) 312-5236 <br />
-        Email: info@lists.aclark.net <br />
+        Bethesda, MD USA <br />
+        20817 <br />
+        Phone: 301-312-5236 <br />
+        Email: aclark@aclark.net <br />
     </p>
 
     <h1 class="documentFirstHeading"
         i18n:translate="heading_contact_form">
-            Interested in our services? Please use this form to contact us.
+        Contact form
     </h1>
 
     <div tal:condition="not:email_from_address">
