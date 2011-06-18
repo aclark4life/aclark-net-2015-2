@@ -504,6 +504,7 @@ dd {
 }
 
 #personaltools-contact {
-    background: white;
-    color: #AA001F
+    color: #AA001F;
+    text-transform: capitalize;
 }
+
