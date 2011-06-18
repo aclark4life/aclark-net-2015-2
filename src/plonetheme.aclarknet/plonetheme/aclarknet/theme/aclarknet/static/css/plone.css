@@ -334,15 +334,16 @@ img.aligncenter {
 	border: none;
 	color: white;
     text-decoration: none;
+    font-size: 120%;
 }
 
 #sidebar a:hover {
-	text-decoration: underline;
-	color: #D71112;
+    text-decoration: underline;
+	color: #D71112 !important;
 }
 
 #sidebar .portletHeader a:hover, #sidebar .portletFooter a:hover {
-	color: white; 
+	color: white !important; 
 }
 
 /* Calendar */
@@ -517,10 +518,19 @@ dd {
 
 #personaltools-contact {
     color: #AA001F;
+    background: white;
     text-transform: uppercase;
+    font-size: 150%;
 }
 
+#portal-personaltools {
+    background: white;
+}
 
 dl.portlet {
     font-size: 100%;
+}
+
+dt {
+    background: black !important;
 }
