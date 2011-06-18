@@ -107,7 +107,7 @@
                  tal:attributes="class python:test(error, 'field error', 'field')">
 
                 <label for="message" i18n:translate="label_message">
-                   And how we can help you
+                   And how we can help you today?
                 </label>
 
                 <div tal:condition="error"
@@ -124,13 +124,17 @@
             <br />
 
             <div>
-                And click send
+
+                When you are done, please click send
+
                 <input class="button"
                        type="submit"
                        name="form.button.Send"
                        value="Send form"
                        i18n:attributes="value label_send;"
                        />
+
+                We will get back to you within 24 hours.
 
             </div>
 
