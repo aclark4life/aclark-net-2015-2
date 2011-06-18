@@ -5,6 +5,14 @@
 
     <theme href="index.html" />
 
+    <notheme if-path="anchor.htm" />
+    <notheme if-path="attributes.htm" />
+    <notheme if-path="presentation_view" />
+    <notheme if-path="ploneimage.htm" />
+    <notheme if-path="plonelink.htm" />
+    <notheme if-path="source_editor.htm" />
+    <notheme if-path="table.htm" />
+
     <before content='/html/head' theme='/html/head' />
     <drop attributes="id" css:content="#portal-globalnav" />
     <drop attributes="id" css:content="#content" />
