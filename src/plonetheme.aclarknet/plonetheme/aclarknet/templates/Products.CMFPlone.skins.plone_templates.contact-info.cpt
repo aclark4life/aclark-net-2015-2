@@ -125,7 +125,8 @@
 
             <div>
 
-                When you are done, please click send
+                When you are done, please click send <br />
+
 
                 <input class="button"
                        type="submit"
@@ -134,7 +135,9 @@
                        i18n:attributes="value label_send;"
                        />
 
-                We will get back to you within 24 hours.
+                <br />
+
+                We will get back to you within 24 hours
 
             </div>
 
