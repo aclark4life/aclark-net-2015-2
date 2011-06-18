@@ -87,7 +87,7 @@
                  tal:attributes="class python:test(error, 'field error', 'field')">
 
                 <label for="sender_from_address" i18n:translate="label_sender_from_address">
-                    And your e-mail address?
+                    And your e-mail address
                 </label>
 
                 <div tal:condition="error"
@@ -107,7 +107,7 @@
                  tal:attributes="class python:test(error, 'field error', 'field')">
 
                 <label for="message" i18n:translate="label_message">
-                   How can we help you today?
+                   And how we can help you
                 </label>
 
                 <div tal:condition="error"
@@ -124,11 +124,11 @@
             <br />
 
             <div>
-
+                And click send
                 <input class="button"
                        type="submit"
                        name="form.button.Send"
-                       value="Send"
+                       value="Send form"
                        i18n:attributes="value label_send;"
                        />
 
