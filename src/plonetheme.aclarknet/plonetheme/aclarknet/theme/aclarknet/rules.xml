@@ -5,11 +5,12 @@
 
     <theme href="index.html" />
 
-<!--
-    <prepend content='//*[@id="portal-personaltools"]' theme='//*[@id="search"]' />
--->
-
-    <replace content="/html/head/title" theme="/html/head/title" />
+    <before content='/html/head' theme='/html/head' />
+    <drop attributes="id" css:content="#portal-globalnav" />
+    <drop attributes="id" css:content="#content" />
+    <drop attributes="class" css:content=".documentDescription" />
+    <drop attributes="class" css:content=".documentFirstHeading" />
+    <drop attributes="class" css:content=".cell" />
 
     <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' />
     <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
@@ -20,10 +21,5 @@
     <copy content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
 
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
-
-<!--
-    <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
-    <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
--->
 
 </rules>
