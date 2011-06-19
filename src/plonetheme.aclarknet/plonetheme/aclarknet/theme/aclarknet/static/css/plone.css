@@ -537,5 +537,5 @@ dt {
 }
 
 #twitter, #facebook {
-    float: right;
+    float: right !important;
 }
