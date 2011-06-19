@@ -547,3 +547,7 @@ dt {
 #facebook {
     padding-right: 6em;
 }
+
+div.name_block a {
+    color: white !important;
+}
