@@ -549,5 +549,5 @@ dt {
 }
 
 html#facebook body.plugin div#LikeboxPluginPagelet div.app_content_181017655288138 div.fan_box div div.connect_top div.connect_action div.name_block a {
-    color: white; 
+    color: white !important;
 }
