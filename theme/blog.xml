@@ -3,7 +3,7 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <before content="/html/head" theme="/html/head" />
+    <replace content="/html/head/title" theme="/html/head/title" />
 
     <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
     <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
