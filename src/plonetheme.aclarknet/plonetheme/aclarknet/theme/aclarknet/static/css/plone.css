@@ -548,6 +548,6 @@ dt {
     padding-right: 6em;
 }
 
-div.name_block a {
-    color: white !important;
+div#twitter.doormatColumn span a
+    color: #3B5998;
 }
