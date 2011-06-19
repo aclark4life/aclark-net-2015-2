@@ -460,6 +460,7 @@ strong {
 
 #footer li, .navTree li, #portal-sitemap li {
     list-style-image: url(../images/img01.gif); 
+    padding-left: 1em;
     display: block;
 }
 
