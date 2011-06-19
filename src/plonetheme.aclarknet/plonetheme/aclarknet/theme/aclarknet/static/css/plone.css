@@ -370,8 +370,8 @@ img.aligncenter {
 /* Footer */
 
 #footer {
-	background: black;
 	font-family: Arial, Helvetica, sans-serif;
+    width: 1024px;
 }
 
 #footer p {
@@ -390,45 +390,43 @@ img.aligncenter {
 
 /* ACLARK additions - rip off http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
 
-#portal-footer {
-    background: #aa001f;
+#footer {
+    background: black;
     font-size: 75%;
-    width: 1064px;
-    margin-top: 15px;
-    border-radius: 20px 20px 0 0 !important;
+    margin-top: 1em;
 }
 
-#portal-footer h2 {
+#footer h2 {
   margin: 0.5em 0.5em 0px 0.5em;
 }
-#portal-footer h3 {
+#footer h3 {
   margin: 0.5em 0px;
 }
-#portal-footer dl {
+#footer dl {
   margin: 0.5em 0px;
 }
-#portal-footer dl dd {
+#footer dl dd {
   margin-left: 0px;
 }
-#portal-footer .doormatColumn {
+#footer .doormatColumn {
   float: left;
 }
-#portal-footer.columns-2 .doormatColumn {
+.columns-2 .doormatColumn {
   width: 48%;
 }
-#portal-footer.columns-3 .doormatColumn {
+.columns-3 .doormatColumn {
   width: 31%;
 }
-#portal-footer.columns-4 .doormatColumn {
+.columns-4 .doormatColumn {
   width: 23%;
 }
-#portal-footer.columns-5 .doormatColumn {
+.columns-5 .doormatColumn {
   width: 18%;
 }
-#portal-footer.columns-6 .doormatColumn {
+.columns-6 .doormatColumn {
   width: 14%;
 }
-#portal-footer.columns-7 .doormatColumn {
+.columns-7 .doormatColumn {
   width: 12%;
 }
 
