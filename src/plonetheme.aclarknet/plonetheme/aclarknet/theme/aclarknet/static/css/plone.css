@@ -539,3 +539,12 @@ dt {
 #twitter, #facebook {
     float: right !important;
 }
+
+#twitter {
+    padding-top: 1em;
+}
+
+#facebook {
+    padding-right: 1em;
+}
+
