@@ -549,5 +549,5 @@ dt {
 }
 
 .name_block, .name {
-    color: white;
+    color: white !important;
 }
