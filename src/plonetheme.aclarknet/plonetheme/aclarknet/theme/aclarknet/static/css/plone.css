@@ -548,3 +548,7 @@ dt {
     padding-right: 6em;
 }
 
+.name_block a {
+    color: white;
+}
+
