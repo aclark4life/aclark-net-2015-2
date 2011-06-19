@@ -116,7 +116,7 @@
                  tal:attributes="class python:test(error, 'field error', 'field')">
 
                 <label for="message" i18n:translate="label_message">
-                   And how we can help you today?
+                   And how can we help you today?
                 </label>
 
                 <br />
