@@ -535,3 +535,7 @@ dl.portlet {
 dt {
     background: black !important;
 }
+
+#twitter, #facebook {
+    float: right;
+}
