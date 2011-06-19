@@ -458,11 +458,8 @@ strong {
     display: inline;
 }
 
-#footer ul {
-    list-style: circle url(../images/img01.gif);
-}
-
 #footer li, .navTree li, #portal-sitemap li {
+    list-style-image: url(../images/img01.gif);
     display: block;
 }
 
