@@ -460,7 +460,7 @@ strong {
 
 #footer li, .navTree li, #portal-sitemap li {
     list-style-image: url(../images/img01.gif);
-    display: block;
+    display: list-item;
 }
 
 dd {
