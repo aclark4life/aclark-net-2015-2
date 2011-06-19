@@ -17,12 +17,18 @@
                  email_from_address portal/email_from_address;
                  isAnon context/@@plone_portal_state/anonymous;">
 
-    <h1>Contact information</h1>
+    <h1>Location information</h1>
 
     <p>
         ACLARK.NET, LLC <br />
         Bethesda, MD USA <br />
         20817 <br />
+
+    </p>
+
+    <h1>Contact information</h1>
+    <p>
+        Contact: Alex Clark
         Phone: 301-312-5236 <br />
         E-mail: aclark@aclark.net <br />
     </p>
@@ -142,7 +148,7 @@
 
                 <br />
 
-                We will get back to you within 24 hours
+                We will get back to you within 24 hours. <strong>If you need immediate assistance, please call Alex Clark at 301-312-5236.</strong>
 
             </div>
 
