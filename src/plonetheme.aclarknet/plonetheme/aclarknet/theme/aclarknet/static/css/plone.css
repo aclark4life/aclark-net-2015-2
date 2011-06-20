@@ -230,7 +230,7 @@ img.aligncenter {
     border-bottom: none !important;
 }
 
-#content-core a:hover, h2 .entry-title a:hover {
+#content-core a:hover, h2.entry-title a:hover {
     color: #D71010 !important;
     border-bottom: 1px solid #D71010 !important; 
 }
