@@ -46,9 +46,11 @@ a {
 	color: #D71112;
 }
 
+/*
 a:hover {
 	text-decoration: underline;
 }
+*/
 
 img.border {
 	border: 6px solid #E1F1F6;
