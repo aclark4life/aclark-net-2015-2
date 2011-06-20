@@ -1,5 +1,6 @@
 <configure
     xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:plone="http://namespaces.plone.org/plone"
     xmlns="http://namespaces.zope.org/zope">
 
@@ -7,5 +8,13 @@
 
     <include package="z3c.jbot" file="meta.zcml" />
     <browser:jbot directory="templates" />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="ACLARK.NET, LLC profile"
+        description="Installs ACLARK.NET, LLC site customizations"
+        directory="profiles/default"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
 
 </configure>
