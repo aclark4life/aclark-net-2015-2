@@ -227,7 +227,7 @@ img.aligncenter {
 #content a {
     color: #D71010 !important;
     text-decoration: none;
-    border-bottom: none !important;
+    border-bottom: none; 
 }
 
 #content-core a:hover {
