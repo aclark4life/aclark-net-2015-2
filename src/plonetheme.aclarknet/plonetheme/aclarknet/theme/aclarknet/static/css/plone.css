@@ -224,10 +224,10 @@ img.aligncenter {
     font-size: 100%;
 }
 
-#content a {
+#content-core a {
     color: #D71010 !important;
     text-decoration: none;
-    border-bottom: none; 
+    border-bottom: none !important; 
 }
 
 #content-core a:hover {
