@@ -46,12 +46,6 @@ a {
 	color: #D71112;
 }
 
-/*
-a:hover {
-	text-decoration: underline;
-}
-*/
-
 img.border {
 	border: 6px solid #E1F1F6;
 }
@@ -236,7 +230,7 @@ img.aligncenter {
     border-bottom: none !important;
 }
 
-#content a:hover {
+#content-core a:hover {
     color: #D71010 !important;
     border-bottom: 1px solid #D71010 !important; 
 }
