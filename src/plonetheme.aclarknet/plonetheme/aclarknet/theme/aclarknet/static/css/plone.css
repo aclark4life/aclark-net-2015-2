@@ -572,10 +572,22 @@ div#twitter.doormatColumn span a {
 }
 
 .portletItem {
-    margin-bottom: 0 ; 
-    padding-bottom: 0 ; 
+    margin-bottom: 0 !important ; 
+    padding-bottom: 0  !important; 
 }
 
 .portletHeader {
     border-radius: 2px;
+    background: white !important; 
+    color: black;
+}
+
+.portletHeader a {
+    color: black !important;
+}
+
+.portletFooter {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 2em;
 }
