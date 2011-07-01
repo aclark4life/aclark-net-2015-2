@@ -591,3 +591,7 @@ div#twitter.doormatColumn span a {
     padding-top: 0 !important;
     margin-bottom: 2em;
 }
+
+.portletHeader {
+    text-transform: uppercase;
+}
