@@ -606,7 +606,7 @@ dl.portlet .portletHeader a:hover {
 }
 
 .portletHeader {
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 #anon-personalbar a:hover {
