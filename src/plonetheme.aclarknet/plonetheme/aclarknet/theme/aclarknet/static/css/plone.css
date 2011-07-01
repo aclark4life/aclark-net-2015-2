@@ -459,9 +459,15 @@ strong {
     display: inline;
 }
 
-#footer li, .navTree li, #portal-sitemap li, dd {
+#footer li, .navTree li, #portal-sitemap li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
+}
+
+.portletWordPressBlogPortlet dd {
+    list-style-image: url(../images/img01.gif);
+    display: list-item;
+    margin-left: 1em;
 }
 
 dd {
