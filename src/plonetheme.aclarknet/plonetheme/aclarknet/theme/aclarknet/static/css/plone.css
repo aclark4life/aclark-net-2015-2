@@ -612,3 +612,7 @@ dl.portlet .portletHeader a:hover {
 #anon-personalbar a:hover {
     text-decoration: underline; 
 }
+
+dt {
+    font-weight: normal !important;
+}
