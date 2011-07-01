@@ -587,15 +587,15 @@ dl.portlet a:hover {
 .portletHeader {
     border-radius: 2px;
     background: white !important; 
-    color: black;
+    color: #AA001F;
 }
 
 dl.portlet .portletHeader a {
-    color: black !important;
+    color: #AA001F !important;
 }
 
 dl.portlet .portletHeader a:hover {
-    color: black !important;
+    color: #AA001F !important;
     text-decoration: underline;
 }
 
