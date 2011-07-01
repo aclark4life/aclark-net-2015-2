@@ -595,3 +595,7 @@ div#twitter.doormatColumn span a {
 .portletHeader {
     text-transform: uppercase;
 }
+
+#anon-personalbar a:hover {
+    text-decoration: underline; 
+}
