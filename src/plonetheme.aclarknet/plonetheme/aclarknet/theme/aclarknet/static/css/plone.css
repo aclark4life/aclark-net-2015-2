@@ -459,7 +459,7 @@ strong {
     display: inline;
 }
 
-#footer li, .navTree li, #portal-sitemap li {
+#footer li, .navTree li, #portal-sitemap li, dd {
     list-style-image: url(../images/img01.gif);
     display: list-item;
 }
