@@ -468,7 +468,14 @@ strong {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     margin-left: 2em;
-    color: white !important;
+}
+
+.portletWordPressBlogPortlet a {
+    color: white; 
+}
+
+.portletWordPressBlogPortlet a:hover {
+    color: white; 
 }
 
 dd {
@@ -561,6 +568,6 @@ div#twitter.doormatColumn span a {
 }
 
 .portletItem {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
+    margin-bottom: 0; 
+    padding-bottom: 0; 
 }
