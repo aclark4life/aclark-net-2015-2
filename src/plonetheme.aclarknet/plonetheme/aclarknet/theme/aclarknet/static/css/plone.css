@@ -501,7 +501,6 @@ dd {
 }
 
 .portletFooter {
-    padding-top: 5px;
     font-size: 90%;
 }
 
@@ -556,7 +555,7 @@ dt {
 }
 
 #twitter, #facebook {
-    float: right ;
+    float: right !important;
 }
 
 #twitter {
@@ -576,14 +575,28 @@ div#twitter.doormatColumn span a {
     padding-bottom: 0  !important; 
 }
 
+dl.portlet a {
+    color: white !important; 
+}
+
+dl.portlet a:hover {
+    color: white !important; 
+    text-decoration: underline;
+}
+
 .portletHeader {
     border-radius: 2px;
     background: white !important; 
     color: black;
 }
 
-.portletHeader a {
+dl.portlet .portletHeader a {
     color: black !important;
+}
+
+dl.portlet .portletHeader a:hover {
+    color: black !important;
+    text-decoration: underline;
 }
 
 .portletFooter {
