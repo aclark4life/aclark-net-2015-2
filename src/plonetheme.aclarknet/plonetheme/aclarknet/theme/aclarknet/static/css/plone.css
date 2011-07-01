@@ -225,19 +225,19 @@ img.aligncenter {
 }
 
 #content-core a {
-    color: #D71010 !important;
+    color: #D71010 ;
     text-decoration: none;
-    border-bottom: none !important; 
+    border-bottom: none ; 
 }
 
 #content-core a:hover {
-    color: #D71010 !important;
-    border-bottom: 1px solid #D71010 !important; 
+    color: #D71010 ;
+    border-bottom: 1px solid #D71010 ; 
 }
 
 h2.entry-title a:hover {
-    color: #D71010 !important;
-    border-bottom: 1px solid #D71010 !important; 
+    color: #D71010 ;
+    border-bottom: 1px solid #D71010 ; 
 }
 
 .post {
@@ -340,11 +340,11 @@ h2.entry-title a:hover {
 
 #sidebar a:hover {
     text-decoration: underline;
-	color: #D71112 !important;
+	color: #D71112; 
 }
 
 #sidebar .portletHeader a:hover, #sidebar .portletFooter a:hover {
-	color: white !important; 
+	color: white ; 
 }
 
 /* Calendar */
@@ -435,12 +435,12 @@ h2.entry-title a:hover {
 
 #menu li a:hover, .selected a, .menu-item a:hover, .menu-item-258 {
     background: white; 
-    color: #aa001f !important;
+    color: #aa001f ;
     border-radius: 2px; 
 }
 
 .menu-item-258 a {
-    color: #aa001f !important;
+    color: #aa001f ;
 }
 
 pre {
@@ -470,12 +470,16 @@ strong {
     margin-left: 2em;
 }
 
+.portletWordPressBlogPortlet dt {
+    font-size: 110%;
+}
+
 .portletWordPressBlogPortlet a {
-    color: white !important; 
+    color: white ; 
 }
 
 .portletWordPressBlogPortlet a:hover {
-    color: white !important; 
+    color: white ; 
 }
 
 dd {
@@ -548,11 +552,11 @@ dl.portlet {
 }
 
 dt {
-    background: black !important;
+    background: black ;
 }
 
 #twitter, #facebook {
-    float: right !important;
+    float: right ;
 }
 
 #twitter {
@@ -568,6 +572,6 @@ div#twitter.doormatColumn span a {
 }
 
 .portletItem {
-    margin-bottom: 0 !important; 
-    padding-bottom: 0 !important; 
+    margin-bottom: 0 ; 
+    padding-bottom: 0 ; 
 }
