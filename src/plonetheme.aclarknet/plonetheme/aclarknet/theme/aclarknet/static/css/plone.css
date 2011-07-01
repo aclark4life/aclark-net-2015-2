@@ -586,16 +586,16 @@ dl.portlet a:hover {
 
 .portletHeader {
     border-radius: 2px;
-    background: white !important; 
-    color: #AA001F;
+    background: #AA001F !important; 
+    color: white;
 }
 
 dl.portlet .portletHeader a {
-    color: #AA001F !important;
+    color: white !important;
 }
 
 dl.portlet .portletHeader a:hover {
-    color: #AA001F !important;
+    color: white !important;
     text-decoration: underline;
 }
 
