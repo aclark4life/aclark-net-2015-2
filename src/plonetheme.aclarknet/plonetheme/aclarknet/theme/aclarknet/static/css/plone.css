@@ -471,11 +471,11 @@ strong {
 }
 
 .portletWordPressBlogPortlet a {
-    color: white; 
+    color: white !important; 
 }
 
 .portletWordPressBlogPortlet a:hover {
-    color: white; 
+    color: white !important; 
 }
 
 dd {
@@ -568,6 +568,6 @@ div#twitter.doormatColumn span a {
 }
 
 .portletItem {
-    margin-bottom: 0; 
-    padding-bottom: 0; 
+    margin-bottom: 0 !important; 
+    padding-bottom: 0 !important; 
 }
