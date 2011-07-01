@@ -575,3 +575,7 @@ div#twitter.doormatColumn span a {
     margin-bottom: 0 ; 
     padding-bottom: 0 ; 
 }
+
+.portletHeader {
+    border-radius: 2px;
+}
