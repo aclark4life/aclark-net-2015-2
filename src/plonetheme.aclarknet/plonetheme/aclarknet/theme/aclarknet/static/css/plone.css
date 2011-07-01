@@ -558,3 +558,8 @@ dt {
 div#twitter.doormatColumn span a {
     color: #3B5998;
 }
+
+.portletItem {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
