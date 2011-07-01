@@ -468,6 +468,7 @@ strong {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     margin-left: 2em;
+    color: white !important;
 }
 
 dd {
