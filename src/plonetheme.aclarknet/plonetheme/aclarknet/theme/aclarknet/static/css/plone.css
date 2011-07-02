@@ -573,11 +573,11 @@ div#twitter.doormatColumn span a {
 .portletItem {
     margin-bottom: 0 !important ; 
     padding-bottom: 0  !important; 
+    font-size: 90%;
 }
 
 dl.portlet a {
     color: white !important; 
-    font-size: 90%;
 }
 
 dl.portlet a:hover {
