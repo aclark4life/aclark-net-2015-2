@@ -571,8 +571,7 @@ div#twitter.doormatColumn span a {
 }
 
 .portletItem {
-    margin-bottom: 0 !important ; 
-    padding-bottom: 0  !important; 
+    margin-bottom: 1em ;
     font-size: 90%;
 }
 
@@ -618,6 +617,3 @@ dt {
     font-weight: normal !important;
 }
 
-.portletWordPressBlogPortlet {
-    padding-bottom: 2em;
-}
