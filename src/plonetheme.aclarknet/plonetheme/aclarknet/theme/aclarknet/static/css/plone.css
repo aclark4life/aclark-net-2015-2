@@ -483,6 +483,10 @@ strong {
     color: white ; 
 }
 
+.portletWordPressBlogPortlet .portletItem {
+    margin-bottom: 2em;
+}
+
 dd {
     margin: 0;
     padding: 0;
