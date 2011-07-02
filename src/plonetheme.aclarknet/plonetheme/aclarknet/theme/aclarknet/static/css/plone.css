@@ -617,3 +617,7 @@ dl.portlet .portletHeader a:hover {
 dt {
     font-weight: normal !important;
 }
+
+.portletWordPressBlogPortlet {
+    margin-bottom: 1em;
+}
