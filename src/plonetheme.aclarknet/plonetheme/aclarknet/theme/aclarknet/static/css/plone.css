@@ -477,7 +477,6 @@ strong {
 
 .portletWordPressBlogPortlet a {
     color: white ; 
-    font-size: 90%;
 }
 
 .portletWordPressBlogPortlet a:hover {
@@ -574,11 +573,6 @@ dt {
 
 div#twitter.doormatColumn span a {
     color: #3B5998;
-}
-
-.portletItem {
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 dl.portlet a {
