@@ -434,6 +434,9 @@ h2.entry-title a:hover {
 
 .columns-5 .doormatColumn {
     width: 18%;
+    padding-top: 1em;
+    line-height: 1.75em;
+    font-size: 120%;
 }
 
 .columns-6 .doormatColumn {
@@ -472,7 +475,7 @@ strong {
     display: inline;
 }
 
-#footer li, .navTree li, #portal-sitemap li, .portletItem li {
+.navTree li, #portal-sitemap li, .portletItem li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     line-height: normal !important;
@@ -481,7 +484,7 @@ strong {
 #footer li {
     list-style-image: url(../images/img04.gif);
     display: list-item;
-    line-height: normal !important;
+    line-height: 2em;
 }
 
 .portletWordPressBlogPortlet dd {
@@ -674,6 +677,11 @@ dt {
     height: 100px;
     width: 90%;
     background: #AA001F;
-    padding: 2em;
-    margin: 2em;
+    padding: 0 0 12em 2em;
+    margin: 0 0 4em 2em;
+}
+
+#credits {
+
+    margin-top: 1em;
 }
