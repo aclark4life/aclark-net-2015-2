@@ -466,7 +466,7 @@ strong {
 dd {
     list-style-image: url(../images/img01.gif);
     display: list-item;
-    margin-left: 2em;
+    margin-left: 2em !important;
 }
 
 .portletWordPressBlogPortlet dt {
