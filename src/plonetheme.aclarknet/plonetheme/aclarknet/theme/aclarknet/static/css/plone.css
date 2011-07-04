@@ -694,3 +694,7 @@ dt {
     display: list-item;
     list-style-image: url(../images/img04.gif); 
 }
+
+td {
+    padding: 1em;
+}
