@@ -623,3 +623,7 @@ dt {
 #footer a:hover {
     text-decoration: underline;
 }
+
+.portletItemDetails {
+    display: none;
+}
