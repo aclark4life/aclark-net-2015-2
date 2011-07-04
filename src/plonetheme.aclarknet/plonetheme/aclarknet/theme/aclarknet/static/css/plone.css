@@ -472,7 +472,7 @@ strong {
 .portletWordPressBlogPortlet dt {
     font-size: 175%;
     padding: 0 !important;
-    margin-left: 15px;
+    margin-left: 13px;
 }
 
 .portletWordPressBlogPortlet a {
@@ -577,7 +577,7 @@ div#twitter.doormatColumn span a {
 }
 
 .portletItem {
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 2em ;
 }
 
