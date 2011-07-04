@@ -463,7 +463,7 @@ strong {
     display: list-item;
 }
 
-dd {
+.portletWordPressBlogPortlet dd {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     margin-left: 2em !important;
