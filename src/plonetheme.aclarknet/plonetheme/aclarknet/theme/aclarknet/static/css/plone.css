@@ -472,6 +472,7 @@ strong {
 .portletWordPressBlogPortlet dt {
     font-size: 175%;
     padding: 0 !important;
+    margin-left: 15px;
 }
 
 .portletWordPressBlogPortlet a {
