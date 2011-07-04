@@ -347,6 +347,7 @@ h2.entry-title a:hover {
 	color: white ; 
     font-size: 24px;
     padding: 0 !important;
+    margin-left: 12px;
 }
 
 /* Calendar */
@@ -593,12 +594,14 @@ dl.portlet a:hover {
     color: white;
     font-size: 24px;
     padding: 0 !important;
+    margin-left: 12px;
 }
 
 dl.portlet .portletHeader a {
     color: white !important;
     font-size: 24px;
     padding: 0 !important;
+    margin-left: 12px;
 }
 
 dl.portlet .portletHeader a:hover {
@@ -606,6 +609,7 @@ dl.portlet .portletHeader a:hover {
     text-decoration: underline;
     font-size: 24px;
     padding: 0 !important;
+    margin-left: 12px;
 }
 
 .portletFooter {
@@ -618,6 +622,7 @@ dl.portlet .portletHeader a:hover {
     text-transform: none;
     font-size: 24px;
     padding: 0 !important;
+    margin-left: 12px;
 }
 
 #anon-personalbar a:hover {
