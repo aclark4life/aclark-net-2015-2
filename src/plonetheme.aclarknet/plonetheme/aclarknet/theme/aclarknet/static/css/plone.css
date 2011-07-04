@@ -8,7 +8,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 body {
 	margin: 0;
 	padding: 0;
-	background: #aa001f url(../images/img02.gif) repeat-x left top;
+    background: black;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #FFFFFF;
@@ -401,37 +401,47 @@ h2.entry-title a:hover {
 }
 
 #footer h2 {
-  margin: 0.5em 0.5em 0px 0.5em;
+    margin: 0.5em 0.5em 0px 0.5em;
 }
+
 #footer h3 {
-  margin: 0.5em 0px;
+    margin: 0.5em 0px;
 }
+
 #footer dl {
-  margin: 0.5em 0px;
+    margin: 0.5em 0px;
 }
+
 #footer dl dd {
-  margin-left: 0px;
+    margin-left: 0px;
 }
+
 #footer .doormatColumn {
-  float: left;
+    float: left;
 }
+
 .columns-2 .doormatColumn {
-  width: 48%;
+    width: 48%;
 }
+
 .columns-3 .doormatColumn {
-  width: 31%;
+    width: 31%;
 }
+
 .columns-4 .doormatColumn {
-  width: 23%;
+    width: 23%;
 }
+
 .columns-5 .doormatColumn {
-  width: 18%;
+    width: 18%;
 }
+
 .columns-6 .doormatColumn {
-  width: 14%;
+    width: 14%;
 }
+
 .columns-7 .doormatColumn {
-  width: 12%;
+    width: 12%;
 }
 
 /* ACLARK additions */
@@ -657,4 +667,13 @@ dt {
     margin-left: 1em !important;
     line-height: normal !important;
     padding: 1em !important;
+}
+
+#footer {
+    border-radius: 4px;
+    height: 100px;
+    width: 90%;
+    background: #AA001F;
+    padding: 2em;
+    margin: 2em;
 }
