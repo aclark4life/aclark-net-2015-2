@@ -465,6 +465,7 @@ strong {
 #footer li, .navTree li, #portal-sitemap li, .portletItem li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
+    line-height: normal;
 }
 
 .portletWordPressBlogPortlet dd {
@@ -489,6 +490,7 @@ strong {
 
 .portletWordPressBlogPortlet .portletItem {
     margin-bottom: 3em;
+    line-height: normal;
 }
 
 dd {
@@ -643,8 +645,10 @@ dt {
 
 .portletItem {
     font-size: 90% !important;
+    line-height: normal;
 }
 
 .portletItem li {
     margin-left: 1em !important;
+    line-height: normal;
 }
