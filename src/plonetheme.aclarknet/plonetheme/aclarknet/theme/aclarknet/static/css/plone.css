@@ -232,7 +232,7 @@ img.aligncenter {
 
 #content-core a:hover {
     color: #D71010 !important;
-    text-decoration: underline !important; 
+    border-bottom: 1px solid #D71010;
 }
 
 h2.entry-title a:hover {
