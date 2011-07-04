@@ -468,6 +468,12 @@ strong {
     line-height: normal !important;
 }
 
+#footer li {
+    list-style-image: url(../images/img04.gif);
+    display: list-item;
+    line-height: normal !important;
+}
+
 .portletWordPressBlogPortlet dd {
     list-style-image: url(../images/img01.gif);
     display: list-item;
