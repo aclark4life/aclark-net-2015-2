@@ -334,12 +334,12 @@ h2.entry-title a:hover {
 	border: none;
 	color: white;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 24px;
 }
 
 #sidebar a:hover {
     text-decoration: underline;
-	color: #D71112; 
+	color: #D71112 !important; 
 }
 
 #sidebar .portletHeader a:hover, #sidebar .portletFooter a:hover {
