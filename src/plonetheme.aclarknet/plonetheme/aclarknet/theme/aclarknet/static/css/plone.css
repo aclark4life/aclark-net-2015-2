@@ -628,3 +628,7 @@ dt {
 .portletItem {
     font-size: 90% !important;
 }
+
+.portletItem li {
+    margin-left: 2em;
+}
