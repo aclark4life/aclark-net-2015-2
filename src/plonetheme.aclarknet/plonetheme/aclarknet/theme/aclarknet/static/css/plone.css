@@ -470,7 +470,8 @@ strong {
 }
 
 .portletWordPressBlogPortlet dt {
-    font-size: 200%;
+    font-size: 175%;
+    padding: 0 !important;
 }
 
 .portletWordPressBlogPortlet a {
