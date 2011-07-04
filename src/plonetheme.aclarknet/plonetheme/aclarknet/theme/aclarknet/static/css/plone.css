@@ -475,7 +475,7 @@ strong {
     display: inline;
 }
 
-.navTree li, #portal-sitemap li, .portletItem li {
+.navTree li, .portletItem li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     line-height: normal !important;
@@ -684,4 +684,13 @@ dt {
 #credits {
 
     margin-top: 1em;
+}
+
+#portal-sitemap a:hover {
+    border-bottom: none !important;
+}
+
+#portal-sitemap li a:hover {
+    display: list-item;
+    list-style-image: url(../images/img04.gif); 
 }
