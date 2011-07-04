@@ -630,6 +630,6 @@ dt {
     display: none;
 }
 
-div.portlet dt {
-    padding: 0 !important;
+.portletItem {
+    font-size: 90% !important;
 }
