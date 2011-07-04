@@ -651,5 +651,5 @@ dt {
 .portletItem li {
     margin-left: 1em !important;
     line-height: normal !important;
-    padding: 1em;
+    padding: 1em !important;
 }
