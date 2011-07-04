@@ -597,7 +597,6 @@ dl.portlet a:hover {
 
 dl.portlet .portletHeader a {
     color: white !important;
-    padding: 0 !important;
 }
 
 dl.portlet .portletHeader a:hover {
@@ -629,4 +628,8 @@ dt {
 
 .portletItemDetails {
     display: none;
+}
+
+div.portletHeader {
+    padding: 0 !important;
 }
