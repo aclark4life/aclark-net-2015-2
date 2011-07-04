@@ -630,6 +630,6 @@ dt {
     display: none;
 }
 
-div.portletHeader {
+div.portlet dt {
     padding: 0 !important;
 }
