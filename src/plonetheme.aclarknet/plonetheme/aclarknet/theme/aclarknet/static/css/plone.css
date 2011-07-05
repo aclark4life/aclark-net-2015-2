@@ -433,7 +433,8 @@ h2.entry-title a:hover {
 }
 
 .columns-5 .doormatColumn {
-    width: 18%;
+/*    width: 18%; */
+    width: 17%; 
     padding-top: 1em;
     line-height: 1.75em;
     font-size: 120%;
