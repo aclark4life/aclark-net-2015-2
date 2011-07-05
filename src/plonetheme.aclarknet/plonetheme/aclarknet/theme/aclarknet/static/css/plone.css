@@ -699,6 +699,6 @@ td {
     padding: 1em;
 }
 
-#advertisement li {
-    padding: 1em;
+#advertisement h3 {
+    padding-bottom: 1em;
 }
