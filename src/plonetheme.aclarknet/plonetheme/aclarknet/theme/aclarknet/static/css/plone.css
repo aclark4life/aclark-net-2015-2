@@ -709,4 +709,6 @@ td {
 
 #author-avatar {
     float: right;
+	border: 6px solid #E1F1F6;
+    padding: 1em;
 }
