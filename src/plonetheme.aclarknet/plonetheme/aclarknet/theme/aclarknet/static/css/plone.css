@@ -706,3 +706,7 @@ td {
 #advertisement h3 {
     padding-bottom: 1em;
 }
+
+.author-avatar {
+    float: right;
+}
