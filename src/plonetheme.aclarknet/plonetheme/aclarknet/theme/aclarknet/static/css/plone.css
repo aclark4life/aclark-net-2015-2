@@ -42,8 +42,12 @@ ul, ol {
 }
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #D71112;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 img.border {
