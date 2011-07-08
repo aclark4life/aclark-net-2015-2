@@ -719,7 +719,7 @@ td {
 
 @media only screen and (max-device-width: 480px) { 
 
-    html, body, #wrapper, #page, #content, #content-core {
+    html, body, #wrapper, #page, #content, #content-core, #portal-column-content {
 
         /* http://meyerweb.com/eric/tools/css/reset/ */
 
