@@ -718,12 +718,21 @@ td {
 */
 
 @media only screen and (max-device-width: 480px) { 
-    html, body, #wrapper, #page, #portal-column-content, #content , #content-core {
+
+    #content-core {
+
+        /* http://meyerweb.com/eric/tools/css/reset/ */
+
         margin: 0;
         padding: 0;
         border: 0;
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
+
+    }
+
+    #header, #sidebar, #footer {
+        display: none;
     }
 }
