@@ -715,37 +715,19 @@ td {
 
 /* Mobile styles via http://perishablepress.com/press/2009/08/02/the-5-minute-css-mobile-makeover/ and 
     http://davidbcalhoun.com/2010/using-mobile-specific-html-css-javascript and 
-    https://raw.github.com/vladocar/CSS-Mobile-Reset/master/CSS/mobile.css
+    https://raw.github.com/vladocar/CSS-Mobile-Reset/master/CSS/mobile.css and
+    http://www.ejeliot.com/samples/reset/reset.css
+
 */
 
 @media only screen and (max-width: 480px) {  
 
-    html, body
-    {
-        margin: 0;
-        padding: 0; 
-        border: 0;
-    }
-
-    body 
-    {
-        font-family:Arial,  sans-serif;
-        line-height:1.5;
-        font-size:16px;
-        background: #fff;
-        padding:5px;
-        color: #000;
-        word-wrap: break-word;
-        -webkit-text-size-adjust: none;
-    }
-
-    h1, h2, h3, h4, h5, h6{ font-weight: normal; }
-
-    p img { float: left; margin: 0 10px 5px 0; padding: 0; }
-
-    img { border: 0; max-width: 100%; }
-
-    table { width:auto; border-collapse: collapse;border-spacing: 0; }
-
+    body{padding:0;margin:0;font:13px Arial,Helvetica,Garuda,sans-serif;*font-size:small;*font:x-small;}
+    h1,h2,h3,h4,h5,h6,ul,li,em,strong,pre,code{padding:0;margin:0;line-height:1em;font-size:100%;font-weight:normal;font-style: normal;}
+    table{font-size:inherit;font:100%;}
+    ul{list-style:none;}
+    img{border:0;}
+    p{margin:1em 0;}
+    
 
 }  
