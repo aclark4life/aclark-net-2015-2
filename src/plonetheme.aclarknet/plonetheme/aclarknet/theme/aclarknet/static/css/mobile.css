@@ -3,7 +3,7 @@
 @media handheld {
 
     html, body {
-        background: #fff;
+        background: #fff !important;
         padding: 3px;
         color: #000;
         margin: 0;
