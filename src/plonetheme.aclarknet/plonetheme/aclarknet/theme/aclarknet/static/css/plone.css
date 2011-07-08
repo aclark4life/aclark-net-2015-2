@@ -712,3 +712,13 @@ td {
 	border: 6px solid #E1F1F6;
     margin: 1em;
 }
+
+/* Mobile css via 
+    http://perishablepress.com/press/2009/08/02/the-5-minute-css-mobile-makeover/
+*/
+
+@media only screen and (max-device-width: 480px) { 
+    #sidebar, #footer {
+        display: none;
+    }
+}
