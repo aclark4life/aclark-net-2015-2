@@ -712,3 +712,52 @@ td {
 	border: 6px solid #E1F1F6;
     margin: 1em;
 }
+
+
+/* target small screens (mobile devices or small desktop windows)   */
+
+@media only screen and (max-width: 480px) {  
+
+    html, body {
+        font: 12px/15px sans-serif;
+        background: #fff;
+        padding: 3px;
+        color: #000;
+        margin: 0;
+        }
+    #sidebar, #footer {
+        display: none;
+        }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+        }
+    #content img { 
+        max-width: 250px;
+        }
+    .center {
+        width: 100% !important;
+        text-align: center;
+        }
+    a:link, a:visited {
+        text-decoration: underline;
+        color: #0000CC;
+        }
+    a:hover, a:active {
+        text-decoration: underline;
+        color: #660066;
+        }
+}  
+  
+/* high resolution screens */  
+@media (-webkit-min-device-pixel-ratio: 2),  
+             (min--moz-device-pixel-ratio: 2),  
+             (min-resolution: 300dpi) {  
+  header { background-image: url(header-highres.png); }  
+}  
+  
+/* low resolution screens */  
+@media (-webkit-max-device-pixel-ratio: 1.5),  
+             (max--moz-device-pixel-ratio: 1.5),  
+             (max-resolution: 299dpi) {  
+  header { background-image: url(header-lowres.png); }  
+}  
