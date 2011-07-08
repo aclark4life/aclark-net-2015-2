@@ -718,7 +718,7 @@ td {
 */
 
 @media only screen and (max-device-width: 480px) { 
-    html, body, #wrapper {
+    html, body, #wrapper, #page, #portal-column-content, #content {
         margin: 0;
         padding: 0;
         border: 0;
