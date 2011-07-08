@@ -719,7 +719,7 @@ td {
 
 @media only screen and (max-device-width: 480px) { 
 
-    #content-core {
+    html, body, #wrapper, #content-core {
 
         /* http://meyerweb.com/eric/tools/css/reset/ */
 
@@ -729,7 +729,6 @@ td {
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-
     }
 
     #header, #sidebar, #footer {
