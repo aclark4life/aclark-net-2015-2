@@ -723,7 +723,7 @@ td {
 @media handheld {
 
     #wrapper {
-        display: none !important;
+        display: none;
     }
 
 }  
