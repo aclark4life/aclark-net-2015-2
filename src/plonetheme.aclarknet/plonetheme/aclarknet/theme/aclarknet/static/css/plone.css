@@ -720,7 +720,7 @@ td {
 
 */
 
-@media only screen and (max-width: 480px) {  
+@media handheld {
 
     #wrapper {
         display: none !important;
