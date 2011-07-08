@@ -713,20 +713,17 @@ td {
     margin: 1em;
 }
 
-
-#mobile {
-    display: none;
-}
-
-/* Mobile css via 
+/* Mobile css via
     http://perishablepress.com/press/2009/08/02/the-5-minute-css-mobile-makeover/
 */
 
 @media only screen and (max-device-width: 480px) { 
-    #wrapper {
-        display: none;
-    }
-    #mobile {
-        display: block;
+    html, body, #wrapper {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
     }
 }

@@ -34,6 +34,4 @@
 
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
 
-    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="mobile"]' />
-
 </rules>
