@@ -718,7 +718,7 @@ td {
 */
 
 @media only screen and (max-device-width: 480px) { 
-    #sidebar, #footer {
-        display: none;
+    #header {
+        width: 100%;
     }
 }
