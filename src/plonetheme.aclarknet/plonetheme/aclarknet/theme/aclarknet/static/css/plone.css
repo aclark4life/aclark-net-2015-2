@@ -715,9 +715,7 @@ td {
 
 
 #mobile {
-    display {
-        none;
-    }
+    display: none;
 }
 
 /* Mobile css via 
