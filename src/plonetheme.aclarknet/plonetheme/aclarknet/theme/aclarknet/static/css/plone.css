@@ -735,7 +735,7 @@ td {
         display: none;
     }
 
-    #menu {
+    #menu, #page {
         width: 100%;
     }
 }
