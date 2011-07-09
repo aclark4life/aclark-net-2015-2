@@ -721,7 +721,7 @@ td {
 
     #portal-column-content {
 
-        /* Based on http://meyerweb.com/eric/tools/css/reset/ */
+        /* Via http://meyerweb.com/eric/tools/css/reset/ */
 
         margin: 0;
         padding: 0;
@@ -729,10 +729,13 @@ td {
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-        width: 100%;
     }
 
     #header, #sidebar, #footer {
         display: none;
+    }
+
+    #menu {
+        width: 100%;
     }
 }
