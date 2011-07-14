@@ -25,11 +25,16 @@ if not (subject and subject.strip()):
 if not (message and message.strip()):
     state.setError('message', _(u'Please enter a message'), 'message_required')
 
-if not context.restrictedTraverse('@@captcha').verify():
-    state.setError('message', _(u'You entered an invalid captcha'), 'message_required')
-
 if state.getErrors():
     context.plone_utils.addPortalMessage(_(u'Please correct the indicated errors.'), 'error')
     return state.set(status='failure')
 else:
-    return state
+    # Re-captcha validation
+    if not context.restrictedTraverse('@@captcha').verify():
+        context.plone_utils.addPortalMessage(_(u'You entered an invalid captcha.'), 'error')
+        return state.set(status='failure')
+    else:
+        return state
+
+
+
