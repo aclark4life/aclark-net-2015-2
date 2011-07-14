@@ -153,9 +153,12 @@
 
         </div>
 
+        <tal:block tal:replace="structure context/@@captcha/image_tag"/>
+
         <input type="hidden" name="form.submitted" value="1" />
 
         <input type="hidden" name="subject" value="New request" />
+
 
         </form>
     </div>
