@@ -13,7 +13,6 @@
 
     <replace content='//*[@id="archives-3"]' theme='//*[@id="archives"]' />
     <replace content='//*[@id="meta-3"]' theme='//*[@id="meta"]' />
-
-    <after content='//*[@id="twitter-tools"]' theme='//*[@id="meta"]' />
+    <replace content='//*[@id="twitter-tools"]' theme='//*[@id="twitter-tools"]' />
 
 </rules>
