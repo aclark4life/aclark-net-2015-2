@@ -134,7 +134,7 @@
 
             <div>
 
-                When you are done, please fill in the captcha form below (sorry!) and click 'Send form':
+                When you are done, please fill in the captcha form below (sorry) and click 'Send form':
 
                 <tal:block tal:replace="structure context/@@captcha/image_tag"/>
 
