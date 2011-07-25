@@ -1,5 +1,5 @@
 @media print {
-    #menu {
+    #footer, #menu {
         display: none; 
     }
 }
