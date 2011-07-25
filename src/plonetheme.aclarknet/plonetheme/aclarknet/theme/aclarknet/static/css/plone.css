@@ -746,6 +746,7 @@ td {
 }
 
 @media print {
-#menu {
-    display: none;
+    #menu {
+        display: none;
+    }
 }
