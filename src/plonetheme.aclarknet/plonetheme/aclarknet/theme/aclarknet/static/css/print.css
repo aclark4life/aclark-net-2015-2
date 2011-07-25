@@ -2,4 +2,7 @@
     #footer, #menu {
         display: none; 
     }
+    table {
+        margin, padding: 1em;
+    }
 }
