@@ -744,3 +744,7 @@ td {
     }
 
 }
+
+.hiddenStructure {
+    display: none;
+}
