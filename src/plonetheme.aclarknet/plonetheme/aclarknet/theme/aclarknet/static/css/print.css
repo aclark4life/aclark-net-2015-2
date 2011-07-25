@@ -2,7 +2,7 @@
     #footer, #menu {
         display: none; 
     }
-    table {
+    td {
         margin, padding: 1em;
     }
 }
