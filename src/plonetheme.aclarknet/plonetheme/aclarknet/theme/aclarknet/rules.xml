@@ -9,6 +9,8 @@
     <notheme if-path="attributes.htm" />
     <notheme if-path="presentation_view" />
     <notheme if-path="image_view_fullscreen" />
+    <notheme if-path="manage_main" />
+    <notheme if-path="manage" />
     <notheme if-path="ploneimage.htm" />
     <notheme if-path="plonelink.htm" />
     <notheme if-path="source_editor.htm" />
