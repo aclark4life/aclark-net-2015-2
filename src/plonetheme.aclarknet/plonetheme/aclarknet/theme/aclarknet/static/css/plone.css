@@ -745,6 +745,7 @@ td {
 
 }
 
-.hiddenStructure {
+@media print {
+#menu {
     display: none;
 }
