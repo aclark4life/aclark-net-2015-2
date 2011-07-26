@@ -744,3 +744,7 @@ td {
     }
 
 }
+
+#aktt_tweet_form {
+    display: none;
+}
