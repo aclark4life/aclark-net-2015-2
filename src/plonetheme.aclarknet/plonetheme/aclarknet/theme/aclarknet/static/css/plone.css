@@ -487,6 +487,7 @@ strong {
 
 #archives-3 li {
     list-style-image: url(../images/img01.gif);
+    margin-left: 1em;
 }
 
 #footer li {
