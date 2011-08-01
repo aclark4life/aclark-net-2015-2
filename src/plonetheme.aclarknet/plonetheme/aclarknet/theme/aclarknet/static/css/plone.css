@@ -479,10 +479,14 @@ strong {
     display: inline;
 }
 
-.navTree li, .portletItem li, #archives-3 li {
+.navTree li, .portletItem li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     line-height: normal !important;
+}
+
+#archives-3 {
+    list-style-image: url(../images/img01.gif);
 }
 
 #footer li {
