@@ -588,6 +588,11 @@ dd {
     padding: 1em;
 }
 
+.entry-content {
+    background: white;
+    border-radius: 4px; 
+}
+
 .entry-content p {
     color: #EAEAEA;
     font-size: 105%;
