@@ -595,7 +595,8 @@ dd {
 .entry-content {
     background: white;
     border-radius: 4px; 
-    padding: 2em;
+    padding: 1em;
+    margin: 1em;
 }
 
 .entry-content p {
