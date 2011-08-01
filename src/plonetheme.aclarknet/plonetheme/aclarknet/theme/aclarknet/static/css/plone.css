@@ -584,8 +584,8 @@ dd {
 
 /* Wordpress */
 
-.author-description a {
-    line-height: normal !important;
+#author-description {
+    line-height: normal; 
 }
 
 .entry-meta { 
