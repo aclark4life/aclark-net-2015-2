@@ -479,7 +479,7 @@ strong {
     display: inline;
 }
 
-.navTree li, .portletItem li {
+.navTree li, .portletItem li, #archives-3 li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     line-height: normal !important;
