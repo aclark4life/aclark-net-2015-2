@@ -596,8 +596,11 @@ dd {
 
 #author-description a {
     line-height: 2em; 
-    margin-bottom: 2em; 
+}
+
+#author-description {
     margin-top: 2em; 
+    margin-bottom: 2em; 
 }
 
 .entry-meta { 
