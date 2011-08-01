@@ -486,7 +486,7 @@ strong {
 }
 
 .widget-title {
-    margin-bottom: 5px;
+    margin-bottom: 1em !important;
 }
 
 #twitter-tools li {
