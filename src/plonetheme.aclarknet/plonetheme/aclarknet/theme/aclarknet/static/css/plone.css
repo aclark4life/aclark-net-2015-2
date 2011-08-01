@@ -584,6 +584,10 @@ dd {
 
 /* Wordpress */
 
+.author-description {
+    line-height: normal;
+}
+
 .entry-meta { 
     padding: 1em;
 }
@@ -592,7 +596,7 @@ dd {
     background: white;
     border-radius: 4px; 
     padding: 1em;
-    color: black;
+    color: black !important;
 }
 
 .entry-content p {
