@@ -584,9 +584,14 @@ dd {
 
 /* Wordpress */
 
+#entry-utility {
+    line-height: 2em !important; 
+    margin-bottom: 2em !important;
+}
+
 #author-description a {
     line-height: 2em !important; 
-    margin-bottom: 1em !important;
+    margin-bottom: 2em !important;
 }
 
 .entry-meta { 
