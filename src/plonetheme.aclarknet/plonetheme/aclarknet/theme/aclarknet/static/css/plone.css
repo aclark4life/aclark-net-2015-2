@@ -542,7 +542,7 @@ dd {
     padding-left: 15px;
 }
 
-dl .portalMessage dd {
+.portalMessage dd {
     color: black;
 }
 
