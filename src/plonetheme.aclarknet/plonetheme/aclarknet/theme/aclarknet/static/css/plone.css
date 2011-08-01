@@ -495,6 +495,10 @@ strong {
     margin-left: 1em;
 }
 
+#archives-3, #meta-3 {
+    margin-bottom: 1em;
+}
+
 #footer li {
     list-style-image: url(../images/img04.gif);
     display: list-item;
