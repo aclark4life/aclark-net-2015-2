@@ -485,7 +485,7 @@ strong {
     line-height: normal !important;
 }
 
-#archives-3 {
+#archives-3 li {
     list-style-image: url(../images/img01.gif);
 }
 
