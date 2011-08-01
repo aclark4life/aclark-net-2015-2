@@ -584,7 +584,7 @@ dd {
 
 /* Wordpress */
 
-#entry-utility {
+.entry-utility {
     line-height: 2em !important; 
     margin-bottom: 2em !important;
 }
