@@ -488,7 +488,7 @@ strong {
 #twitter-tools li {
     list-style-image: url(../images/img01.gif);
     margin-left: 1em;
-    line-height: 2em;
+    line-height: normal !important;
 }
 
 #archives-3 li, #meta-3 li {
