@@ -7,7 +7,7 @@
 
     <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
     <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
-    <copy content='//*[@id="searchform"]' theme='//*[@id="search"]' />
+    <copy content='//*[@id="searchform"]' theme='//*[@id="searchform"]' />
 
     <drop content='//*[@id="searchsubmit"]' /> 
 
