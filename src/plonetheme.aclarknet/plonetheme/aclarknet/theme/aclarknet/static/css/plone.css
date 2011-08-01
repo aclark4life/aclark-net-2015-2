@@ -479,13 +479,13 @@ strong {
     display: inline;
 }
 
-.navTree li, .portletItem li {
+.navTree li, .portletItem li, #twitter-tools li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     line-height: normal !important;
 }
 
-#archives-3 li, #meta-3 li, #twitter-tools li {
+#archives-3 li, #meta-3 li {
     list-style-image: url(../images/img01.gif);
     margin-left: 1em;
 }
