@@ -597,6 +597,7 @@ dd {
 #author-description a {
     line-height: 2em; 
     margin-bottom: 2em; 
+    margin-top: 2em; 
 }
 
 .entry-meta { 
