@@ -585,7 +585,7 @@ dd {
 /* Wordpress */
 
 .author-description a {
-    line-height: normal;
+    line-height: 1.4 !important;
 }
 
 .entry-meta { 
@@ -596,6 +596,7 @@ dd {
     background: white;
     border-radius: 4px; 
     padding: 1em;
+    margin-bottom: 1em;
 }
 
 .entry-content p {
