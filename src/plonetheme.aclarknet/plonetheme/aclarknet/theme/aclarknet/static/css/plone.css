@@ -485,6 +485,10 @@ strong {
     line-height: normal !important;
 }
 
+#twitter-tools {
+    margin-bottom: 5px;
+}
+
 #twitter-tools li {
     list-style-image: url(../images/img01.gif);
     margin-left: 1em;
