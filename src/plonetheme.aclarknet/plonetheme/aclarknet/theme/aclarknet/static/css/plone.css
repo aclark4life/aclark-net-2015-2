@@ -496,7 +496,7 @@ strong {
 }
 
 #archives-3, #meta-3 {
-    padding-bottom: 1em;
+    margin-bottom: 1em !important;
 }
 
 #footer li {
