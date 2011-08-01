@@ -486,7 +486,7 @@ strong {
 }
 
 .widget-title {
-    margin-bottom: 1em !important;
+    margin-bottom: 0.5em !important;
 }
 
 #twitter-tools li {
@@ -540,6 +540,9 @@ dd {
     margin: 0;
     padding: 0;
     padding-left: 15px;
+}
+
+dl .portalMessage dd {
     color: black;
 }
 
