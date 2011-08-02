@@ -67,6 +67,7 @@ img.alignright {
 
 img.aligncenter {
 	margin: 0px auto;
+    text-align: center;
 }
 
 #wrapper {
