@@ -614,6 +614,10 @@ dd {
     margin-bottom: 1em;
 }
 
+.entry-content strong {
+    color: black;
+}
+
 .entry-content p {
 /*    color: #EAEAEA;  */
     color: black;
