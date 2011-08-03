@@ -1,3 +1,5 @@
+.. Note:: This repo is now maintained here: http://aclark.net/ACLARKNET/aclark_net_website
+
 Introduction
 ============
 
