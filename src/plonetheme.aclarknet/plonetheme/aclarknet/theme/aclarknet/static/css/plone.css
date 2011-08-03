@@ -66,8 +66,8 @@ img.alignright {
 }
 
 img.aligncenter {
+    display: block;
 	margin: 0px auto;
-	text-align: center;
 }
 
 #wrapper {
