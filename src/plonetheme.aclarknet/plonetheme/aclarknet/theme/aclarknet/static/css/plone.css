@@ -804,3 +804,8 @@ td {
 #aktt_tweet_form, #aktt_tweet_posted_msg {
     display: none;
 }
+
+.wp-caption {
+    text-align: center;
+    font-size: 90%;
+}
