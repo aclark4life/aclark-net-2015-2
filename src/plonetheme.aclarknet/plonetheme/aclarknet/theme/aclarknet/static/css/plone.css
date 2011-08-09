@@ -631,7 +631,7 @@ dd {
 }
 
 .entry-content li {
-    white-space: wrap;
+    word-wrap: break-word; 
 }
 
 #personaltools-contact {
