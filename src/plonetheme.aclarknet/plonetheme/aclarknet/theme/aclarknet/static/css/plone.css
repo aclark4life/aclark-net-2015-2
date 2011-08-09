@@ -50,22 +50,22 @@ a:hover {
 	text-decoration: underline;
 }
 
-border {
+.border {
 	border: 6px solid #E1F1F6;
 }
 
-alignleft, .image-left {
+.alignleft, .image-left {
 	float: left;
     clear: both;
     margin: 0.5em 1em 0.5em 0;
 }
 
-alignright {
+.alignright {
 	float: right;
 	margin-left: 25px;
 }
 
-aligncenter {
+.aligncenter {
     display: block;
 	margin: 0px auto;
 }
