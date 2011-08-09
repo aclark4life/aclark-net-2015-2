@@ -51,7 +51,7 @@ a:hover {
 }
 
 .border {
-	border: 6px solid #E1F1F6;
+	border: 6px solid #E1F1F6 !important;
 }
 
 .alignleft, .image-left {
