@@ -842,6 +842,6 @@ table {
 }
 
 
-#menu-portal-tabs ul {
+.menu li {
     list-style: none;
 }
