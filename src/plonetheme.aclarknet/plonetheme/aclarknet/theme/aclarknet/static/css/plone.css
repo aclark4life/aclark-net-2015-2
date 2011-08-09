@@ -810,3 +810,27 @@ td {
     font-size: 80%;
     text-align: center;
 }
+
+li {
+    list-style: none;
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+}
+#advertisement li {
+    list-style: none;
+}
+table {
+    background: white;
+    border-radius: 4px;
+    width: 100%;
+    padding: 1em;
+    color: black;
+}
+#personaltools-contact {
+    border-radius: 0px 0px 4px 4px;
+    padding: 0.25em 0.5em;
+}
+
