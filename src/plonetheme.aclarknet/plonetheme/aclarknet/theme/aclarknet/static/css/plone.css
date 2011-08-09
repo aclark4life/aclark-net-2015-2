@@ -627,6 +627,7 @@ dd {
 
 .entry-content ul {
     list-style-type: circle;
+    color: black;
 }
 
 #personaltools-contact {
