@@ -814,8 +814,11 @@ td {
     list-style: none;
 }
 
-#sidebar li ul li {
+#sidebar li {
     list-style: none;
+}
+
+#sidebar li ul li {
     list-style-image: url(../images/img01.gif);
 }
 
