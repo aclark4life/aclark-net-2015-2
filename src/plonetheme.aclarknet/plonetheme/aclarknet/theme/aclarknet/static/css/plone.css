@@ -811,8 +811,8 @@ td {
     text-align: center;
 }
 
-li {
-    list-style-type: circle !important;
+ul {
+    list-style-type: circle; 
 }
 
 #sidebar li {
