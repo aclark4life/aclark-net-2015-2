@@ -841,3 +841,7 @@ table {
     padding: 0.25em 0.5em;
 }
 
+
+#menu-portal-tabs ul {
+    list-style: none;
+}
