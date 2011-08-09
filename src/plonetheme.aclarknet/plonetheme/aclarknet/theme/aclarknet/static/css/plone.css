@@ -812,7 +812,7 @@ td {
 }
 
 ul {
-    list-style-type: circle; 
+    list-style-type: circle !important; 
 }
 
 #sidebar li {
