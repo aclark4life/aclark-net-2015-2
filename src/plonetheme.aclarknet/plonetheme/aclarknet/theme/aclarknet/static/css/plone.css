@@ -811,6 +811,10 @@ td {
     text-align: center;
 }
 
+li {
+    list-style: circle;
+}
+
 #sidebar li {
     list-style: none;
 }
