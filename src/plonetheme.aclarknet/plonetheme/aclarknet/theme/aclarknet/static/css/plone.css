@@ -173,7 +173,6 @@ a:hover {
 #menu ul {
 	margin: 0;
 	padding: 0px 0px 0px 4px;
-	list-style: none;
 	line-height: normal;
 }
 
@@ -811,12 +810,13 @@ td {
     text-align: center;
 }
 
-ul {
-    list-style-type: circle !important; 
+#sidebar ul li {
+    list-style: none;
 }
 
 #sidebar li {
     list-style: none;
+    list-style-image: url(../images/img01.gif);
 }
 
 #sidebar h3 {
