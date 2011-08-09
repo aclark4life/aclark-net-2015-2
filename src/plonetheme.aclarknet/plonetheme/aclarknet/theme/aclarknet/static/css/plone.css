@@ -630,6 +630,10 @@ dd {
     color: black;
 }
 
+.entry-content li {
+    white-space: wrap;
+}
+
 #personaltools-contact {
     color: #AA001F;
     background: white;
