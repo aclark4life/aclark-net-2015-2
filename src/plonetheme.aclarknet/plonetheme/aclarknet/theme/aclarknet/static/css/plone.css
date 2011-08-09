@@ -806,6 +806,7 @@ td {
 }
 
 .wp-caption {
+    color: black;
     font-size: 80%;
-    color: black
+    text-align: center;
 }
