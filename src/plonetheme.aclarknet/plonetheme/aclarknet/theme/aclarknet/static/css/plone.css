@@ -873,5 +873,5 @@ h4 {
 }
 
 #disqus_thread {
-    color: white;
+    color: white !important;
 }
