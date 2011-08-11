@@ -862,3 +862,7 @@ table {
 .menu li {
     list-style: none;
 }
+
+li {
+    color: black;
+}
