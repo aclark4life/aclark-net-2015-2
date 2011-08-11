@@ -873,5 +873,6 @@ h4 {
 }
 
 #disqus_thread {
-    color: white !important;
+    background: white;
+    border-radius: 4px;
 }
