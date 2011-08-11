@@ -297,6 +297,7 @@ h2.entry-title a:hover {
 #sidebar li {
 	margin: 0;
 	padding: 0;
+    color: white;
 }
 
 #sidebar li ul {
