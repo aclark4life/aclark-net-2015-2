@@ -871,3 +871,7 @@ li {
 h4 {
     color: black;
 }
+
+#disqus_thread {
+    color: white;
+}
