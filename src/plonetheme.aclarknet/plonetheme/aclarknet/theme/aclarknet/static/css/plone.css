@@ -878,7 +878,7 @@ h4 {
     padding: 1em;
 }
 
-#content-core {
+#content-core, #viewlet-below-content-body {
     background: white;
     border-radius: 4px;
     padding: 1em;
