@@ -873,3 +873,7 @@ h4 {
     border-radius: 4px;
     padding: 1em;
 }
+
+#disqus_thread li {
+    color: black
+}
