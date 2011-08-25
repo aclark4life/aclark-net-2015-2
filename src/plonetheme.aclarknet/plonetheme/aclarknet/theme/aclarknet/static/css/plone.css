@@ -883,9 +883,14 @@ h4 {
 }
 
 .button { 
-    font-size: 200%;
+    font-size: 150%;
 }
 
 .field {
-    width: 75% !important;
+    width: 75%; 
 }
+
+#sender_fullname, #sender_from_address {
+    width: 75%;
+}
+
