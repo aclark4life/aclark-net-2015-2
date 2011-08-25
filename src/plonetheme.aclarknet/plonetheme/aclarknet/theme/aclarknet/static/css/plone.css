@@ -880,6 +880,7 @@ h4 {
 
 #contact-table {
     width: 75%;
+    padding-bottom: 1em;
 }
 
 .button { 
@@ -891,5 +892,5 @@ h4 {
 }
 
 .field input[type="text"] {
-    width: 75%; 
+    width: 75% !important; 
 }
