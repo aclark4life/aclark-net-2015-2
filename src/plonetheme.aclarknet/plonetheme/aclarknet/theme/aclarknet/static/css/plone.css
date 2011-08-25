@@ -883,14 +883,13 @@ h4 {
 }
 
 .button { 
-    font-size: 150%;
+    font-size: 125%;
 }
 
 .field {
     width: 75%; 
 }
 
-#sender_fullname, #sender_from_address {
-    width: 75% !important;
+.field input[type="text"] {
+    width: 75%; 
 }
-
