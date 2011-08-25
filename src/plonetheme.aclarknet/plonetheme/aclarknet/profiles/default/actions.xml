@@ -3,7 +3,7 @@
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
  <object name="user" meta_type="CMF Action Category">
   <object name="contact" meta_type="CMF Action">
-   <property name="title">Contact us today!</property>
+   <property name="title">Contact us today! (301)312-5236</property>
    <property name="description"></property>
    <property name="url_expr">string:${portal_url}/contact-info</property>
    <property name="link_target"></property>
