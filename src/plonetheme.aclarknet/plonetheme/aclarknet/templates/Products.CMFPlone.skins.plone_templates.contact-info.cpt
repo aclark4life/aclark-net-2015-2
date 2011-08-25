@@ -23,11 +23,11 @@
         Contact
     </h1>
 
-    <p>
-        ACLARK.NET, LLC <br />
-        Bethesda, MD USA <br />
-        E-mail: info@aclark.net <br />
-    </p>
+    <table>
+        <tr><td>ACLARK.NET, LLC</td></tr>
+        <tr><td>Bethesda, MD USA</td></tr>
+        <tr><td>E-mail: info@aclark.net</td></tr>
+    </table>
 
     <div tal:condition="not:email_from_address">
 
