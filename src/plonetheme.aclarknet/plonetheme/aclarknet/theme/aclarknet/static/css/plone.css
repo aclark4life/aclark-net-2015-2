@@ -891,6 +891,6 @@ h4 {
 }
 
 #sender_fullname, #sender_from_address {
-    width: 75%;
+    width: 75% !important;
 }
 
