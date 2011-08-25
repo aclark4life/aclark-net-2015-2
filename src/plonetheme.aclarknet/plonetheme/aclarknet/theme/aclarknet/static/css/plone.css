@@ -879,11 +879,15 @@ h4 {
 }
 
 #contact-table {
-    width: 50%;
+    width: 75%;
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 1em !important;
 }
 
 .button { 
     font-size: 200%;
+}
+
+.field {
+    width: 75%;
 }
