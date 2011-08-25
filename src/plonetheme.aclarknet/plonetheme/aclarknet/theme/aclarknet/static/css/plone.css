@@ -877,3 +877,8 @@ h4 {
 #disqus_thread li {
     color: black
 }
+
+#contact-table {
+    width: 50%;
+    margin-bottom: 1em;
+}
