@@ -880,8 +880,6 @@ h4 {
 
 #contact-table {
     width: 75%;
-    display: block;
-    margin-bottom: 1em !important;
 }
 
 .button { 
@@ -889,5 +887,5 @@ h4 {
 }
 
 .field {
-    width: 75%;
+    width: 75% !important;
 }
