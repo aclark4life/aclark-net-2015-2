@@ -23,7 +23,7 @@
         Contact
     </h1>
 
-    <table>
+    <table id="contact-table">
         <tr><td>ACLARK.NET, LLC<br />
                 Bethesda, MD USA<br />
                 E-mail: info@aclark.net</td></tr>
