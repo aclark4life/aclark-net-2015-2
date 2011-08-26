@@ -465,6 +465,9 @@ h2.entry-title a:hover {
 }
 
 pre {
+/* https://twitter.com/#!/stevelosh/status/107231088111390720 */
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+
     padding: 2em;
     background: #191919;
     color: #00FF00;
