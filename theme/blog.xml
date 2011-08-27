@@ -12,7 +12,6 @@
     <drop content='//*[@id="searchsubmit"]' /> 
 
     <replace content='//*[@id="archives-3"]' theme='//*[@id="archives"]' />
-    <replace content='//*[@id="meta-3"]' theme='//*[@id="meta"]' />
-    <replace content='//*[@id="twitter-tools"]' theme='//*[@id="twitter-tools"]' />
+    <replace content='//*[@id="categories-3"]' theme='//*[@id="categories"]' />
 
 </rules>
