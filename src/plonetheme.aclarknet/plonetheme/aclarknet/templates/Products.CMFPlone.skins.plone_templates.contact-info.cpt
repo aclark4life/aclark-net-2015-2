@@ -21,9 +21,9 @@
         Contact
     </h1>
 
-    <h3>
+    <div id="parent-fieldname-description">
         We look forward to hearing from you
-    </h3>
+    </div>
 
     <div id="contact-wrapper">
         <table id="contact-table">
