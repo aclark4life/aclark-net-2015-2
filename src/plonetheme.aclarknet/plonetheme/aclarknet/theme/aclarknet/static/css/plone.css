@@ -749,6 +749,11 @@ dt {
     text-decoration: underline;
 }
 
+#footer-wrapper {
+    margin: auto;
+    width: 75%;
+}
+
 .portletItemDetails {
     display: none;
 }
