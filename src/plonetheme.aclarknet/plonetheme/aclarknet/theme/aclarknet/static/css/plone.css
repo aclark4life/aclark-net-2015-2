@@ -417,7 +417,7 @@ h2.entry-title a:hover {
     background: #AA001F;
     padding: 0 0 12em 2em;
     font-size: 75%;
-    width: 850px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -772,11 +772,6 @@ dt {
     padding: 1em !important;
 }
 
-#credits {
-
-    margin-top: 1em;
-}
-
 #portal-sitemap a:hover {
     border-bottom: none !important;
 }
@@ -928,5 +923,6 @@ h4 {
 }
 
 #credits {
-    font-size: 90%;
+    margin-top: 1em;
+    font-size: 80%;
 }
