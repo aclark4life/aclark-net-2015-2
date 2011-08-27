@@ -532,13 +532,9 @@ strong {
     padding-bottom: 1em;
 }
 
-#archives-3 li, #meta-3 li {
+#archives-3 li, #categories-3 li {
     list-style-image: url(../images/img01.gif);
     margin-left: 1em;
-}
-
-#archives-3, #meta-3, #categories, #twitter-tools {
-    margin-bottom: 2em !important;
 }
 
 #footer li {
