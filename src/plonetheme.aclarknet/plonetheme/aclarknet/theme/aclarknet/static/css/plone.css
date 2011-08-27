@@ -399,6 +399,15 @@ h2.entry-title a:hover {
 #footer {
 	font-family: Arial, Helvetica, sans-serif;
     width: 1024px;
+    height: 100px;
+    width: 90%;
+    background: #AA001F;
+    padding: 0 0 12em 2em;
+    margin: 0 0 4em 2em;
+    background: black;
+    font-size: 75%;
+    margin-top: 1em;
+    border-radius: 0 0 4px 4px;
 }
 
 #footer p {
@@ -416,12 +425,6 @@ h2.entry-title a:hover {
 }
 
 /* Doormat via http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
-
-#footer {
-    background: black;
-    font-size: 75%;
-    margin-top: 1em;
-}
 
 #footer h2 {
     margin: 0.5em 0.5em 0px 0.5em;
@@ -761,14 +764,6 @@ dt {
     margin-left: 1em !important;
     line-height: normal !important;
     padding: 1em !important;
-}
-
-#footer {
-    height: 100px;
-    width: 90%;
-    background: #AA001F;
-    padding: 0 0 12em 2em;
-    margin: 0 0 4em 2em;
 }
 
 #credits {
