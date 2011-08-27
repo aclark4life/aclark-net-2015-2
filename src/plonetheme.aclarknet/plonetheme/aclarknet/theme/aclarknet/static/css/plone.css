@@ -764,12 +764,12 @@ dt {
 }
 
 #footer {
-    border-radius: 2px;
     height: 100px;
     width: 90%;
     background: #AA001F;
     padding: 0 0 12em 2em;
     margin: 0 0 4em 2em;
+    border: 1px solid white;
 }
 
 #credits {
