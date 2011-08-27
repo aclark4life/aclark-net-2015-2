@@ -914,6 +914,5 @@ h4 {
 }
 
 #contact-wrapper {
-    margin: auto;
-    width: 75%;
+    text-align: center;
 }
