@@ -900,7 +900,7 @@ h4 {
 }
 
 #contact-table {
-    width: 47%;
+    width: 4em;
 }
 
 .button { 
@@ -910,9 +910,9 @@ h4 {
 }
 
 .field {
-    width: 47%; 
+    width: 4em;
 }
 
 #contact-wrapper {
-    text-align: center;
+    margin: auto;
 }
