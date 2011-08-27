@@ -909,9 +909,5 @@ h4 {
 }
 
 .field {
-    width: 75%; 
-}
-
-.field input[type="text"] {
-    width: 75% !important; 
+    width: 50%; 
 }
