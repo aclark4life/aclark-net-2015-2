@@ -900,14 +900,14 @@ h4 {
 }
 
 #contact-table {
-    width: 50%;
-    padding-bottom: 1em;
+    width: 45%;
 }
 
 .button { 
     font-size: 125%;
+    padding: 1em;
 }
 
 .field {
-    width: 50%; 
+    width: 45%; 
 }
