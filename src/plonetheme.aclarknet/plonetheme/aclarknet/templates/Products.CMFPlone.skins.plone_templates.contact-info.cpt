@@ -147,7 +147,7 @@
 
             <input type="hidden" name="form.submitted" value="1" />
 
-            <input type="hidden" name="subject" value="New request" />
+            <input type="hidden" name="subject" value="ACLARK.NET, LLC contact form submission" />
 
             </form>
         </div>
