@@ -912,3 +912,8 @@ h4 {
 .field {
     width: 47%; 
 }
+
+#contact-wrapper {
+    margin: auto;
+    width: 50%;
+}
