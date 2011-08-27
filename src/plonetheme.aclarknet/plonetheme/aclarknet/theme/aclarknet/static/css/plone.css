@@ -401,6 +401,18 @@ h2.entry-title a:hover {
 
 /* Footer */
 
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-wrapper {
+    background: #aa001f url(../images/img05.gif) repeat-x;
+    margin: 0;
+    padding: 0;
+    height: 275px;
+    text-align: center;
+}
+
 #footer {
 	font-family: Arial, Helvetica, sans-serif;
     height: 100px;
@@ -745,17 +757,6 @@ dl.portlet .portletHeader a:hover {
 
 dt {
     font-weight: normal !important;
-}
-
-#footer a:hover {
-    text-decoration: underline;
-}
-
-#footer-wrapper {
-    background: #aa001f url(../images/img05.gif) repeat-x;
-    margin: 0;
-    padding: 0;
-    height: 275px;
 }
 
 .portletItemDetails {
