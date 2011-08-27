@@ -908,9 +908,9 @@ h4 {
 }
 
 .button { 
-    display: block;
     font-size: 125%;
     padding: 1em;
+    margin: 1em;
 }
 
 #contact-wrapper {
