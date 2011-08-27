@@ -26,7 +26,7 @@
     <table id="contact-table">
         <tr><td>ACLARK.NET, LLC<br />
                 Bethesda, MD USA<br />
-                E-mail: info@aclark.net</td></tr>
+                E-mail: <a href="mailto:info@aclark.net"</a>info@aclark.net</a></td></tr>
     </table>
 
     <div tal:condition="not:email_from_address">
@@ -126,7 +126,7 @@
 
             <div>
 
-                When you are done, please fill in the captcha form <br /> below and click 'Send form':
+                When you are done, please fill in the captcha <br /> form below and click 'Send form':
 
                 <tal:block tal:replace="structure context/@@captcha/image_tag"/>
 
@@ -141,7 +141,7 @@
 
                 <br />
 
-                We will get back to you within 24 hours. <strong>If you need immediate assistance, please call us 24/7 at 301-312-5236 and we will return your call ASAP.</strong>
+                We will get back to you within 24 hours. <strong>If you need <br /> immediate assistance, please call us 24/7 at 301-312-5236 and we will return your call ASAP.</strong>
 
             </div>
 
