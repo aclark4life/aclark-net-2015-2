@@ -26,7 +26,7 @@
     <table id="contact-table">
         <tr><td>ACLARK.NET, LLC<br />
                 Bethesda, MD USA<br />
-                E-mail: <a href="mailto:info@aclark.net"></a>info@aclark.net</a></td></tr>
+                E-mail: <a href="mailto:info@aclark.net">info@aclark.net</a></td></tr>
     </table>
 
     <div tal:condition="not:email_from_address">
