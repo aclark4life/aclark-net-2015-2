@@ -5,6 +5,11 @@ http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
 
+html {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -403,7 +408,6 @@ h2.entry-title a:hover {
     padding: 0 0 12em 2em;
     margin: 0 0 4em 2em;
     font-size: 75%;
-    margin-top: 1em;
 }
 
 #footer p {
