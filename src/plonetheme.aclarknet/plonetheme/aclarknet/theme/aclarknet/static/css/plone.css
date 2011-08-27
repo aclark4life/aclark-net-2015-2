@@ -908,7 +908,8 @@ h4 {
 }
 
 .button { 
-    font-size: 125%;
+    font-size: 150%;
+    width: 11em;
 }
 
 #button-wrapper {
