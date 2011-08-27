@@ -913,6 +913,8 @@ h4 {
 
 #button-wrapper {
     padding: 1em;
+    margin: auto;
+    width: 50%;
 }
 
 #contact-wrapper {
