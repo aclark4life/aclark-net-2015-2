@@ -751,7 +751,8 @@ dt {
 
 #footer-wrapper {
     background: #000000 url(../images/img05.gif) repeat-x;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     width: 1000px;
 }
 
