@@ -400,16 +400,12 @@ h2.entry-title a:hover {
 	font-family: Arial, Helvetica, sans-serif;
     width: 1024px;
     height: 100px;
-    width: 90%;
+    width: 200%;
     background: #AA001F;
     padding: 0 0 12em 2em;
     margin: 0 0 4em 2em;
     font-size: 75%;
     margin-top: 1em;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
-    border-radius: 0 0 8px 8px;
 }
 
 #footer p {
