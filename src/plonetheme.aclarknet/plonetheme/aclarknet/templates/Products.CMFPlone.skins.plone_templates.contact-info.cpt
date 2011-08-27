@@ -128,8 +128,8 @@
 
                     <tal:block tal:replace="structure context/@@captcha/image_tag"/>
 
-                    <div class="button">
-                        <input 
+                    <div id="button-wrapper">
+                        <input class="button"
                                type="submit"
                                name="form.button.Send"
                                value="Send form"
