@@ -93,13 +93,13 @@ a:hover {
 
 #logo .slogan {
     margin-left: 3.0em;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 #logo .name {
     font-family: 'Times New Roman';
     font-size: 36px;
-    letter-spacing: -.05em;
+    letter-spacing: -.1em;
     margin: 0;
     font-size: 350%;
     margin-left: 0.2em;
