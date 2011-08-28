@@ -922,3 +922,7 @@ h4 {
     margin-top: 1em;
     font-size: 80%;
 }
+
+.bookWarning {
+    width: 75%;
+}
