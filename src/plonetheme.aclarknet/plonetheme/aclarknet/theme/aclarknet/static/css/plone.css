@@ -102,9 +102,9 @@ a:hover {
     letter-spacing: -.07em;
     margin: 0;
     font-size: 36px;
-    font-size: 350%;
 */
-    font-family: 'Georgia';
+    font-family: "Georgia";
+    font-size: 300%;
     margin-left: 0.2em;
 }
 
