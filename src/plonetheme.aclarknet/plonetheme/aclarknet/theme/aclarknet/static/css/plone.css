@@ -930,3 +930,7 @@ h4 {
 .submenu li a {
     color: #AA001F !important; 
 }
+
+.submenu li a:hover {
+    text-decoration: underline; 
+}
