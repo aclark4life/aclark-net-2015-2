@@ -932,5 +932,5 @@ h4 {
 }
 
 .submenu li a:hover {
-    text-decoration: underline; 
+    text-decoration: underline !important;
 }
