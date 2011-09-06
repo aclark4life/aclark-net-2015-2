@@ -926,6 +926,9 @@ h4 {
     font-size: 80%;
 }
 
+.submenu li {
+    width: 50%;
+}
 
 .submenu li a {
     color: #AA001F !important; 
