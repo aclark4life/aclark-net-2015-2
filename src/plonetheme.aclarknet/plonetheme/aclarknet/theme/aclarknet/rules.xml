@@ -17,7 +17,6 @@
     <prepend content='//*[@id="portal-personaltools"]' theme='//*[@id="search"]' />
 
     <before content='/html/head' theme='/html/head' />
-    <drop attributes="id" css:content="#portal-globalnav" />
     <drop attributes="id" css:content="#portal-footer" />
     <drop attributes="id" css:content="#content" />
     <drop attributes="class" css:content=".cell" />
