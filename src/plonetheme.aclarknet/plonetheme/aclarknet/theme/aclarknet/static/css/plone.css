@@ -927,7 +927,7 @@ h4 {
 }
 
 .submenu li {
-    width: 105px !important;
+    text-align: center;
 }
 
 .submenu li a {
