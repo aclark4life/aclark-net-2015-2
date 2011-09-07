@@ -947,12 +947,12 @@ dt .summary {
 	height: 4em;
 	margin: 1em;
 	padding: 1em;
+    min-height: 10em;
+    display: table-cell;
+	vertical-align: middle;
 }
 
 dt .summary a {
 	font-size: 400%;
-    min-height: 10em;
-    display: table-cell;
-	vertical-align: middle;
 }
 
