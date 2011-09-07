@@ -949,7 +949,7 @@ dt .summary a {
 	font-size: 400%;
 }
 
-dt .summary a:hover {
+#content-core .summary a:hover {
 	text-decoration: underline !important;
 	border-bottom: 0px !important;
 }
