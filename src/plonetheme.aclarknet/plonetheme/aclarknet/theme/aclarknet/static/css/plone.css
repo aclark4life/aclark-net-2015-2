@@ -950,6 +950,6 @@ dt .summary a {
 }
 
 dt .summary a:hover {
-	text-decoration: underline;
-	border-bottom: 0px;
+	text-decoration: underline !important;
+	border-bottom: 0px !important;
 }
