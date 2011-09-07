@@ -940,6 +940,7 @@ h4 {
 
 
 dt .summary {
+	display: block;
 	background: white;
 	border-radius: 4px;
 	width: 100%;
