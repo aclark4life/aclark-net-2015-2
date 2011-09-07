@@ -952,5 +952,7 @@ dt .summary {
 
 dt .summary a {
 	font-size: 400%;
+    min-height: 10em;
+	vertical-align: middle;
 }
 
