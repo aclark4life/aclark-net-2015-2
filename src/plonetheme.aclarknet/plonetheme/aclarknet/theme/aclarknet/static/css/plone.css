@@ -947,10 +947,10 @@ dt .summary {
 	height: 4em;
 	margin: 1em;
 	padding: 1em;
-	vertical-align: middle;
 }
 
 dt .summary a {
 	font-size: 400%;
+	vertical-align: middle;
 }
 
