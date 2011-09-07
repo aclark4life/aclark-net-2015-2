@@ -948,7 +948,6 @@ dt .summary {
 	margin: 1em;
 	padding: 1em;
     min-height: 10em;
-    display: table-cell;
 	vertical-align: middle;
 }
 
