@@ -949,3 +949,7 @@ dt .summary {
 	padding: 1em;
 }
 
+dt .summary a {
+	font-size: 150%;
+}
+
