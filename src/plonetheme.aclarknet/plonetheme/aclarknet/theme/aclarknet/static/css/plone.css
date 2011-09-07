@@ -951,6 +951,7 @@ dt .summary {
 }
 
 dt .summary a {
+	display: block;
 	font-size: 400%;
 }
 
