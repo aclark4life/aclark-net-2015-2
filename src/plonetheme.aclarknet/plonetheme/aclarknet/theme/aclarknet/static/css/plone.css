@@ -946,6 +946,8 @@ dt .summary {
 	width: 100%;
 	margin: 1em;
 	padding: 1em;
+    min-height: 4em;
+    vertical-align: middle;
 }
 
 dt .summary a {
