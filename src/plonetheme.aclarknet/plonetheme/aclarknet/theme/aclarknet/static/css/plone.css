@@ -947,7 +947,9 @@ dt .summary a {
 	margin: 1em;
 	padding: 1em;
 	font-size: 400%;
-    text-decoration: underline !important;
-	border-bottom: 0px !important;
 }
 
+dt .summary a:hover {
+	text-decoration: underline;
+	border-bottom: 0px;
+}
