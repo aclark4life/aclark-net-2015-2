@@ -947,7 +947,7 @@ dt .summary {
 	height: 4em;
 	margin: 1em;
 	padding: 1em;
-    list-style-image: url(../images/img01.gif) !important;
+	vertical-align: middle;
 }
 
 dt .summary a {
