@@ -56,7 +56,7 @@ a:hover {
 }
 
 .border {
-	border: 6px solid #E1F1F6 !important;
+	border: 6px solid #E1F1F6; 
 }
 
 .alignleft, .image-left {
@@ -255,14 +255,14 @@ a:hover {
 }
 
 #content-core a {
-    color: #D71010 !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
+    color: #D71010; 
+    text-decoration: none; 
+    border-bottom: none; 
 }
 
 #content-core a:hover {
-    color: #D71010 !important;
-    border-bottom: 1px solid #D71010 !important;
+    color: #D71010; 
+    border-bottom: 1px solid #D71010; 
 }
 
 h2.entry-title a:hover {
@@ -366,18 +366,18 @@ h2.entry-title a:hover {
 	color: white;
     text-decoration: none;
     font-size: 24px;
-    padding: 0 !important;
+    padding: 0; 
 }
 
 #sidebar a:hover {
     text-decoration: underline;
-	color: #D71112 !important; 
+	color: #D71112; 
 }
 
 #sidebar .portletHeader a:hover, #sidebar .portletFooter a:hover {
 	color: white ; 
     font-size: 24px;
-    padding: 0 !important;
+    padding: 0; 
     margin-left: 12px;
 }
 
@@ -491,12 +491,12 @@ h2.entry-title a:hover {
 
 #menu li a:hover, .selected a, .menu-item a:hover, .menu-item-258 {
     background: white; 
-    color: #AA001F !important;
+    color: #AA001F;n 
     border-radius: 2px; 
 }
 
 .menu-item-258 a {
-    color: #AA001F !important;
+    color: #AA001F;n 
 }
 
 pre {
@@ -521,17 +521,17 @@ strong {
 .navTree li, .portletItem li, #twitter-tools li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
-    line-height: normal !important;
+    line-height: normal; 
 }
 
 .widget-title {
-    margin-bottom: 0.4em !important;
+    margin-bottom: 0.4em; 
 }
 
 #twitter-tools li {
     list-style-image: url(../images/img01.gif);
     margin-left: 1em;
-    line-height: 1.4 !important;
+    line-height: 1.4; 
     padding-bottom: 1em;
 }
 
@@ -549,12 +549,12 @@ strong {
 .portletWordPressBlogPortlet dd {
     list-style-image: url(../images/img01.gif);
     display: list-item;
-    margin-left: 2em !important;
+    margin-left: 2em; 
 }
 
 .portletWordPressBlogPortlet dt {
     font-size: 175%;
-    padding: 0 !important;
+    padding: 0; 
     margin-left: 12px;
 }
 
@@ -704,48 +704,48 @@ div#twitter.doormatColumn span a {
 }
 
 dl.portlet a {
-    color: white !important; 
+    color: white; 
 }
 
 dl.portlet a:hover {
-    color: white !important; 
+    color: white; 
     text-decoration: underline;
 }
 
 .portletHeader {
     border-radius: 2px;
-    background: black !important; 
+    background: black; 
     color: white;
     font-size: 24px;
-    padding: 0 !important;
+    padding: 0; 
     margin-left: 12px;
 }
 
 dl.portlet .portletHeader a {
-    color: white !important;
+    color: white; 
     font-size: 24px;
-    padding: 0 !important;
+    padding: 0; 
     margin-left: 12px;
 }
 
 dl.portlet .portletHeader a:hover {
-    color: white !important;
+    color: white; 
     text-decoration: underline;
     font-size: 24px;
-    padding: 0 !important;
+    padding: 0; 
     margin-left: 12px;
 }
 
 .portletFooter {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+    margin-top: 0; 
+    padding-top: 0; 
     margin-bottom: 2em;
 }
 
 .portletHeader {
     text-transform: none;
     font-size: 24px;
-    padding: 0 !important;
+    padding: 0; 
     margin-left: 12px;
 }
 
@@ -754,7 +754,7 @@ dl.portlet .portletHeader a:hover {
 }
 
 dt {
-    font-weight: normal !important;
+    font-weight: normal; 
 }
 
 .portletItemDetails {
@@ -762,17 +762,17 @@ dt {
 }
 
 .portletItem {
-    line-height: normal !important;
+    line-height: normal; 
 }
 
 .portletItem li {
-    margin-left: 1em !important;
-    line-height: normal !important;
-    padding: 1em !important;
+    margin-left: 1em; 
+    line-height: normal; 
+    padding: 1em; 
 }
 
 #portal-sitemap a:hover {
-    border-bottom: none !important;
+    border-bottom: none; 
 }
 
 #portal-sitemap li a:hover {
@@ -858,7 +858,7 @@ td {
 }
 
 #advertisement li {
-    list-style: none !important;
+    list-style: none; 
 }
 
 table {
@@ -927,15 +927,15 @@ h4 {
 }
 
 .submenu {
-    width: 150px !important; 
+    width: 150px; 
 }
 
 .submenu li a {
-    color: #AA001F !important; 
+    color: #AA001F; 
 }
 
 .submenu li a:hover {
-    text-decoration: underline !important;
+    text-decoration: underline; 
 }
 
 
@@ -947,9 +947,4 @@ dt .summary a {
 	margin: 1em;
 	padding: 1em;
 	font-size: 400%;
-}
-
-#content-core .summary a:hover {
-	text-decoration: underline !important;
-	border-bottom: 0px !important;
 }
