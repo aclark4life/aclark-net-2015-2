@@ -942,5 +942,7 @@ h4 {
 dt .summary {
 	background: white;
 	border-radius: 4px;
+	width: 100%;
+	height: 1em;
 }
 
