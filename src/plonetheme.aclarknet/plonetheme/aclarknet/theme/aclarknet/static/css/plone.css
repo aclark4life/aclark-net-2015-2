@@ -939,7 +939,7 @@ h4 {
 }
 
 
-dt .summary {
+dt .summary a {
 	display: block;
 	background: white;
 	border-radius: 4px;
@@ -948,10 +948,6 @@ dt .summary {
 	padding: 1em;
     min-height: 4em;
     vertical-align: middle;
-}
-
-dt .summary a {
-	display: block;
 	font-size: 400%;
 }
 
