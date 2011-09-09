@@ -1046,3 +1046,16 @@ dl.portlet {
 #disqus_thread li {
     color: black
 } 
+
+/* Services */
+
+/******************************************************************************/
+
+dt .summary a {
+    background: white;
+    border-radius: 4px;
+    display: block;
+    font-size: 400%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+} 
