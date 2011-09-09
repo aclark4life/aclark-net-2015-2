@@ -475,6 +475,7 @@ dl.portlet {
 
 }
 
+/*
 #content a:link,
 dl.portlet a:link {
     color: #205c90;
@@ -488,7 +489,7 @@ dl.portlet a:visited {
 }
 #content a:hover,
 dl.portlet a:hover {
-    color: #75ad0a !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+    color: #75ad0a; 
 }
 #content a:target {
     background-color: #ffb;
@@ -497,6 +498,8 @@ dl.portlet a:hover {
     background: transparent url(link_icon.png) 0px 1px no-repeat;
     padding: 1px 0px 1px 16px;
 }
+
+*/
 
 #category {
     font-size: 75%;
