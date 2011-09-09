@@ -964,4 +964,68 @@ dl.portlet {
 
 }
 
+/* Content */
+
 /******************************************************************************/
+
+
+
+
+
+/* Wordpress */
+
+/******************************************************************************/
+
+.entry-utility {
+    line-height: 2em; 
+    margin-bottom: 2em; 
+}
+
+#author-link {
+    margin-top: 2em; 
+    margin-bottom: 2em;
+}
+
+#author-description a {
+    line-height: 2em; 
+}
+
+#author-description {
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+
+}
+
+.entry-meta { 
+    padding: 1em;
+}
+
+.entry-content {
+    background: white;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.entry-content strong {
+    color: black;
+}
+
+.entry-content p {
+    color: black;
+    font-size: 105%;
+}
+
+.entry-content ul {
+    list-style-type: circle;
+    color: black;
+}
+
+.entry-content li {
+    word-wrap: break-word; 
+} 
+
+
+
+
+/******************************************************************************/
+
