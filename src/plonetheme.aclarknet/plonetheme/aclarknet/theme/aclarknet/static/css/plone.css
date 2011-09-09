@@ -744,3 +744,930 @@ img.aligncenter {
 } 
 
 /******************************************************************************/
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-wrapper {
+    background: #aa001f url(../images/img05.gif) repeat-x;
+    padding: 0;
+    height: 275px;
+}
+
+/* Doormat via http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
+
+#footer h2 {
+    margin: 0.5em 0.5em 0px 0.5em;
+}
+
+#footer h3 {
+    margin: 0.5em 0px;
+}
+
+#footer dl {
+    margin: 0.5em 0px;
+}
+
+#footer dl dd {
+    margin-left: 0px;
+}
+
+#footer .doormatColumn {
+    float: left;
+
+}
+
+.columns-2 .doormatColumn {
+    width: 48%;
+}
+
+.columns-3 .doormatColumn {
+    width: 31%;
+}
+
+.columns-4 .doormatColumn {
+    width: 23%;
+}
+
+.columns-5 .doormatColumn {
+    width: 17%; 
+    padding-top: 1em;
+    line-height: 1.75em;
+    font-size: 120%;
+    padding-left: 5px;
+}
+
+.columns-6 .doormatColumn {
+    width: 14%;
+}
+
+.columns-7 .doormatColumn {
+    width: 12%;
+}
+
+/******************************************************************************/
+
+.selected a,
+
+.menu-item a:hover,
+
+.menu-item-258, 
+
+#menu li a:hover {
+
+    background: white; 
+
+    color: #AA001F !important;
+
+    border-radius: 1em 1em 0 0; 
+
+}
+
+
+
+#menu li:hover {
+
+    background: white; 
+
+    color: #AA001F !important;
+
+    border-radius: 1em 1em 0 0; 
+
+}
+
+
+
+.menu-item-258 a {
+
+    color: #AA001F;n 
+
+}
+
+
+
+pre {
+
+/* https://twitter.com/#!/stevelosh/status/107231088111390720 */
+
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+
+
+
+    padding: 2em;
+
+    background: #191919;
+
+    color: #00FF00;
+
+    border: 1px solid white;
+
+    font-size: 110%;
+
+}
+
+
+
+strong {
+
+    color: #D71D3E;
+
+}
+
+
+
+#content-views li, #contentActionMenus li {
+
+    display: inline;
+
+}
+
+
+
+.navTree li,
+
+.portletItem li {
+
+    list-style-image: url(../images/img01.gif);
+
+    display: list-item;
+
+    line-height: normal; 
+
+}
+
+
+
+.widget-title {
+
+    margin-bottom: 0.4em; 
+
+}
+
+
+
+#archives-3 li,
+
+#categories-3 li {
+
+    list-style-image: url(../images/img01.gif);
+
+    margin-left: 1em;
+
+}
+
+
+
+#footer li {
+
+    list-style-image: url(../images/img04.gif);
+
+    display: list-item;
+
+    line-height: 2em;
+
+}
+
+
+
+.portletWordPressBlogPortlet dd {
+
+    list-style-image: url(../images/img01.gif);
+
+    display: list-item;
+
+    margin-left: 3.6em; 
+
+}
+
+
+
+.portletWordPressBlogPortlet dt {
+
+    font-size: 175%;
+
+    padding: 0; 
+
+    margin-left: 12px;
+
+}
+
+
+
+.portletWordPressBlogPortlet a {
+
+    color: white ; 
+
+}
+
+
+
+.portletWordPressBlogPortlet a:hover {
+
+    color: white ; 
+
+}
+
+
+
+.portletWordPressBlogPortlet .portletItem {
+
+    margin-bottom: 3em;
+
+    line-height: normal;
+
+}
+
+
+
+dd {
+
+    margin: 0;
+
+    padding: 0;
+
+    padding-left: 15px;
+
+}
+
+
+
+.portalMessage dd {
+
+    color: black;
+
+}
+
+
+
+#portal-breadcrumbs { 
+
+    margin-left: 10px;
+
+}
+
+
+
+.documentDescription {
+
+    font-size: 90%;
+
+}
+
+
+
+.small {
+
+    font-size: 90%;
+
+}
+
+
+
+.portletFooter {
+
+    font-size: 90%;
+
+}
+
+
+
+.col1 {
+
+    float: left;
+
+    height: 15em;
+
+    width: 40%;
+
+}
+
+
+
+.col2 {
+
+    float: right;
+
+    height: 15em;
+
+    width: 60%;
+
+}
+
+
+
+.page {
+
+    margin-top: 45px;
+
+}
+
+
+
+.service-images {
+
+    margin-top: 100px;
+
+}
+
+
+
+/* Wordpress */
+
+
+
+.entry-utility {
+
+    line-height: 2em; 
+
+    margin-bottom: 2em; 
+
+}
+
+
+
+#author-link {
+
+    margin-top: 2em; 
+
+    margin-bottom: 2em;
+
+}
+
+
+
+#author-description a {
+
+    line-height: 2em; 
+
+}
+
+
+
+#author-description {
+
+    margin-top: 2em; 
+
+    margin-bottom: 2em; 
+
+}
+
+
+
+.entry-meta { 
+
+    padding: 1em;
+
+}
+
+
+
+.entry-content {
+
+    background: white;
+
+    padding: 1em;
+
+    margin-bottom: 1em;
+
+}
+
+
+
+.entry-content strong {
+
+    color: black;
+
+}
+
+
+
+.entry-content p {
+
+/*    color: #EAEAEA;  */
+
+    color: black;
+
+    font-size: 105%;
+
+}
+
+
+
+
+
+.entry-content ul {
+
+    list-style-type: circle;
+
+    color: black;
+
+}
+
+
+
+.entry-content li {
+
+    word-wrap: break-word; 
+
+}
+
+
+
+#personaltools-contact {
+
+    color: #AA001F;
+
+    background: white;
+
+    text-transform: uppercase;
+
+    font-size: 150%;
+
+}
+
+
+
+#portal-personaltools {
+
+    background: white;
+
+}
+
+
+
+dl.portlet {
+
+    font-size: 100%;
+
+}
+
+
+
+dt {
+
+    background: black ;
+
+}
+
+
+
+#twitter, #facebook {
+
+}
+
+
+
+#twitter {
+
+    padding-top: 20px;
+
+    padding-left: 1em;
+
+}
+
+
+
+#facebook {
+
+    padding-right: 6em;
+
+}
+
+
+
+div#twitter.doormatColumn span a {
+
+    color: #3B5998;
+
+}
+
+
+
+dl.portlet a {
+
+    color: white; 
+
+}
+
+
+
+dl.portlet a:hover {
+
+    color: white; 
+
+    text-decoration: underline;
+
+}
+
+
+
+.portletHeader {
+
+    border-radius: 2px;
+
+    background: black; 
+
+    color: white;
+
+    font-size: 24px;
+
+    padding: 0; 
+
+    margin-left: 12px;
+
+}
+
+
+
+dl.portlet .portletHeader a {
+
+    color: white; 
+
+    font-size: 24px;
+
+    padding: 0; 
+
+    margin-left: 12px;
+
+}
+
+
+
+dl.portlet .portletHeader a:hover {
+
+    color: white; 
+
+    text-decoration: underline;
+
+    font-size: 24px;
+
+    padding: 0; 
+
+    margin-left: 12px;
+
+}
+
+
+
+.portletFooter {
+
+    margin-top: 0; 
+
+    padding-top: 0; 
+
+    margin-bottom: 2em;
+
+}
+
+
+
+.portletHeader {
+
+    text-transform: none;
+
+    font-size: 24px;
+
+    padding: 0; 
+
+    margin-left: 12px;
+
+}
+
+
+
+#anon-personalbar a:hover {
+
+    text-decoration: underline; 
+
+}
+
+
+
+dt {
+
+    font-weight: normal; 
+
+}
+
+
+
+.portletItemDetails {
+
+    display: none;
+
+}
+
+
+
+.portletItem {
+
+    line-height: normal; 
+
+}
+
+
+
+.portletItem li {
+
+    margin-left: 2.5em !important;
+
+    line-height: normal; 
+
+    padding: 1em; 
+
+}
+
+
+
+#portal-sitemap a:hover {
+
+    border-bottom: none; 
+
+}
+
+
+
+#portal-sitemap li a:hover {
+
+    display: list-item;
+
+    list-style-image: url(../images/img04.gif); 
+
+}
+
+
+
+td {
+
+    padding: 1em;
+
+}
+
+
+
+#advertisement h3 {
+
+    padding-bottom: 1em;
+
+}
+
+
+
+#author-avatar {
+
+    float: right;
+
+  border: 6px solid #E1F1F6;
+
+    margin: 1em;
+
+}
+
+
+
+#aktt_tweet_form, #aktt_tweet_posted_msg {
+
+    display: none;
+
+}
+
+
+
+.wp-caption {
+
+    color: black;
+
+    font-size: 80%;
+
+    text-align: center;
+
+}
+
+
+
+#sidebar ul li {
+
+    list-style: none;
+
+}
+
+
+
+#sidebar li {
+
+    list-style: none;
+
+}
+
+
+
+#sidebar li ul li {
+
+    list-style-image: url(../images/img01.gif);
+
+}
+
+
+
+#sidebar dl dd ul li {
+
+    list-style-image: url(../images/img01.gif);
+
+}
+
+
+
+#sidebar h3 {
+
+    font-size: 24px;
+
+    color: white;
+
+}
+
+
+
+#advertisement li {
+
+    list-style: none; 
+
+}
+
+
+
+table {
+
+    background: white;
+
+    width: 100%;
+
+    padding: 1em;
+
+    color: black;
+
+}
+
+
+
+#personaltools-contact {
+
+    border-radius: 0px 0px 4px 4px;
+
+    padding: 0.25em 0.5em;
+
+}
+
+
+
+
+
+.menu li {
+
+    list-style: none;
+
+}
+
+
+
+h4 {
+
+    color: black;
+
+}
+
+
+
+#disqus_thread {
+
+    background: white;
+
+    border-radius: 4px;
+
+    padding: 1em;
+
+}
+
+
+
+#disqus_thread li {
+
+    color: black
+
+}
+
+
+
+#contact-table {
+
+    width: 21em;
+
+}
+
+
+
+.field {
+
+    width: 21em;
+
+}
+
+
+
+.button { 
+
+    font-size: 150%;
+
+    width: 11em;
+
+}
+
+
+
+#button-wrapper {
+
+    padding: 1em;
+
+    margin: auto;
+
+    width: 75%;
+
+}
+
+
+
+#contact-wrapper {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 50%;
+
+    border: 1px solid white;
+
+    border-radius: 4px;
+
+    padding: 1em;
+
+    margin-top: 2em;
+
+}
+
+
+
+#credits {
+
+    margin-top: 1em;
+
+    font-size: 80%;
+
+}
+
+
+
+.submenu {
+
+    width: 150px !important; 
+
+}
+
+
+
+.submenu li a {
+
+    color: #AA001F; 
+
+}
+
+
+
+.submenu li a:hover {
+
+    text-decoration: underline; 
+
+}
+
+
+
+
+
+dt .summary a {
+
+  display: block;
+
+  background: white;
+
+  border-radius: 4px;
+
+  width: 75%;
+
+  margin: 1em;
+
+  padding: 1em;
+
+  font-size: 400%;
+
+}
+
+ 
