@@ -56,7 +56,7 @@ a:hover {
 }
 
 .border {
-	border: 6px solid #E1F1F6; 
+	border: 6px solid #E1F1F6 !important; 
 }
 
 .alignleft, .image-left {
@@ -521,7 +521,8 @@ strong {
     display: inline;
 }
 
-.navTree li, .portletItem li, #twitter-tools li {
+.navTree li,
+.portletItem li {
     list-style-image: url(../images/img01.gif);
     display: list-item;
     line-height: normal; 
@@ -546,7 +547,7 @@ strong {
 .portletWordPressBlogPortlet dd {
     list-style-image: url(../images/img01.gif);
     display: list-item;
-    margin-left: 2em; 
+    margin-left: 3.6em; 
 }
 
 .portletWordPressBlogPortlet dt {
@@ -763,7 +764,7 @@ dt {
 }
 
 .portletItem li {
-    margin-left: 1em;
+    margin-left: 2.5em !important;
     line-height: normal; 
     padding: 1em; 
 }
