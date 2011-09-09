@@ -442,12 +442,15 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 /* @group Content Area */
 
+/*
 #content {
     line-height: 1.5em;
     clear: both;
     font-size: 80%;
     margin: 1em 0.25em 2em 0.25em;
 }
+
+*/
 
 /* Special case of #content - TinyMCE */
 body#content {
