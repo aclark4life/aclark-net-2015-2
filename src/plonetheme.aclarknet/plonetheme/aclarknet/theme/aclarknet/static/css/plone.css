@@ -1,363 +1,13 @@
-/* New mobile css via https://weblion.psu.edu/svn/weblion/weblion/plonetheme.responsivetheme/trunk/plonetheme/responsivetheme/skins/plonetheme_responsivetheme_styles/mediaqueries.css */
-
-
-/* For devices with narrow screens, phones, tablets, etc. */
-/*  * 1625px and above huge screens * */
-/*  * 600px and below-common things for 480px, 600px, and below .. IE 9 ignored this if it had 'only screen' in the query   * */
-/*  * iPad in landscape mode * */
-/*  * iPad in portrait mode * */
-/*  * iPhone in landscape mode * */
-/*  * iPhone in portrait mode * */
-
-/*  *  1625px and above huge screens * */
-@media only screen and (min-width : 1625px)  {
-    body { width: 100%;}
-    
-    /* for readability making the width of the site only got to 100em */ 
-    #visual-portal-wrapper {
-        width: 100em !important;
-        margin: 0px auto !important;
-        display: block;
-        float: none;
-    }
-
-} /*  *  END 1625px and above huge screens * */
-
-
-/*  * 600px and below-common things for 480px, 600px, and below .. IE 9 ignored this if it had 'only screen' in the query * */
-@media (max-width : 600px) {
-    /* reset the min width to be 320px */
-    body { min-width: 320px !important;}
-    #visual-portal-wrapper { width: 100% !important;}
-    
-    /* make width 100% instead of the stock 97.75% */
-    div.width-full {
-        width: 100% !important;
-        }
-        
-    /* start position-0 at absolute left */
-    div.position-0 {
-        margin-left: -100%;
-        }
-
-    /* make sure logo isn't bigger then the screen area */    
-    #portal-logo {
-        margin-bottom: 5px;
-        padding-top: 5px;
-        display: inline-block;
-        clear: both;
-        margin: 0px;
-        position: absolute;
-        } 
-    
-    #portal-logo img {
-        display: block;
-        margin: 0 auto;
-        max-width: 100% !important; 
-        }
-    div#logo.cell.position-0 {
-        position: absolute;
-        top: 5px;
-        margin-left: -90% !important;
-        float: left;
-        }
- 
-    /* get rid of whatever width is set on visual-portal-wrapper so it expands whole device width */
-    #visual-portal-wrapper {
-        border: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        }
-        
-    /* move columns to below main content */    
-    #portal-column-two, #portal-column-one {
-        clear: both;
-        margin-left: -99% !important;
-        width: 100% !important;
-        margin:1em 0px;
-        width: 95% !important;
-        } 
-        
-    /* spread out the content */
-    div#portal-column-content {
-        width: 94%;
-        }
-        
-    dl#portal-personaltools {
-        margin-right: 34px;
-        float: right;
-        }
-       
-    /* move search box to the center and expand its width */   
-    #portal-searchbox {
-        margin: 65px 0px 15px 8% !important;
-        width: 85%;
-        font-size: 0.7em !important;
-        clear: both !important;
-        float: left !important;
-        }
-    
-    #searchGadget {
-        width: 81%;
-        }
-        
-    #portal-personaltools {
-       font-size: 70%;
-       }
-
-   /* global navigation needs to reconfigure itself to be vertical */
-   #portal-globalnav {
-        margin-left: 0px !important;
-        }
-                
-    ul#portal-globalnav {
-        padding: 0px;
-        background-color: white !important;
-        background: white !important;
-        width: 100% !important;
-        }
-        
-    ul#portal-globalnav:before { 
-        display: block;
-        margin-top: 20px;
-        font-size: 2em; 
-        }
-        
-    #portal-globalnav {
-        height: auto;
-        clear: both;
-        padding: 0px;
-        margin: 7px auto;
-        width: 100% !important;
-        }
-        
-    #portal-globalnav li {
-        display: inline-block !important;
-        margin-top: 5px;
-        border-top: 1px solid #E7E7E7;
-        border-bottom: 1px solid #E7E7E7;
-        background-color: white;
-        width: 100%;
-        }
-        
-    #portal-globalnav li a {
-        padding: 13px 13px 13px 20px;
-        display: block !important;
-        text-align: left !important;
-        color: #4477a1 !important;
-        background-color: #B0B0B0 !important;
-        background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#B0B0B0) ) !important;
-        background: -moz-linear-gradient(-90deg, #ECECEC, #B0B0B0) !important;
-        }
-
-    #portal-globalnav a:hover, #portal-globalnav .selected a:hover, #portal-globalnav .selected a, #portal-globalnav a:focus {
-        background-color: #4477a1 !important;
-        background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) ) !important;
-        background: -moz-linear-gradient(-90deg, #81a8cb, #4477a1) !important;
-        color: white !important;
-        }
-        
-    /* luke w says breadcrumbs are not found in mobile designs */    
-    #portal-breadcrumbs {
-        display: none; 
-        }
-        
- /* make the content font-size bigger */
-   #content {
-       font-size: 1em;
-       } 
-   div#footer {
-       width: 99%;
-       }   
-} /*  * END 600px and below  * */
-
-
-
-/*  *iPad in landscape mode * */
-@media screen and (orientation:landscape) and (max-device-width: 1024px) {
-    body {
-        font: 1em!important;
-    } 
-    #visual-portal-wrapper {
-        width: 100% !important;
-        margin: 0 !important;
-    }
-    #portal-columns {
-       font-size: 1.7em;
-       }
-     #portal-logo a#logo-site { padding-top: 2%;}
-
-}
-
-/*  * iPad in portrait mode * */
-@media screen and (orientation:portrait) and  (max-device-width: 768px) {
-   #visual-portal-wrapper {
-        width: 100% !important;
-        margin: 0 !important;
-    }
-    #portal-columns {
-       font-size: 1.7em;
-       }
-    #portal-logo a#logo-site { padding-top: 2%;}
-    
-} /*  * END Pad in landscape mode * */
-
-
-
-/*  * iPhone in landscape mode * */
-@media screen and (orientation:landscape) and (max-device-width: 480px) {
-/** it seems when changing the orientation on the iphone it loses things like globalnav being display block. Have to reset some css that should of been used from before **/
-   body { display: inline !important; }
-   /* global navigation needs to reconfigure itself to be vertical */
-
-     #portal-globalnav {
-        margin-left: 0px !important;
-        }
-                
-    ul#portal-globalnav {
-        padding: 0px;
-        background-color: transparent;
-        width: 100% !important;
-        }
-        
-    ul#portal-globalnav:before { 
-        display: block;
-        margin-top: 20px;
-        font-size: 2em; 
-        }
-        
-    #portal-globalnav {
-        height: auto;
-        clear: both;
-        padding: 0px;
-        margin: 7px auto;
-        width: 100% !important;
-        }
-        
-    #portal-globalnav li {
-        display: inline-block !important;
-        margin-top: 5px;
-        border-top: 1px solid #E7E7E7;
-        border-bottom: 1px solid #E7E7E7;
-        background-color: white;
-        width: 100%;
-        }
-        
-    #portal-globalnav li a {
-        padding: 13px 13px 13px 20px;
-        display: block !important;
-        color: #4477a1 !important;
-        background-color: #B0B0B0 !important;
-        background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#B0B0B0) ) !important;
-        background: -moz-linear-gradient(-90deg, #ECECEC, #B0B0B0) !important;
-        }
-
-
-    #portal-globalnav a:hover, #portal-globalnav .selected a:hover, #portal-globalnav .selected a, #portal-globalnav a:focus {
-        background-color: #4477a1 !important;
-        background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) ) !important;
-        background: -moz-linear-gradient(-90deg, #81a8cb, #4477a1) !important;
-        color: white !important;
-        }
-        
-    /* make sure logo isn't bigger then the screen area */    
-    #portal-logo {
-        margin-bottom: 5px;
-        padding-top: 5px;
-        display: inline-block;
-        clear: both;
-        margin: 0px;
-        position: absolute;
-        top: 5px;
-        } 
-
-    div#logo.cell.position-0 {
-
-        margin-left: -50% !important;
-        margin-bottom: 20px;
-        float: left;
-        }
-        
-
-    #portal-searchbox {
-        margin-top: 75px !important;
-    }
-    .field input[type="text"][size] {
-        width: 10em;
-        }
-} /*  * END iPhone in landscape mode * */
-
-
-/*  * iPhone in portrait mode * */
-@media screen and (orientation:portrait) and  (max-device-width: 320px) {
-    body { display: inline !important;}
-   #visual-portal-wrapper { display: inline-block !important;}
-    #portal-globalnav li {
-        display: inline-block !important;
-    }
-
-    div#logo.cell.position-0 {
-        position: absolute;
-        top: 5px;
-        margin-left: -80%;
-        }
-
-    #portal-searchbox {
-        margin-top: 75px !important;
-        width: 75%;
-    }
-    .field input[type="text"][size] {
-        width: 10em;
-        }
-
-} /*  * END iPhone in portrait mode * */
-
-/* Mobile css via
-    http://perishablepress.com/press/2009/08/02/the-5-minute-css-mobile-makeover/
-    http://meyerweb.com/eric/tools/css/reset/ 
-
-@media only screen and (max-device-width: 480px) { 
-
-    #portal-column-content {
-
-
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
-
-    #header, #sidebar, #footer {
-        display: none;
-    }
-
-    #menu, #page {
-        width: 100%;
-    }
-
-    #wrapper {
-        background: black;
-    }
-
-} */
-
 /*
 Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
 
-html {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	margin: 0;
 	padding: 0;
-    background: black;
+	background: #000000 url(images/img02.gif) repeat-x left top;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #FFFFFF;
@@ -367,11 +17,11 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
-	color: #D71D3E;
+	color: #FFFFFF;
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 h2 {
@@ -399,30 +49,27 @@ a:hover {
 	text-decoration: underline;
 }
 
-.border {
-	border: 6px solid #E1F1F6 !important; 
+img.border {
+	border: 6px solid #E1F1F6;
 }
 
-.alignleft, .image-left {
+img.alignleft {
 	float: left;
-    clear: both;
-    margin: 0.5em 1em 0.5em 0;
+	margin-right: 25px;
 }
 
-.alignright {
+img.alignright {
 	float: right;
-	margin-left: 25px;
 }
 
-.aligncenter {
-    display: block;
+img.aligncenter {
 	margin: 0px auto;
 }
 
 #wrapper {
-	margin: 0; 
+	margin: 0 auto;
 	padding: 0;
-	background: #000000 url(../images/img03.gif) repeat-x; 
+	background: url(images/img03.gif) no-repeat center top;
 }
 
 /* Header */
@@ -435,32 +82,10 @@ a:hover {
 
 /* Logo */
 
-#logo .slogan {
-    margin-left: 3.1em;
-    letter-spacing: 3px;
-}
-
-#logo .name {
-/*    font-family: 'Times New Roman'; */
-/*
-    letter-spacing: -.07em;
-    margin: 0;
-    font-size: 36px;
-*/
-    font-family: "Georgia";
-    font-size: 300%;
-    margin-left: 0.2em;
-}
-
-#logo .alpha {
-    font-size: 360%; font-style: italic
-}
-
 #logo {
 	float: left;
 	height: 100px;
 	margin: 0;
-	margin-left: 40px;
 	padding: 0px;
 	color: #FFFFFF;
 }
@@ -502,7 +127,6 @@ a:hover {
 	width: 280px;
 	height: 100px;
 	padding: 0;
-    margin-right: 40px;
 }
 
 #search form {
@@ -534,15 +158,16 @@ a:hover {
 /* Menu */
 
 #menu {
-	width: 930px;
+	width: 960px;
 	height: 49px;
-	margin: auto;
+	margin: 0 auto;
 	padding: 0;
 }
 
 #menu ul {
 	margin: 0;
 	padding: 0px 0px 0px 4px;
+	list-style: none;
 	line-height: normal;
 }
 
@@ -590,31 +215,14 @@ a:hover {
 /* Content */
 
 #content {
-	float: left;
-	width: 620px;
+	float: right;
+	width: 540px;
 	padding: 0px 20px 0px 0px;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 100%;
-}
-
-#content-core a {
-    color: #D71010; 
-    text-decoration: none; 
-    border-bottom: none; 
-}
-
-#content-core a:hover {
-    color: #D71010; 
-    border-bottom: 1px solid #D71010; 
-}
-
-h2.entry-title a:hover {
-    color: #D71010 ;
 }
 
 .post {
 	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .post .title {
@@ -627,6 +235,7 @@ h2.entry-title a:hover {
 }
 
 .post .meta {
+	padding-bottom: 5px;
 	text-align: left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
@@ -636,7 +245,9 @@ h2.entry-title a:hover {
 .post .meta a {
 }
 
-.post .entry, #content-core {
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
 	padding: 10px 0px 0px 0px;
 }
 
@@ -654,29 +265,31 @@ h2.entry-title a:hover {
 /* Sidebar */
 
 #sidebar {
-	float: right;
-	width: 250px;
+	float: left;
+	width: 330px;
 	padding: 0px 0px 0px 0px;
 }
 
 #sidebar ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 #sidebar li {
 	margin: 0;
 	padding: 0;
-    color: white;
 }
 
 #sidebar li ul {
 	margin: 0px 15px;
+	padding-bottom: 30px;
 }
 
-#sidebar li li, .navTreeItem {
+#sidebar li li {
 	padding-left: 15px;
 	line-height: 35px;
+	background: url(images/img01.gif) no-repeat left 14px;
 }
 
 #sidebar li li span {
@@ -689,40 +302,27 @@ h2.entry-title a:hover {
 
 #sidebar h2 {
 	height: 38px;
-	padding: 12px 5px 0 15px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 15px;
 	letter-spacing: -1px;
-	font-size: 18px;
+	font-size: 24px;
 	color: #FFFFFF;
 }
 
-#sidebar p, {
+#sidebar p {
 	margin: 0 0px;
 	padding: 0px 20px 20px 20px;
+	text-align: justify;
 }
 
 #sidebar a {
 	border: none;
-	color: #D71112;
-}
-
-#sidebar .portletHeader a, #sidebar .portletFooter a  {
-	border: none;
-	color: white;
-    text-decoration: none;
-    font-size: 24px;
-    padding: 0; 
+	color: #FFFFFF;
 }
 
 #sidebar a:hover {
-    text-decoration: underline;
-	color: #D71112; 
-}
-
-#sidebar .portletHeader a:hover, #sidebar .portletFooter a:hover {
-	color: white ; 
-    font-size: 24px;
-    padding: 0; 
-    margin-left: 12px;
+	text-decoration: underline;
+	color: #D71112;
 }
 
 /* Calendar */
@@ -748,24 +348,11 @@ h2.entry-title a:hover {
 
 /* Footer */
 
-#footer a:hover {
-    text-decoration: underline;
-}
-
-#footer-wrapper {
-    background: #aa001f url(../images/img05.gif) repeat-x;
-    padding: 0;
-    height: 275px;
-}
-
 #footer {
+	width: 1000px;
+	height: 55px;
+	margin: 0px auto 40px auto;
 	font-family: Arial, Helvetica, sans-serif;
-    height: 100px;
-    background: #AA001F;
-    padding: 0 0 12em 2em;
-    font-size: 75%;
-    width: 900px;
-    margin: 0 auto;
 }
 
 #footer p {
@@ -781,487 +368,3 @@ h2.entry-title a:hover {
 #footer a {
 	color: #FFFFFF;
 }
-
-/* Doormat via http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
-
-#footer h2 {
-    margin: 0.5em 0.5em 0px 0.5em;
-}
-
-#footer h3 {
-    margin: 0.5em 0px;
-}
-
-#footer dl {
-    margin: 0.5em 0px;
-}
-
-#footer dl dd {
-    margin-left: 0px;
-}
-
-#footer .doormatColumn {
-    float: left;
-}
-
-.columns-2 .doormatColumn {
-    width: 48%;
-}
-
-.columns-3 .doormatColumn {
-    width: 31%;
-}
-
-.columns-4 .doormatColumn {
-    width: 23%;
-}
-
-.columns-5 .doormatColumn {
-/*    width: 18%; */
-    width: 17%; 
-    padding-top: 1em;
-    line-height: 1.75em;
-    font-size: 120%;
-    padding-left: 5px;
-}
-
-.columns-6 .doormatColumn {
-    width: 14%;
-}
-
-.columns-7 .doormatColumn {
-    width: 12%;
-}
-
-.selected a,
-.menu-item a:hover,
-.menu-item-258, 
-#menu li a:hover {
-    background: white; 
-    color: #AA001F !important;
-    border-radius: 1em 1em 0 0; 
-}
-
-#menu li:hover {
-    background: white; 
-    color: #AA001F !important;
-    border-radius: 1em 1em 0 0; 
-}
-
-.menu-item-258 a {
-    color: #AA001F;n 
-}
-
-pre {
-/* https://twitter.com/#!/stevelosh/status/107231088111390720 */
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-
-    padding: 2em;
-    background: #191919;
-    color: #00FF00;
-    border: 1px solid white;
-    font-size: 110%;
-}
-
-strong {
-    color: #D71D3E;
-}
-
-#content-views li, #contentActionMenus li {
-    display: inline;
-}
-
-.navTree li,
-.portletItem li {
-    list-style-image: url(../images/img01.gif);
-    display: list-item;
-    line-height: normal; 
-}
-
-.widget-title {
-    margin-bottom: 0.4em; 
-}
-
-#archives-3 li,
-#categories-3 li {
-    list-style-image: url(../images/img01.gif);
-    margin-left: 1em;
-}
-
-#footer li {
-    list-style-image: url(../images/img04.gif);
-    display: list-item;
-    line-height: 2em;
-}
-
-.portletWordPressBlogPortlet dd {
-    list-style-image: url(../images/img01.gif);
-    display: list-item;
-    margin-left: 3.6em; 
-}
-
-.portletWordPressBlogPortlet dt {
-    font-size: 175%;
-    padding: 0; 
-    margin-left: 12px;
-}
-
-.portletWordPressBlogPortlet a {
-    color: white ; 
-}
-
-.portletWordPressBlogPortlet a:hover {
-    color: white ; 
-}
-
-.portletWordPressBlogPortlet .portletItem {
-    margin-bottom: 3em;
-    line-height: normal;
-}
-
-dd {
-    margin: 0;
-    padding: 0;
-    padding-left: 15px;
-}
-
-.portalMessage dd {
-    color: black;
-}
-
-#portal-breadcrumbs { 
-    margin-left: 10px;
-}
-
-.documentDescription {
-    font-size: 90%;
-}
-
-.small {
-    font-size: 90%;
-}
-
-.portletFooter {
-    font-size: 90%;
-}
-
-.col1 {
-    float: left;
-    height: 15em;
-    width: 40%;
-}
-
-.col2 {
-    float: right;
-    height: 15em;
-    width: 60%;
-}
-
-.page {
-    margin-top: 45px;
-}
-
-.service-images {
-    margin-top: 100px;
-}
-
-/* Wordpress */
-
-.entry-utility {
-    line-height: 2em; 
-    margin-bottom: 2em; 
-}
-
-#author-link {
-    margin-top: 2em; 
-    margin-bottom: 2em;
-}
-
-#author-description a {
-    line-height: 2em; 
-}
-
-#author-description {
-    margin-top: 2em; 
-    margin-bottom: 2em; 
-}
-
-.entry-meta { 
-    padding: 1em;
-}
-
-.entry-content {
-    background: white;
-    padding: 1em;
-    margin-bottom: 1em;
-}
-
-.entry-content strong {
-    color: black;
-}
-
-.entry-content p {
-/*    color: #EAEAEA;  */
-    color: black;
-    font-size: 105%;
-}
-
-
-.entry-content ul {
-    list-style-type: circle;
-    color: black;
-}
-
-.entry-content li {
-    word-wrap: break-word; 
-}
-
-#personaltools-contact {
-    color: #AA001F;
-    background: white;
-    text-transform: uppercase;
-    font-size: 150%;
-}
-
-#portal-personaltools {
-    background: white;
-}
-
-dl.portlet {
-    font-size: 100%;
-}
-
-dt {
-    background: black ;
-}
-
-#twitter, #facebook {
-}
-
-#twitter {
-    padding-top: 20px;
-    padding-left: 1em;
-}
-
-#facebook {
-    padding-right: 6em;
-}
-
-div#twitter.doormatColumn span a {
-    color: #3B5998;
-}
-
-dl.portlet a {
-    color: white; 
-}
-
-dl.portlet a:hover {
-    color: white; 
-    text-decoration: underline;
-}
-
-.portletHeader {
-    border-radius: 2px;
-    background: black; 
-    color: white;
-    font-size: 24px;
-    padding: 0; 
-    margin-left: 12px;
-}
-
-dl.portlet .portletHeader a {
-    color: white; 
-    font-size: 24px;
-    padding: 0; 
-    margin-left: 12px;
-}
-
-dl.portlet .portletHeader a:hover {
-    color: white; 
-    text-decoration: underline;
-    font-size: 24px;
-    padding: 0; 
-    margin-left: 12px;
-}
-
-.portletFooter {
-    margin-top: 0; 
-    padding-top: 0; 
-    margin-bottom: 2em;
-}
-
-.portletHeader {
-    text-transform: none;
-    font-size: 24px;
-    padding: 0; 
-    margin-left: 12px;
-}
-
-#anon-personalbar a:hover {
-    text-decoration: underline; 
-}
-
-dt {
-    font-weight: normal; 
-}
-
-.portletItemDetails {
-    display: none;
-}
-
-.portletItem {
-    line-height: normal; 
-}
-
-.portletItem li {
-    margin-left: 2.5em !important;
-    line-height: normal; 
-    padding: 1em; 
-}
-
-#portal-sitemap a:hover {
-    border-bottom: none; 
-}
-
-#portal-sitemap li a:hover {
-    display: list-item;
-    list-style-image: url(../images/img04.gif); 
-}
-
-td {
-    padding: 1em;
-}
-
-#advertisement h3 {
-    padding-bottom: 1em;
-}
-
-#author-avatar {
-    float: right;
-	border: 6px solid #E1F1F6;
-    margin: 1em;
-}
-
-#aktt_tweet_form, #aktt_tweet_posted_msg {
-    display: none;
-}
-
-.wp-caption {
-    color: black;
-    font-size: 80%;
-    text-align: center;
-}
-
-#sidebar ul li {
-    list-style: none;
-}
-
-#sidebar li {
-    list-style: none;
-}
-
-#sidebar li ul li {
-    list-style-image: url(../images/img01.gif);
-}
-
-#sidebar dl dd ul li {
-    list-style-image: url(../images/img01.gif);
-}
-
-#sidebar h3 {
-    font-size: 24px;
-    color: white;
-}
-
-#advertisement li {
-    list-style: none; 
-}
-
-table {
-    background: white;
-    width: 100%;
-    padding: 1em;
-    color: black;
-}
-
-#personaltools-contact {
-    border-radius: 0px 0px 4px 4px;
-    padding: 0.25em 0.5em;
-}
-
-
-.menu li {
-    list-style: none;
-}
-
-h4 {
-    color: black;
-}
-
-#disqus_thread {
-    background: white;
-    border-radius: 4px;
-    padding: 1em;
-}
-
-#disqus_thread li {
-    color: black
-}
-
-#contact-table {
-    width: 21em;
-}
-
-.field {
-    width: 21em;
-}
-
-.button { 
-    font-size: 150%;
-    width: 11em;
-}
-
-#button-wrapper {
-    padding: 1em;
-    margin: auto;
-    width: 75%;
-}
-
-#contact-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 1px solid white;
-    border-radius: 4px;
-    padding: 1em;
-    margin-top: 2em;
-}
-
-#credits {
-    margin-top: 1em;
-    font-size: 80%;
-}
-
-.submenu {
-    width: 150px !important; 
-}
-
-.submenu li a {
-    color: #AA001F; 
-}
-
-.submenu li a:hover {
-    text-decoration: underline; 
-}
-
-
-dt .summary a {
-	display: block;
-	background: white;
-	border-radius: 4px;
-	width: 75%;
-	margin: 1em;
-	padding: 1em;
-	font-size: 400%;
-}
-
