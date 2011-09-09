@@ -1059,3 +1059,20 @@ dt .summary a {
     padding: 0.5em;
     margin-bottom: 0.5em;
 } 
+
+
+/* Front page */
+
+/******************************************************************************/
+
+.col1 {
+    float: left;
+    height: 15em;
+    width: 40%;
+}
+
+.col2 {
+    float: right;
+    height: 15em;
+    width: 60%;
+} 
