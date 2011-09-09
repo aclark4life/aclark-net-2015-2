@@ -724,14 +724,17 @@ img.aligncenter {
 /******************************************************************************/
 
 #logo .slogan {
-    margin-left: 3.1em;
-    letter-spacing: 3px;
+    font: italic 18px Georgia,"Times New Roman",Times,serif;
+    margin-left: 2.0em;
+    letter-spacing: 2.5px;
+    text-transform: lowercase;
 }
 
 #logo .name {
-    font-family: "Georgia";
-    font-size: 300%;
-    margin-left: 0.2em;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-left: 0.1em;
 }
 
 #logo .alpha {
