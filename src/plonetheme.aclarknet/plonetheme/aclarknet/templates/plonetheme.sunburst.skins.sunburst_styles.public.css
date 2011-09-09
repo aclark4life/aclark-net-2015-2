@@ -104,11 +104,11 @@ q {
     margin: 1.375em 0;
 }
 
+/*
 #portal-globalnav {
     clear: both;
     font-size: 80%;
     background: #ddd;
-    /* ensure top navigation dont touches portlets, content etc.. #10491 */
     margin: 0 0 1em 0;
 }
 #portal-globalnav li {
@@ -119,8 +119,6 @@ q {
     background: #ddd;
     min-width: 6em;
     white-space: normal;
-    /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
-    /*border-bottom: 0.1em solid White;*/
     border-right: 0.1em solid white;
 }
 
@@ -133,6 +131,8 @@ q {
     background: #ddd;
     color: #205c90;
 }
+
+*/
 
 #portal-personaltools {
     float: right;
