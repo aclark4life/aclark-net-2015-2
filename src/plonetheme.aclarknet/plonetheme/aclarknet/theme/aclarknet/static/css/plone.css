@@ -812,6 +812,26 @@ img.aligncenter {
     line-height: 2em;
 }
 
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-wrapper {
+    background: #aa001f url(../images/img05.gif) repeat-x;
+    padding: 0;
+    height: 275px;
+}
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    background: #AA001F;
+    padding: 0 0 12em 2em;
+    font-size: 75%;
+    width: 900px;
+    margin: 0 auto;
+} 
+
 /******************************************************************************/
 
 dl.portlet a {
