@@ -73,9 +73,12 @@ h2 a, h3 a, h4 a {
 p {
 }
 
+/*
 a:link, a:visited {
     color: #205c90;
 }
+*/
+
 a:focus img {
     outline: thin dotted;
 }
