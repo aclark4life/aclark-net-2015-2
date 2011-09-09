@@ -734,6 +734,8 @@ img.aligncenter {
     font-size: 360%; font-style: italic
 }
 
+
+/* Header */
  
 /******************************************************************************/
 
@@ -742,6 +744,8 @@ img.aligncenter {
     padding: 0;
     background: #000000 url(../images/img03.gif) repeat-x; 
 } 
+
+/* Footer */
 
 /******************************************************************************/
 
@@ -832,6 +836,8 @@ img.aligncenter {
     margin: 0 auto;
 } 
 
+/* Portlets */
+
 /******************************************************************************/
 
 dl.portlet a {
@@ -892,92 +898,67 @@ dl.portlet .portletHeader a:hover {
 }
 
 .portletWordPressBlogPortlet dd {
-
     list-style-image: url(../images/img01.gif);
-
     display: list-item;
-
     margin-left: 3.6em; 
-
 }
 
 
 .portletWordPressBlogPortlet dt {
-
     font-size: 175%;
-
     padding: 0; 
-
     margin-left: 12px;
-
 }
-
-
 
 .portletWordPressBlogPortlet a {
-
     color: white ; 
-
 }
-
-
 
 .portletWordPressBlogPortlet a:hover {
-
     color: white ; 
-
 }
 
-
-
 .portletWordPressBlogPortlet .portletItem {
-
     margin-bottom: 3em;
-
     line-height: normal;
-
 }
 
 .portletFooter {
-
     font-size: 90%;
-
 }
-
 
 dl.portlet {
-
     font-size: 100%;
-
 }
-
 
 .portletItemDetails {
-
     display: none;
-
 }
-
-
 
 .portletItem {
-
     line-height: normal; 
-
 }
 
-
-
 .portletItem li {
-
     margin-left: 2.5em !important;
-
     line-height: normal; 
-
     padding: 1em; 
 
 }
 
+/* Column swap */
 
 /******************************************************************************/
 
+#sidebar {
+    float: right;
+    width: 250px; 
+}
+
+#content {
+    float: left;
+    width: 620px; 
+
+}
+
+/******************************************************************************/
