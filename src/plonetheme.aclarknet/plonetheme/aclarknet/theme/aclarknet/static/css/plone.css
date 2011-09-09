@@ -808,6 +808,153 @@ img.aligncenter {
 
 /******************************************************************************/
 
+dl.portlet a {
+    color: white; 
+}
+
+dl.portlet a:hover {
+    color: white; 
+    text-decoration: underline;
+}
+
+.portletHeader {
+    border-radius: 2px;
+    background: black; 
+    color: white;
+    font-size: 24px;
+    padding: 0; 
+    margin-left: 12px;
+}
+
+dl.portlet .portletHeader a {
+    color: white; 
+    font-size: 24px;
+    padding: 0; 
+    margin-left: 12px;
+
+}
+
+dl.portlet .portletHeader a:hover {
+    color: white; 
+    text-decoration: underline;
+    font-size: 24px;
+    padding: 0; 
+    margin-left: 12px;
+
+}
+
+.portletFooter {
+    margin-top: 0; 
+    padding-top: 0; 
+    margin-bottom: 2em;
+
+}
+
+
+.portletHeader {
+    text-transform: none;
+    font-size: 24px;
+    padding: 0; 
+    margin-left: 12px;
+}
+
+.navTree li,
+.portletItem li {
+    list-style-image: url(../images/img01.gif);
+    display: list-item;
+    line-height: normal; 
+}
+
+.portletWordPressBlogPortlet dd {
+
+    list-style-image: url(../images/img01.gif);
+
+    display: list-item;
+
+    margin-left: 3.6em; 
+
+}
+
+
+.portletWordPressBlogPortlet dt {
+
+    font-size: 175%;
+
+    padding: 0; 
+
+    margin-left: 12px;
+
+}
+
+
+
+.portletWordPressBlogPortlet a {
+
+    color: white ; 
+
+}
+
+
+
+.portletWordPressBlogPortlet a:hover {
+
+    color: white ; 
+
+}
+
+
+
+.portletWordPressBlogPortlet .portletItem {
+
+    margin-bottom: 3em;
+
+    line-height: normal;
+
+}
+
+.portletFooter {
+
+    font-size: 90%;
+
+}
+
+
+dl.portlet {
+
+    font-size: 100%;
+
+}
+
+
+.portletItemDetails {
+
+    display: none;
+
+}
+
+
+
+.portletItem {
+
+    line-height: normal; 
+
+}
+
+
+
+.portletItem li {
+
+    margin-left: 2.5em !important;
+
+    line-height: normal; 
+
+    padding: 1em; 
+
+}
+
+
+/******************************************************************************/
+
 .selected a,
 
 .menu-item a:hover,
@@ -884,17 +1031,6 @@ strong {
 
 
 
-.navTree li,
-
-.portletItem li {
-
-    list-style-image: url(../images/img01.gif);
-
-    display: list-item;
-
-    line-height: normal; 
-
-}
 
 
 
@@ -929,54 +1065,6 @@ strong {
 }
 
 
-
-.portletWordPressBlogPortlet dd {
-
-    list-style-image: url(../images/img01.gif);
-
-    display: list-item;
-
-    margin-left: 3.6em; 
-
-}
-
-
-
-.portletWordPressBlogPortlet dt {
-
-    font-size: 175%;
-
-    padding: 0; 
-
-    margin-left: 12px;
-
-}
-
-
-
-.portletWordPressBlogPortlet a {
-
-    color: white ; 
-
-}
-
-
-
-.portletWordPressBlogPortlet a:hover {
-
-    color: white ; 
-
-}
-
-
-
-.portletWordPressBlogPortlet .portletItem {
-
-    margin-bottom: 3em;
-
-    line-height: normal;
-
-}
 
 
 
@@ -1022,13 +1110,6 @@ dd {
 
 }
 
-
-
-.portletFooter {
-
-    font-size: 90%;
-
-}
 
 
 
@@ -1144,8 +1225,6 @@ dd {
 
 .entry-content p {
 
-/*    color: #EAEAEA;  */
-
     color: black;
 
     font-size: 105%;
@@ -1196,12 +1275,6 @@ dd {
 
 
 
-dl.portlet {
-
-    font-size: 100%;
-
-}
-
 
 
 dt {
@@ -1212,127 +1285,23 @@ dt {
 
 
 
-#twitter, #facebook {
-
-}
-
-
-
 #twitter {
-
     padding-top: 20px;
-
     padding-left: 1em;
-
 }
-
 
 
 #facebook {
-
     padding-right: 6em;
-
 }
 
 
 
 div#twitter.doormatColumn span a {
-
     color: #3B5998;
-
 }
 
 
-
-dl.portlet a {
-
-    color: white; 
-
-}
-
-
-
-dl.portlet a:hover {
-
-    color: white; 
-
-    text-decoration: underline;
-
-}
-
-
-
-.portletHeader {
-
-    border-radius: 2px;
-
-    background: black; 
-
-    color: white;
-
-    font-size: 24px;
-
-    padding: 0; 
-
-    margin-left: 12px;
-
-}
-
-
-
-dl.portlet .portletHeader a {
-
-    color: white; 
-
-    font-size: 24px;
-
-    padding: 0; 
-
-    margin-left: 12px;
-
-}
-
-
-
-dl.portlet .portletHeader a:hover {
-
-    color: white; 
-
-    text-decoration: underline;
-
-    font-size: 24px;
-
-    padding: 0; 
-
-    margin-left: 12px;
-
-}
-
-
-
-.portletFooter {
-
-    margin-top: 0; 
-
-    padding-top: 0; 
-
-    margin-bottom: 2em;
-
-}
-
-
-
-.portletHeader {
-
-    text-transform: none;
-
-    font-size: 24px;
-
-    padding: 0; 
-
-    margin-left: 12px;
-
-}
 
 
 
@@ -1350,33 +1319,6 @@ dt {
 
 }
 
-
-
-.portletItemDetails {
-
-    display: none;
-
-}
-
-
-
-.portletItem {
-
-    line-height: normal; 
-
-}
-
-
-
-.portletItem li {
-
-    margin-left: 2.5em !important;
-
-    line-height: normal; 
-
-    padding: 1em; 
-
-}
 
 
 
