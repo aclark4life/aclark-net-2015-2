@@ -1,3 +1,7 @@
+/* Original theme via http://www.freecsstemplates.org/preview/unilluminated/ */
+
+/******************************************************************************/
+
 /*
 Design by Free CSS Templates
 http://www.freecsstemplates.org
@@ -369,11 +373,9 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
-
-/******************************************************************************/
-
 /* New mobile css via https://weblion.psu.edu/svn/weblion/weblion/plonetheme.responsivetheme/trunk/plonetheme/responsivetheme/skins/plonetheme_responsivetheme_styles/mediaqueries.css */
 
+/******************************************************************************/
 
 /* For devices with narrow screens, phones, tablets, etc. */
 /*  * 1625px and above huge screens * */
@@ -717,6 +719,8 @@ img.aligncenter {
 
 } */
 
+/* Logo */
+
 /******************************************************************************/
 
 #logo .slogan {
@@ -733,7 +737,6 @@ img.aligncenter {
 #logo .alpha {
     font-size: 360%; font-style: italic
 }
-
 
 /* Header */
  
