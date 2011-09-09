@@ -748,6 +748,11 @@ img.aligncenter {
     background: #000000 url(../images/img03.gif) repeat-x; 
 } 
 
+#menu {
+    background: #AA001F;
+    height: 100px;
+}
+
 /* Footer */
 
 /******************************************************************************/
@@ -824,7 +829,7 @@ img.aligncenter {
 }
 
 #footer-wrapper {
-    background: #aa001f url(../images/img05.gif) repeat-x;
+    background: #AA001F url(../images/img05.gif) repeat-x;
     padding: 0;
     height: 275px;
 }
