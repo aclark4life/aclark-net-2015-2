@@ -332,7 +332,7 @@ dl.portletError {
 dl.portlet dt,
 div.portletAssignments div.portletHeader {
     padding: 0.42em 1em;
-    background: #ddd;
+/*    background: #ddd; */
     line-height: normal;
 }
 dl.portlet dt.hiddenStructure {
