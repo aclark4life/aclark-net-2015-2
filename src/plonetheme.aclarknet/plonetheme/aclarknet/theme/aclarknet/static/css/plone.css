@@ -1154,3 +1154,19 @@ dt .summary a {
 #menu a {
     margin-right: 0px;
 }
+
+/* Contact link */
+
+#portal-personaltools {
+    background: white;
+    width: 400px;
+    padding: 1em;
+}
+
+#portal-personaltools a {
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 200%; 
+    text-align: center;
+    width: 100%;
+}
