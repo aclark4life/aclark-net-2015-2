@@ -1084,3 +1084,28 @@ dt .summary a {
     color: black;
 }
 
+/* Contact form */
+
+/******************************************************************************/
+
+#contact-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid white;
+    padding: 1em;
+    margin-top: 2em;
+    background: white;
+    color: black;
+} 
+
+.button { 
+    font-size: 150%;
+    width: 11em;
+}
+
+#button-wrapper {
+    padding: 1em;
+    margin: auto;
+    width: 75%;
+} 
