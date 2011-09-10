@@ -1108,3 +1108,14 @@ dt .summary a {
     margin: auto;
     width: 75%;
 } 
+
+
+/* Drop down menu */
+
+.submenu li a {
+    color: #AA001F !important;
+}
+
+.submenu li a:hover {
+    text-decoration: underline !important;
+}
