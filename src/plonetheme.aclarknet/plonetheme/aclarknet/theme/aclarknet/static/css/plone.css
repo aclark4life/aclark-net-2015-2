@@ -1060,7 +1060,13 @@ dt .summary a {
     font-size: 400%;
     padding: 0.5em;
     margin-bottom: 0.5em;
+    color: #205C90;
 } 
+
+dt .summary a:hover {
+    text-decoration: none;
+    color: #75AD0A;
+}
 
 
 /* Front page */
