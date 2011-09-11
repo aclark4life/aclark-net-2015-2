@@ -1162,6 +1162,8 @@ dt .summary a:hover {
 
 /* Contact link */
 
+/******************************************************************************/
+
 #portal-personaltools {
     background: white;
     width: 400px;
@@ -1174,4 +1176,17 @@ dt .summary a:hover {
     font-size: 200%; 
     text-align: center;
     width: 100%;
+}
+
+/* Page styles */
+
+/******************************************************************************/
+
+#content-core h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#parent-fieldname-description {
+    margin-bottom: 1em !important;
 }
