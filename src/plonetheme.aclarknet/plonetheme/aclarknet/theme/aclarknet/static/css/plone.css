@@ -1190,3 +1190,11 @@ dt .summary a:hover {
 #parent-fieldname-description {
     margin-bottom: 1em !important;
 }
+
+/******************************************************************************/
+
+/* Search */
+
+#portal-globalnav {
+    width: 75%;
+}
