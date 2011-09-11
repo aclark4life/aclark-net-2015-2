@@ -7,10 +7,10 @@
 
             <div class="doormatColumn"> 
                 <ul>
-                <li><a tal:attributes="href python: context.portal_url() + '/services#development'">Development</a></li>
-                <li><a tal:attributes="href python: context.portal_url() + '/services#training'">Training</a></li>
-                <li><a tal:attributes="href python: context.portal_url() + '/services#hosting'">Hosting</a></li>
-                <li><a tal:attributes="href python: context.portal_url() + '/services#support'">Support</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services/development'">Development</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services/training'">Training</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services/hosting'">Hosting</a></li>
+                <li><a tal:attributes="href python: context.portal_url() + '/services/support'">Support</a></li>
                 </ul>
             </div>
 
