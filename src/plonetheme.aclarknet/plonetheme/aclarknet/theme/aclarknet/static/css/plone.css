@@ -770,7 +770,6 @@ img.aligncenter {
 #footer-wrapper {
     background: #aa001f url(../images/img05.gif) repeat-x;
     padding: 0;
-    height: 275px !important;
 }
 
 /* Doormat via http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
