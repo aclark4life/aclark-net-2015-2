@@ -1200,3 +1200,20 @@ dt .summary a:hover {
 #portal-globalnav {
     width: 75%;
 }
+
+/* Tables */
+
+/******************************************************************************/
+
+table {
+    background: white;
+    color: black;
+}
+
+table h1, table h2, table h3, table h4 {
+    color: black;
+}
+
+td {
+    padding: 1em;
+}
