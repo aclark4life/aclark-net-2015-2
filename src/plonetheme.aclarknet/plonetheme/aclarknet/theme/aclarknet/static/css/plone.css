@@ -1164,13 +1164,13 @@ dt .summary a:hover {
 
 #portal-personaltools {
     background: white;
-    width: 400px;
-    padding: 0.6em;
+    width: 300px;
+    padding: 0.5em;
 }
 
 #portal-personaltools a {
     text-transform: uppercase; 
-    font-size: 200%; 
+    font-size: 150%; 
     text-align: center;
     width: 100%;
 }
