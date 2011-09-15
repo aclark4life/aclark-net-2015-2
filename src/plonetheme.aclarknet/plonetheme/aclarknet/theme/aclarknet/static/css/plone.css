@@ -1183,13 +1183,13 @@ dt .summary a {
 */
 
 #menu .selected a {
-    text-decoration: underline;
-    line-height: 1em;
+    border-bottom: 1px solid ;
+    padding: 1em;
 }
 
 #menu li a:hover {
-    text-decoration: underline;
-    line-height: 1em;
+    border-bottom: 1px solid ;
+    padding: 1em;
 }
 
 /* Contact link */
