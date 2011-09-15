@@ -1184,12 +1184,12 @@ dt .summary a {
 
 #menu .selected a {
     border-bottom: 1px solid white;
-    border-width: 75%;
+    border-width: 75% !important;
 }
 
 #menu li a:hover {
     border-bottom: 1px solid white;
-    border-width: 75%;
+    border-width: 75% !important;
 }
 
 /* Contact link */
