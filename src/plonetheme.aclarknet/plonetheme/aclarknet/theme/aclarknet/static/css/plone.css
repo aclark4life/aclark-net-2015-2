@@ -1110,6 +1110,8 @@ dt .summary a {
     margin-top: 2em;
     background: black;
     color: white;
+    border: 1px solid white;
+    border-style: dashed;
 } 
 
 .button { 
@@ -1130,14 +1132,9 @@ dt .summary a {
 
 #contact-wrapper td {
     padding: 0;
-    font-size: 125%;
+    font-size: 150%;
 }
 
-#contact-form {
-    border: 1px solid white;
-    border-style: dashed;
-    padding: 1em;
-}
 
 /* Top level navigation */
 
