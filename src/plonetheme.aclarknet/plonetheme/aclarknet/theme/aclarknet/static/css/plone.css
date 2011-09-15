@@ -1229,7 +1229,7 @@ dt .summary a {
 }
 
 /* Blog entry */
-.entry-title h1 {
+h1.entry-title {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     color: #D71D3E;
