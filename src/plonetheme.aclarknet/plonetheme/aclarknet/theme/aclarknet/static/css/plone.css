@@ -1112,7 +1112,7 @@ dt .summary a {
     color: white;
     border: 1px solid white;
     border-style: dashed;
-    border-width: 1em;
+    border-width: 0.5em;
     padding-left: 12em;
     padding-right: 12em;
     padding-top: 4em !important;
