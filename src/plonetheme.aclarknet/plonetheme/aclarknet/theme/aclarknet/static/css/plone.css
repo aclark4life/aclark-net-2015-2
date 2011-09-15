@@ -1191,6 +1191,7 @@ dt .summary a {
 #portal-personaltools {
     width: 300px;
     padding: 0.5em;
+    background: #AA001F;
 }
 
 #portal-personaltools a {
