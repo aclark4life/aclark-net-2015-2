@@ -1255,6 +1255,7 @@ td {
 
 
 /******************************************************************************/
+/* Blog entry */
 
 /* Pre */
 /* https://twitter.com/#!/stevelosh/status/107231088111390720 */
@@ -1266,4 +1267,16 @@ pre {
     color: #00FF00;
     border: 1px solid white;
     font-size: 110%;
+}
+
+.entry-content h1 {
+    color: black; 
+}
+
+.entry-content h2 {
+    color: black; 
+}
+
+.entry-content h3 {
+    color: black; 
 }
