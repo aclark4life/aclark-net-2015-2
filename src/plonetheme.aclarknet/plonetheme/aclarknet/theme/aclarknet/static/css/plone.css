@@ -1114,6 +1114,7 @@ dt .summary a {
     border-style: dashed;
     padding-left: 8em;
     padding-right: 8em;
+    border-width: thin;
 } 
 
 .button { 
