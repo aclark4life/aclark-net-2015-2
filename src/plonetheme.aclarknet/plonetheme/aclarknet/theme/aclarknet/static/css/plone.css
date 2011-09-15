@@ -1128,6 +1128,10 @@ dt .summary a {
     color: white;
 }
 
+#contact-wrapper td {
+    padding: 0;
+}
+
 /* Top level navigation */
 
 /******************************************************************************
