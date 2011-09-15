@@ -1072,6 +1072,7 @@ dt .summary a {
     font-size: 1.6em;
     font-weight: normal;
     line-height: 1.5em;
+    border-bottom: medium none;
 }
 
 /* Front page */
