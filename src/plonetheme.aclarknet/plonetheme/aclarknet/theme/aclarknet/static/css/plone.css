@@ -1178,7 +1178,7 @@ dt .summary a {
 #portal-personaltools a {
     text-transform: uppercase; 
     font-size: 150%; 
-    font-weight: normal;
+    font-weight: normal !important;
     text-align: center;
     width: 100%;
     color: white !important;
