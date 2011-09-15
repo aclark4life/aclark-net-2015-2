@@ -1182,6 +1182,10 @@ dt .summary a {
 
 */
 
+#menu li a:hover {
+    text-decoration: underline;
+}
+
 /* Contact link */
 
 /******************************************************************************/
