@@ -1132,6 +1132,10 @@ dt .summary a {
     padding: 0;
 }
 
+#contact-form {
+    border: 1px solid dashed;
+}
+
 /* Top level navigation */
 
 /******************************************************************************
