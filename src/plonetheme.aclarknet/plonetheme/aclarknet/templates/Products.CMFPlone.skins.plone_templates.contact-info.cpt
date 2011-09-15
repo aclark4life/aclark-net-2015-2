@@ -10,7 +10,7 @@
 
 <body>
 
-<div metal:fill-slot="main"
+<div id="contact-form" metal:fill-slot="main"
      tal:define="portal context/@@plone_portal_state/portal;
                  email_from_address portal/email_from_address;
                  isAnon context/@@plone_portal_state/anonymous;">
