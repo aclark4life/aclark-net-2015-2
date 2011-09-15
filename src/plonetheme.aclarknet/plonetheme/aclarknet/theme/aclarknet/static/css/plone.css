@@ -1070,6 +1070,7 @@ dt .summary a:hover {
 
 dt .summary a {
     font-size: 1.6em;
+	font-family: Helvetica;
 }
 
 /* Front page */
