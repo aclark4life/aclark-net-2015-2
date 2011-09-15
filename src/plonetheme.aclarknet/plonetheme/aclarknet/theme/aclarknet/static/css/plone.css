@@ -1111,8 +1111,6 @@ dt .summary a {
     background: black;
     color: white;
     border: 1px solid white;
-    border-style: dashed;
-    border-width: 0.20em;
     padding-left: 12em;
     padding-right: 12em;
     padding-top: 8em !important;
