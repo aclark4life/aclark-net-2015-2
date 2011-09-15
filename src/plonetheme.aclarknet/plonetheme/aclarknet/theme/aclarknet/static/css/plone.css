@@ -1112,9 +1112,9 @@ dt .summary a {
     color: white;
     border: 1px solid white;
     border-style: dashed;
-    padding-left: 8em;
-    padding-right: 8em;
-    border-width: thin;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 1em;
 } 
 
 .button { 
