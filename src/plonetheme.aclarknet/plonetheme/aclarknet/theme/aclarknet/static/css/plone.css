@@ -1252,3 +1252,18 @@ table h1, table h2, table h3, table h4 {
 td {
     padding: 1em;
 }
+
+
+/******************************************************************************/
+
+/* Pre */
+/* https://twitter.com/#!/stevelosh/status/107231088111390720 */
+
+pre {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    padding: 2em;
+    background: #191919;
+    color: #00FF00;
+    border: 1px solid white;
+    font-size: 110%;
+}
