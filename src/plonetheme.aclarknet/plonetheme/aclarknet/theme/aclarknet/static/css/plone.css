@@ -1133,7 +1133,8 @@ dt .summary a {
 }
 
 #contact-form {
-    border: 1px solid dashed;
+    border: 1px solid white;
+    border-style: dashed;
 }
 
 /* Top level navigation */
