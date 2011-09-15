@@ -1111,9 +1111,11 @@ dt .summary a {
     background: black;
     color: white;
     border: 1px solid white;
-    padding-left: 10em;
-    padding-right: 10em;
-    padding-top: 2em !important;
+    border-style: dashed;
+    border-width: 1em;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 4em !important;
 } 
 
 .button { 
