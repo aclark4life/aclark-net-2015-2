@@ -973,81 +973,7 @@ dl.portlet {
 
 }
 
-/* Content */
 
-/******************************************************************************/
-
-
-
-
-
-
-/* Wordpress */
-
-/******************************************************************************/
-
-.entry-utility {
-    line-height: 2em; 
-    margin-bottom: 2em; 
-}
-
-#author-link {
-    margin-top: 2em; 
-    margin-bottom: 2em;
-}
-
-#author-description a {
-    line-height: 2em; 
-}
-
-#author-description {
-    margin-top: 2em; 
-    margin-bottom: 2em; 
-
-}
-
-.entry-meta { 
-    padding: 1em;
-}
-
-.entry-content {
-    background: white;
-    padding: 1em;
-    margin-bottom: 1em;
-}
-
-.entry-content strong {
-    color: black;
-}
-
-.entry-content p {
-    color: black;
-    font-size: 105%;
-}
-
-.entry-content ul {
-    list-style-type: circle;
-    color: black;
-}
-
-.entry-content li {
-    word-wrap: break-word; 
-} 
-
-/* Disqus */
-
-/******************************************************************************/
-
-#disqus_thread {
-    background: white;
-    border-radius: 4px;
-    padding: 1em;
-    margin-top: 1em;
-}
-
-#disqus_thread li {
-    color: black
-} 
 
 /* Services */
 
@@ -1269,6 +1195,72 @@ pre {
     border: 6px solid #E1F1F6;
     margin: 1em;
 } 
+
+/* Blog entry */
+#disqus_thread {
+    background: white;
+    border-radius: 4px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#disqus_thread li {
+    color: black
+} 
+
+/* Blog entry */
+
+.entry-utility {
+    line-height: 2em; 
+    margin-bottom: 2em; 
+}
+
+#author-link {
+    margin-top: 2em; 
+    margin-bottom: 2em;
+}
+
+#author-description a {
+    line-height: 2em; 
+}
+
+#author-description {
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+
+}
+
+.entry-meta { 
+    padding: 1em;
+}
+
+.entry-content {
+    background: white;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.entry-content strong {
+    color: black;
+}
+
+.entry-content p {
+    color: black;
+    font-size: 105%;
+}
+
+.entry-content ul {
+    list-style-type: circle;
+    color: black;
+}
+
+.entry-content li {
+    word-wrap: break-word; 
+} 
+
+.nav-right {
+    float: right;
+}
 
 /******************************************************************************/
 
