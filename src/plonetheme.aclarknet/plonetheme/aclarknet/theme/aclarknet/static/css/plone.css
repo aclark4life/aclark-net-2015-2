@@ -1112,8 +1112,8 @@ dt .summary a {
     color: white;
     border: 1px solid white;
     border-style: dashed;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 8em;
+    padding-right: 8em;
 } 
 
 .button { 
