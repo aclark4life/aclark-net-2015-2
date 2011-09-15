@@ -1109,8 +1109,8 @@ dt .summary a {
     border: 1px solid white;
     padding: 1em;
     margin-top: 2em;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
 } 
 
 .button { 
