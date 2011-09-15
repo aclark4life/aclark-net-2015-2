@@ -1261,6 +1261,14 @@ pre {
     color: black; 
 }
 
+/* Blog entry */
+
+#author-avatar {
+    float: right;
+    border: 6px solid #E1F1F6;
+    margin: 1em;
+} 
+
 /******************************************************************************/
 
 /* Search */
