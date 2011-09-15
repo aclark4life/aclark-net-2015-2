@@ -1135,6 +1135,7 @@ dt .summary a {
 #contact-form {
     border: 1px solid white;
     border-style: dashed;
+    padding: 1em;
 }
 
 /* Top level navigation */
