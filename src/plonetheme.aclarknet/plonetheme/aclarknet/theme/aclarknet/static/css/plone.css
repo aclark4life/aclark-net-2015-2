@@ -1182,16 +1182,6 @@ dt .summary a {
 
 */
 
-#menu .selected a {
-    border-bottom: 1px solid ;
-    padding: 1em;
-}
-
-#menu li a:hover {
-    border-bottom: 1px solid ;
-    padding: 1em;
-}
-
 /* Contact link */
 
 /******************************************************************************/
