@@ -1182,7 +1182,7 @@ dt .summary a {
 
 */
 
-.selected a {
+#menu .selected a {
     border-bottom: 1px solid white;
 }
 
