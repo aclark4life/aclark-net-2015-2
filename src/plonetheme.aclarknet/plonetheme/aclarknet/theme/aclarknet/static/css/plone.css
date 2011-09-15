@@ -1173,7 +1173,7 @@ dt .summary a:hover {
     font-size: 150%; 
     text-align: center;
     width: 100%;
-    color: white;
+    color: white !important;
 }
 
 /* Page styles */
