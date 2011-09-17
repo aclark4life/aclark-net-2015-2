@@ -953,6 +953,10 @@ dl.portlet .portletHeader a:hover {
     line-height: 1.5em;
 }
 
+dt {
+    font-weight: bold;
+}
+
 /* Column swap */
 
 /******************************************************************************/
