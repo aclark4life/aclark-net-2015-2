@@ -852,6 +852,24 @@ img.aligncenter {
 
 /******************************************************************************/
 
+.portletHeader {
+    border-radius: 2px;
+    background: black; 
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    text-transform: none;
+    line-height: normal;
+    padding: 0.42em 1em;
+}
+
+.portletFooter {
+    margin-top: 0; 
+    padding-top: 0; 
+    margin-bottom: 2em;
+
+}
+
 dl.portlet a {
     color: white; 
 }
@@ -861,12 +879,8 @@ dl.portlet a:hover {
     text-decoration: underline;
 }
 
-.portletHeader {
-    border-radius: 2px;
-    background: black; 
-    color: white;
-    font-size: 24px;
-    margin-left: 12px;
+dl.portlet {
+    font-size: 100%;
 }
 
 dl.portlet .portletHeader a {
@@ -884,20 +898,6 @@ dl.portlet .portletHeader a:hover {
 
 }
 
-.portletFooter {
-    margin-top: 0; 
-    padding-top: 0; 
-    margin-bottom: 2em;
-
-}
-
-
-.portletHeader {
-    text-transform: none;
-    font-size: 24px;
-    margin-left: 12px;
-}
-
 .navTree li,
 .portletItem li {
     list-style-image: url(../images/img01.gif);
@@ -910,7 +910,6 @@ dl.portlet .portletHeader a:hover {
     display: list-item;
     margin-left: 3.6em; 
 }
-
 
 .portletWordPressBlogPortlet dt {
     font-size: 175%;
@@ -933,10 +932,6 @@ dl.portlet .portletHeader a:hover {
 
 .portletFooter {
     font-size: 90%;
-}
-
-dl.portlet {
-    font-size: 100%;
 }
 
 .portletItemDetails {
