@@ -948,6 +948,7 @@ dt {
 
 .portletItem {
     line-height: normal; 
+    padding: 1em;
 }
 
 .portletItem li {
