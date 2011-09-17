@@ -872,7 +872,6 @@ dl.portlet a:hover {
 dl.portlet .portletHeader a {
     color: white; 
     font-size: 24px;
-    padding: 0; 
     margin-left: 12px;
 
 }
@@ -881,7 +880,6 @@ dl.portlet .portletHeader a:hover {
     color: white; 
     text-decoration: underline;
     font-size: 24px;
-    padding: 0; 
     margin-left: 12px;
 
 }
@@ -897,7 +895,6 @@ dl.portlet .portletHeader a:hover {
 .portletHeader {
     text-transform: none;
     font-size: 24px;
-    padding: 0; 
     margin-left: 12px;
 }
 
