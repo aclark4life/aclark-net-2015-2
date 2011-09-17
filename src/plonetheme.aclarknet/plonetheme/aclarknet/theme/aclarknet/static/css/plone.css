@@ -316,6 +316,7 @@ img.aligncenter {
 #sidebar p {
 	margin: 0 0px;
 	padding: 0px 20px 20px 20px;
+    text-align: justify;
 }
 
 #sidebar a {
@@ -869,6 +870,10 @@ img.aligncenter {
 
 }
 
+dd {
+    padding: 1em;
+}
+
 dl.portlet a {
     color: white; 
 }
@@ -895,6 +900,10 @@ dl.portlet .portletHeader a:hover {
     font-size: 24px;
     margin-left: 12px;
 
+}
+
+dt {
+    font-weight: bold;
 }
 
 .navTree li,
@@ -950,10 +959,6 @@ dl.portlet .portletHeader a:hover {
 
 #sidebar li li {
     line-height: 1.5em;
-}
-
-dt {
-    font-weight: bold;
 }
 
 .book-image {
