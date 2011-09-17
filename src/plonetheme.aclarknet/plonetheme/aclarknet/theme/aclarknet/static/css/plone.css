@@ -958,7 +958,7 @@ dt {
 }
 
 .book-image {
-    text-align: left;
+    text-align: left !important;
 }
 
 /* Column swap */
