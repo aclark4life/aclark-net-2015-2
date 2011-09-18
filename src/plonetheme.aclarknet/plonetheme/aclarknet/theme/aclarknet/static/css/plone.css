@@ -1117,6 +1117,24 @@ dt .summary a {
 
 */
 
+.submenu {
+    background: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 125px !important;
+}
+
+.submenu a {
+    font-size: 75% !important;
+    text-decoration: none !important;
+}
+
+.submenu a:hover {
+    background: black !important; 
+    text-decoration: underline !important;
+    color: white;
+}
+
 #menu li a:hover {
     text-decoration: underline;
 }
