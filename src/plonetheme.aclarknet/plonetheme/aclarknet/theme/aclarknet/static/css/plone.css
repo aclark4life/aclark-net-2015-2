@@ -1320,6 +1320,11 @@ blockquote {
 	margin: 0px auto;
 }
 
+.wp-caption-text {
+    font-size: 75%;
+    font-style: italic;
+}
+
 /******************************************************************************/
 
 /* Search */
