@@ -1321,7 +1321,7 @@ blockquote {
 }
 
 .wp-caption-text {
-    font-size: 75%;
+    font-size: 75% !important;
     font-style: italic;
 }
 
