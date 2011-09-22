@@ -1122,12 +1122,12 @@ dt .summary a {
     background: black !important;
     padding: 0 !important;
     margin: 0 !important;
-    width: 110px !important;
+    width: 111px !important;
     border-top: 1px solid white !important;
     border-right: 1px solid white !important;
     border-left: 1px solid white !important;
     border-bottom: 0 !important;
-    margin-left: 1em !important;
+    margin-left: 5px !important;
 }
 
 .submenu a {
