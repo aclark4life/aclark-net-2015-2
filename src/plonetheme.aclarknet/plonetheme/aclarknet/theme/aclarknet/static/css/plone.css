@@ -1133,7 +1133,7 @@ dt .summary a {
 .submenu a {
     font-size: 90% !important;
     text-decoration: none !important;
-    padding: 5px !important;
+    padding: 10px !important;
     border: 0 !important;
     border-bottom: 1px solid white !important;
 }
