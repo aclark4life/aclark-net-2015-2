@@ -1125,7 +1125,7 @@ dt .summary a {
 }
 
 .submenu li {
-    border: 0;
+    border: 0 !important;
 }
 
 .submenu a {
