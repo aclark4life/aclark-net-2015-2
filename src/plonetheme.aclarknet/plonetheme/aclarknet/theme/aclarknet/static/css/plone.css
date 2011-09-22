@@ -1121,13 +1121,13 @@ dt .summary a {
     background: black !important;
     padding: 0 !important;
     margin: 0 !important;
-    width: 100px !important;
+    width: 105px !important;
 }
 
 .submenu a {
-    font-size: 75% !important;
+    font-size: 80% !important;
     text-decoration: none !important;
-    padding: 0.75em !important;
+    padding: 0.8em !important;
 }
 
 .submenu a:hover {
