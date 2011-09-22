@@ -1049,6 +1049,7 @@ dt .summary a {
     padding-left: 12em;
     padding-right: 12em;
     padding-top: 8em !important;
+    padding-bottom: 8em !important;
 } 
 
 .button { 
