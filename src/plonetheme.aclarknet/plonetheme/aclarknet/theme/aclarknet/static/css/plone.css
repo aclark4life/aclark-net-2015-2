@@ -1121,7 +1121,11 @@ dt .summary a {
     background: black !important;
     padding: 0 !important;
     margin: 0 !important;
-    width: 110px !important;
+    width: 106px !important;
+}
+
+.submenu li {
+    border: 0;
 }
 
 .submenu a {
