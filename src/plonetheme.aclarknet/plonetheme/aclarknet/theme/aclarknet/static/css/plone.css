@@ -1122,6 +1122,7 @@ dt .summary a {
     padding: 0 !important;
     margin: 0 !important;
     width: 106px !important;
+    border: 0 !important;
 }
 
 .submenu a {
@@ -1129,6 +1130,7 @@ dt .summary a {
     text-decoration: none !important;
     padding: 5px !important;
     border: 0 !important;
+    border-bottom: 1px solid white;
 }
 
 .submenu a:hover {
