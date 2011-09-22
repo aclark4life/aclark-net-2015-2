@@ -1307,6 +1307,19 @@ blockquote {
 	font-style: italic;
 }
 
+.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	margin: 0px auto;
+}
+
 /******************************************************************************/
 
 /* Search */
