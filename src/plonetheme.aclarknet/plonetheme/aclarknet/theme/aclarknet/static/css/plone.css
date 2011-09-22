@@ -1122,7 +1122,7 @@ dt .summary a {
     padding: 0 !important;
     margin: 0 !important;
     width: 106px !important;
-    border: 0 !important;
+    border: 1px solid white !important;
     margin-left: 1em !important;
 }
 
