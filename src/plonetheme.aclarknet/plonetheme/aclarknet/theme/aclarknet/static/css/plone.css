@@ -1124,14 +1124,11 @@ dt .summary a {
     width: 106px !important;
 }
 
-.submenu li {
-    border: 0 !important;
-}
-
 .submenu a {
     font-size: 90% !important;
     text-decoration: none !important;
     padding: 5px !important;
+    border: 0;
 }
 
 .submenu a:hover {
