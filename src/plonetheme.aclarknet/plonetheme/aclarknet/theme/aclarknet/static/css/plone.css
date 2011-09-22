@@ -1128,7 +1128,7 @@ dt .summary a {
     font-size: 90% !important;
     text-decoration: none !important;
     padding: 5px !important;
-    border: 0;
+    border: 0 !important;
 }
 
 .submenu a:hover {
