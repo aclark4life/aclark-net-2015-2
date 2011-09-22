@@ -1138,7 +1138,8 @@ dt .summary a {
 .submenu a:hover {
     background: black !important; 
     text-decoration: underline !important;
-    color: #D71112 !important; 
+/*    color: #D71112 !important;  */
+    color: white !important;
 }
 
 #menu li a:hover {
