@@ -1123,6 +1123,7 @@ dt .summary a {
     margin: 0 !important;
     width: 106px !important;
     border: 0 !important;
+    margin-left: 1em !important;
 }
 
 .submenu a {
