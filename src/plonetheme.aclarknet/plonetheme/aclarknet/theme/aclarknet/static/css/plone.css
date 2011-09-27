@@ -1189,6 +1189,7 @@ dt .summary a {
 
 #parent-fieldname-description {
     margin-bottom: 1em !important;
+    font-size: 110%;
 }
 
 /* Blog entry */
