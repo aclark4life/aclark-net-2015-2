@@ -1294,6 +1294,7 @@ pre {
 
 .entry-content li {
     word-wrap: break-word; 
+    color: black;
 } 
 
 .nav-next {
