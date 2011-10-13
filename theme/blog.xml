@@ -10,7 +10,7 @@
     <copy content='//*[@id="searchform"]' theme='//*[@id="searchform"]' />
 
     <drop content='//*[@id="searchsubmit"]' /> 
-    <drop content='//*[@id="sidebar"]' /> 
+    <drop theme='//*[@id="sidebar"]' /> 
 
     <replace content='//*[@id="archives-3"]' theme='//*[@id="archives"]' />
     <replace content='//*[@id="categories-3"]' theme='//*[@id="categories"]' />
