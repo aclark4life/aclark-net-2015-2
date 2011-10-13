@@ -24,7 +24,7 @@ The Diazo theme for Wordpress is contained within the top level `theme/`_ direct
 Buildout
 --------
 
-The buildout in this repository follows a popular convention of having no default configuration file, forcing the user to select one by copying a template. See the installation instructions below for more information.
+The buildout in this repository follows a popular convention of having no default configuration file, forcing the end user to select a configuration by copying and editing a template configuration file. See the installation instructions below for more information.
 
 
 Installation
