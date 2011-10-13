@@ -1,5 +1,6 @@
 [buildout]
 extends =
-#    conf/production.cfg
+#    conf/database.cfg
 #    conf/develop.cfg
+#    conf/production.cfg
 #    conf/staging.cfg
