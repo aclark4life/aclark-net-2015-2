@@ -1,0 +1,9 @@
+@media print {
+    #footer, #menu {
+        display: none; 
+    }
+    td {
+        margin: 1em;
+        padding: 1em;
+    }
+}

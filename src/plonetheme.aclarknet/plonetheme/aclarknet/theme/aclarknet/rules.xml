@@ -1,0 +1,36 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <theme href="index.html" />
+
+    <notheme if-path="anchor.htm" />
+    <notheme if-path="attributes.htm" />
+    <notheme if-path="presentation_view" />
+    <notheme if-path="image_view_fullscreen" />
+    <notheme if-path="ploneimage.htm" />
+    <notheme if-path="plonelink.htm" />
+    <notheme if-path="source_editor.htm" />
+    <notheme if-path="table.htm" />
+
+    <prepend content='//*[@id="portal-personaltools"]' theme='//*[@id="search"]' />
+
+    <before content='/html/head' theme='/html/head' />
+    <drop attributes="id" css:content="#portal-footer" />
+    <drop attributes="id" css:content="#content" />
+    <drop attributes="class" css:content=".cell" />
+    <drop attributes="class" css:content=".documentFirstHeading" />
+    <drop attributes="class" css:content=".documentDescription" />
+
+    <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' />
+    <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
+
+    <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
+
+    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="content"]' />
+    <copy content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
+
+    <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+
+</rules>

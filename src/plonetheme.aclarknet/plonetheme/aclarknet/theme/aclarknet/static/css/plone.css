@@ -1,0 +1,1355 @@
+/* Original theme via http://www.freecsstemplates.org/preview/unilluminated/ */
+
+/******************************************************************************/
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000000 url(images/img02.gif) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #D71112;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.border {
+	border: 6px solid #E1F1F6;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/img03.gif) no-repeat center top;
+}
+
+/* Header */
+
+#header {
+	width: 1000px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 100px;
+	margin: 0;
+	padding: 0px;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	padding-left: 30px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	text-shadow: #808080 -1px 1px 2px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 64px;
+}
+
+#logo p {
+	margin: 0;
+	padding: 30px 0 0 34px;
+	text-shadow: #808080 -1px 1px 2px;
+	font: normal 18px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 100px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 60px 0 0 30px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 195px;
+	padding: 6px 10px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #7F7F81;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 960px;
+	height: 49px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 4px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	margin-right: 1px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: #8A5608 -1px 1px 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu .current_page_item a {
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+
+/* Page */
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#page-bgtop {
+}
+
+#page-bgbtm {
+	margin: 0px;
+	padding: 40px 30px 0px 30px;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 540px;
+	padding: 0px 20px 0px 0px;
+}
+
+.post {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.post .title {
+	letter-spacing: -1px;
+}
+
+.post .title a {
+	color: #D71D3E;
+	border: none;
+}
+
+.post .meta {
+	padding-bottom: 5px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 330px;
+	padding: 0px 0px 0px 0px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 15px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	padding-left: 15px;
+	line-height: 35px;
+	background: url(images/img01.gif) no-repeat left 14px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 15px;
+	letter-spacing: -1px;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+	color: #FFFFFF;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #D71112;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 1000px;
+	height: 55px;
+	margin: 0px auto 40px auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 18px;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+/* New mobile css via https://weblion.psu.edu/svn/weblion/weblion/plonetheme.responsivetheme/trunk/plonetheme/responsivetheme/skins/plonetheme_responsivetheme_styles/mediaqueries.css */
+
+/******************************************************************************/
+
+/* For devices with narrow screens, phones, tablets, etc. */
+/*  * 1625px and above huge screens * */
+/*  * 600px and below-common things for 480px, 600px, and below .. IE 9 ignored this if it had 'only screen' in the query   * */
+/*  * iPad in landscape mode * */
+/*  * iPad in portrait mode * */
+/*  * iPhone in landscape mode * */
+/*  * iPhone in portrait mode * */
+
+/*  *  1625px and above huge screens * */
+@media only screen and (min-width : 1625px)  {
+    body { width: 100%;}
+    
+    /* for readability making the width of the site only got to 100em */ 
+    #visual-portal-wrapper {
+        width: 100em !important;
+        margin: 0px auto !important;
+        display: block;
+        float: none;
+    }
+
+} /*  *  END 1625px and above huge screens * */
+
+
+/*  * 600px and below-common things for 480px, 600px, and below .. IE 9 ignored this if it had 'only screen' in the query * */
+@media (max-width : 600px) {
+    /* reset the min width to be 320px */
+    body { min-width: 320px !important;}
+    #visual-portal-wrapper { width: 100% !important;}
+    
+    /* make width 100% instead of the stock 97.75% */
+    div.width-full {
+        width: 100% !important;
+        }
+        
+    /* start position-0 at absolute left */
+    div.position-0 {
+        margin-left: -100%;
+        }
+
+    /* make sure logo isn't bigger then the screen area */    
+    #portal-logo {
+        margin-bottom: 5px;
+        padding-top: 5px;
+        display: inline-block;
+        clear: both;
+        margin: 0px;
+        position: absolute;
+        } 
+    
+    #portal-logo img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100% !important; 
+        }
+    div#logo.cell.position-0 {
+        position: absolute;
+        top: 5px;
+        margin-left: -90% !important;
+        float: left;
+        }
+ 
+    /* get rid of whatever width is set on visual-portal-wrapper so it expands whole device width */
+    #visual-portal-wrapper {
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        }
+        
+    /* move columns to below main content */    
+    #portal-column-two, #portal-column-one {
+        clear: both;
+        margin-left: -99% !important;
+        width: 100% !important;
+        margin:1em 0px;
+        width: 95% !important;
+        } 
+        
+    /* spread out the content */
+    div#portal-column-content {
+        width: 94%;
+        }
+        
+    dl#portal-personaltools {
+        margin-right: 34px;
+        float: right;
+        }
+       
+    /* move search box to the center and expand its width */   
+    #portal-searchbox {
+        margin: 65px 0px 15px 8% !important;
+        width: 85%;
+        font-size: 0.7em !important;
+        clear: both !important;
+        float: left !important;
+        }
+    
+    #searchGadget {
+        width: 81%;
+        }
+        
+    #portal-personaltools {
+       font-size: 70%;
+       }
+
+   /* global navigation needs to reconfigure itself to be vertical */
+   #portal-globalnav {
+        margin-left: 0px !important;
+        }
+                
+    ul#portal-globalnav {
+        padding: 0px;
+        background-color: white !important;
+        background: white !important;
+        width: 100% !important;
+        }
+        
+    ul#portal-globalnav:before { 
+        display: block;
+        margin-top: 20px;
+        font-size: 2em; 
+        }
+        
+    #portal-globalnav {
+        height: auto;
+        clear: both;
+        padding: 0px;
+        margin: 7px auto;
+        width: 100% !important;
+        }
+        
+    #portal-globalnav li {
+        display: inline-block !important;
+        margin-top: 5px;
+        border-top: 1px solid #E7E7E7;
+        border-bottom: 1px solid #E7E7E7;
+        background-color: white;
+        width: 100%;
+        }
+        
+    #portal-globalnav li a {
+        padding: 13px 13px 13px 20px;
+        display: block !important;
+        text-align: left !important;
+        color: #4477a1 !important;
+        background-color: #B0B0B0 !important;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#B0B0B0) ) !important;
+        background: -moz-linear-gradient(-90deg, #ECECEC, #B0B0B0) !important;
+        }
+
+    #portal-globalnav a:hover, #portal-globalnav .selected a:hover, #portal-globalnav .selected a, #portal-globalnav a:focus {
+        background-color: #4477a1 !important;
+        background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) ) !important;
+        background: -moz-linear-gradient(-90deg, #81a8cb, #4477a1) !important;
+        color: white !important;
+        }
+        
+    /* luke w says breadcrumbs are not found in mobile designs */    
+    #portal-breadcrumbs {
+        display: none; 
+        }
+        
+ /* make the content font-size bigger */
+   #content {
+       font-size: 1em;
+       } 
+   div#footer {
+       width: 99%;
+       }   
+} /*  * END 600px and below  * */
+
+
+
+/*  *iPad in landscape mode * */
+@media screen and (orientation:landscape) and (max-device-width: 1024px) {
+    body {
+        font: 1em!important;
+    } 
+    #visual-portal-wrapper {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    #portal-columns {
+       font-size: 1.7em;
+       }
+     #portal-logo a#logo-site { padding-top: 2%;}
+
+}
+
+/*  * iPad in portrait mode * */
+@media screen and (orientation:portrait) and  (max-device-width: 768px) {
+   #visual-portal-wrapper {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    #portal-columns {
+       font-size: 1.7em;
+       }
+    #portal-logo a#logo-site { padding-top: 2%;}
+    
+} /*  * END Pad in landscape mode * */
+
+
+
+/*  * iPhone in landscape mode * */
+@media screen and (orientation:landscape) and (max-device-width: 480px) {
+/** it seems when changing the orientation on the iphone it loses things like globalnav being display block. Have to reset some css that should of been used from before **/
+   body { display: inline !important; }
+   /* global navigation needs to reconfigure itself to be vertical */
+
+     #portal-globalnav {
+        margin-left: 0px !important;
+        }
+                
+    ul#portal-globalnav {
+        padding: 0px;
+        background-color: transparent;
+        width: 100% !important;
+        }
+        
+    ul#portal-globalnav:before { 
+        display: block;
+        margin-top: 20px;
+        font-size: 2em; 
+        }
+        
+    #portal-globalnav {
+        height: auto;
+        clear: both;
+        padding: 0px;
+        margin: 7px auto;
+        width: 100% !important;
+        }
+        
+    #portal-globalnav li {
+        display: inline-block !important;
+        margin-top: 5px;
+        border-top: 1px solid #E7E7E7;
+        border-bottom: 1px solid #E7E7E7;
+        background-color: white;
+        width: 100%;
+        }
+        
+    #portal-globalnav li a {
+        padding: 13px 13px 13px 20px;
+        display: block !important;
+        color: #4477a1 !important;
+        background-color: #B0B0B0 !important;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#B0B0B0) ) !important;
+        background: -moz-linear-gradient(-90deg, #ECECEC, #B0B0B0) !important;
+        }
+
+
+    #portal-globalnav a:hover, #portal-globalnav .selected a:hover, #portal-globalnav .selected a, #portal-globalnav a:focus {
+        background-color: #4477a1 !important;
+        background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) ) !important;
+        background: -moz-linear-gradient(-90deg, #81a8cb, #4477a1) !important;
+        color: white !important;
+        }
+        
+    /* make sure logo isn't bigger then the screen area */    
+    #portal-logo {
+        margin-bottom: 5px;
+        padding-top: 5px;
+        display: inline-block;
+        clear: both;
+        margin: 0px;
+        position: absolute;
+        top: 5px;
+        } 
+
+    div#logo.cell.position-0 {
+
+        margin-left: -50% !important;
+        margin-bottom: 20px;
+        float: left;
+        }
+        
+
+    #portal-searchbox {
+        margin-top: 75px !important;
+    }
+    .field input[type="text"][size] {
+        width: 10em;
+        }
+} /*  * END iPhone in landscape mode * */
+
+
+/*  * iPhone in portrait mode * */
+@media screen and (orientation:portrait) and  (max-device-width: 320px) {
+    body { display: inline !important;}
+   #visual-portal-wrapper { display: inline-block !important;}
+    #portal-globalnav li {
+        display: inline-block !important;
+    }
+
+    div#logo.cell.position-0 {
+        position: absolute;
+        top: 5px;
+        margin-left: -80%;
+        }
+
+    #portal-searchbox {
+        margin-top: 75px !important;
+        width: 75%;
+    }
+    .field input[type="text"][size] {
+        width: 10em;
+        }
+
+} /*  * END iPhone in portrait mode * */
+
+/* Mobile css via
+    http://perishablepress.com/press/2009/08/02/the-5-minute-css-mobile-makeover/
+    http://meyerweb.com/eric/tools/css/reset/ 
+
+@media only screen and (max-device-width: 480px) { 
+
+    #portal-column-content {
+
+
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    #header, #sidebar, #footer {
+        display: none;
+    }
+
+    #menu, #page {
+        width: 100%;
+    }
+
+    #wrapper {
+        background: black;
+    }
+
+} */
+
+/* ACLARK.NET, LLC customizations */
+
+/******************************************************************************/
+
+/* Logo */
+
+/******************************************************************************/
+
+#logo .slogan {
+    font: italic 18px Georgia,"Times New Roman",Times,serif;
+    margin-left: 2.5em;
+}
+
+#logo .name {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 50px;
+    letter-spacing: -2px;
+    margin-left: 0.3em;
+}
+
+#logo .alpha {
+    font-size: 360%; font-style: italic
+}
+
+/* Header */
+ 
+/******************************************************************************/
+
+#wrapper {
+    margin: 0; 
+    padding: 0;
+    background: #000000 url(../images/img03.gif) repeat-x; 
+} 
+
+#menu {
+    background: #AA001F;
+    height: 100px;
+}
+
+/* Footer */
+
+/******************************************************************************/
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-wrapper {
+    background: #aa001f url(../images/img05.gif) repeat-x;
+    padding: 0;
+}
+
+/* Doormat via http://svn.plone.org/svn/collective/Products.Doormat/trunk/Products/Doormat/browser/stylesheets/doormat.css */
+
+#footer h2 {
+    margin: 0.5em 0.5em 0px 0.5em;
+}
+
+#footer h3 {
+    margin: 0.5em 0px;
+}
+
+#footer dl {
+    margin: 0.5em 0px;
+}
+
+#footer dl dd {
+    margin-left: 0px;
+}
+
+#footer .doormatColumn {
+    float: left;
+
+}
+
+.columns-2 .doormatColumn {
+    width: 48%;
+}
+
+.columns-3 .doormatColumn {
+    width: 31%;
+}
+
+.columns-4 .doormatColumn {
+    width: 23%;
+}
+
+.columns-5 .doormatColumn {
+    width: 17%; 
+    padding-top: 1em;
+    line-height: 1.75em;
+    font-size: 120%;
+    padding-left: 5px;
+}
+
+.columns-6 .doormatColumn {
+    width: 14%;
+}
+
+.columns-7 .doormatColumn {
+    width: 12%;
+}
+
+#footer li {
+    list-style-image: url(../images/img04.gif);
+    display: list-item;
+    line-height: 2em;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-wrapper {
+    background: #AA001F url(../images/img05.gif) repeat-x;
+    padding: 0;
+    height: 275px;
+}
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    background: #AA001F;
+    padding: 0 0 12em 2em;
+    font-size: 75%;
+    width: 900px;
+    margin: 0 auto;
+} 
+
+/* Portlets */
+
+/******************************************************************************/
+
+.portletHeader {
+    border-radius: 2px;
+    background: black; 
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    text-transform: none;
+    line-height: normal;
+    padding: 0.42em 1em;
+}
+
+.portletFooter {
+    margin-top: 0; 
+    padding-top: 0; 
+    margin-bottom: 2em;
+
+}
+
+dd {
+    padding: 1em;
+} 
+
+dl.portlet a {
+    color: white; 
+}
+
+dl.portlet a:hover {
+    color: white; 
+    text-decoration: underline;
+}
+
+dl.portlet {
+    font-size: 100%;
+}
+
+dl.portlet .portletHeader a {
+    color: white; 
+    font-size: 24px;
+    margin-left: 12px;
+
+}
+
+dl.portlet .portletHeader a:hover {
+    color: white; 
+    text-decoration: underline;
+    font-size: 24px;
+    margin-left: 12px;
+
+}
+
+dt {
+    font-weight: bold;
+}
+
+.navTree li,
+.portletItem li {
+    list-style-image: url(../images/img01.gif);
+    display: list-item;
+    line-height: normal; 
+}
+
+.portletWordPressBlogPortlet dd {
+    list-style-image: url(../images/img01.gif);
+    display: list-item;
+    margin-left: 3.6em; 
+}
+
+.portletWordPressBlogPortlet dt {
+    font-size: 175%;
+    padding: 0; 
+    margin-left: 12px;
+}
+
+.portletWordPressBlogPortlet a {
+    color: white ; 
+}
+
+.portletWordPressBlogPortlet a:hover {
+    color: white ; 
+}
+
+.portletWordPressBlogPortlet .portletItem {
+    margin-bottom: 3em;
+    line-height: normal;
+}
+
+.portletFooter {
+    font-size: 90%;
+}
+
+.portletItemDetails {
+    display: none;
+}
+
+.portletItem {
+    line-height: normal; 
+    margin: 0;
+}
+
+.portletItem li {
+    margin-left: 2.5em !important;
+    line-height: normal; 
+    padding: 1em; 
+
+}
+
+#sidebar li li {
+    line-height: 1.5em;
+}
+
+.book-image {
+    text-align: left !important;
+}
+
+/* Column swap */
+
+/******************************************************************************/
+
+#sidebar {
+    float: right;
+    width: 250px; 
+}
+
+#content {
+    float: left;
+    width: 620px; 
+
+}
+
+
+
+/* Services */
+
+/******************************************************************************
+
+dt .summary a {
+    background: black;
+    display: block;
+    font-size: 400%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    color: #205C90;
+} 
+
+dt .summary a:hover {
+    text-decoration: none;
+    color: #75AD0A;
+}
+
+*/
+
+dt .summary a {
+    font-size: 1.6em;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+/* Front page */
+
+/******************************************************************************/
+
+.col1 {
+    float: left;
+    height: 15em;
+    width: 40%;
+}
+
+.col2 {
+    float: right;
+    height: 15em;
+    width: 60%;
+} 
+
+/* Messages */
+
+/******************************************************************************/
+
+.portalMessage {
+    color: black;
+}
+
+/* Contact form */
+
+/******************************************************************************/
+
+#contact-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1em;
+    margin-top: 2em;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 8em !important;
+    margin-bottom: 8em !important;
+} 
+
+.button { 
+    font-size: 150%;
+    width: 11em;
+}
+
+#button-wrapper {
+    padding: 1em;
+    margin: auto;
+    width: 75%;
+} 
+
+#contact-wrapper table {
+    background: black;
+    color: white;
+}
+
+#contact-wrapper td {
+    padding: 0;
+    font-size: 150%;
+}
+
+
+/* Top level navigation */
+
+/******************************************************************************
+
+.submenu {
+    width: 183px !important;
+}
+
+.submenu li a {
+    color: #AA001F !important;
+}
+
+.submenu li a:hover {
+    text-decoration: underline !important;
+}
+
+#menu li:hover a {
+    color: #AA001F !important;
+}
+
+#menu li a:hover {
+    background: white; 
+    color: #AA001F !important;
+    border-radius: 0.5em 0.5em 0 0; 
+}
+
+#menu li:hover {
+    background: white; 
+    color: #AA001F !important;
+    border-radius: 0.5em 0.5em 0 0; 
+}
+
+.selected a {
+    background: white; 
+    color: #AA001F !important;
+    border-radius: 0.5em 0.5em 0 0; 
+}
+
+#menu a {
+    margin-right: 0px;
+}
+
+*/
+
+.submenu {
+    background: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 114px !important;
+    border-top: 1px solid white !important;
+    border-right: 1px solid white !important;
+    border-left: 1px solid white !important;
+    border-bottom: 0 !important;
+    margin-left: 8px !important;
+}
+
+.submenu a {
+    font-size: 90% !important;
+    text-decoration: none !important;
+    padding: 10px !important;
+    border: 0 !important;
+    border-bottom: 1px solid white !important;
+}
+
+.submenu a:hover {
+    background: black !important; 
+    text-decoration: underline !important;
+/*    color: #D71112 !important;  */
+    color: white !important;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+}
+
+#menu .selected a {
+    text-decoration: underline;
+}
+
+/* Blog */
+#menu-item-258 a {
+    text-decoration: underline;
+}
+
+/* Contact link */
+
+/******************************************************************************/
+
+#portal-personaltools {
+    width: 300px;
+    padding: 0.5em;
+    background: #AA001F;
+}
+
+#portal-personaltools a {
+    text-transform: uppercase; 
+    font-size: 150%; 
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+/* Page styles */
+
+/******************************************************************************/
+
+#portal-column-content h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #D71D3E;
+    font-size: 3em;
+}
+
+#parent-fieldname-description {
+    margin-bottom: 1em !important;
+    font-size: 110%;
+}
+
+/* Blog entry */
+h1.entry-title {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #D71D3E;
+    font-size: 3em;
+}
+
+/* Blog entry */
+/* https://twitter.com/#!/stevelosh/status/107231088111390720 */
+
+pre {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    padding: 2em;
+    background: #191919;
+    color: #00FF00;
+    border: 1px solid white;
+    font-size: 110%;
+}
+
+/* Blog entry */
+.entry-content h1 {
+    color: black; 
+}
+
+.entry-content h2 {
+    color: black; 
+}
+
+.entry-content h3 {
+    color: black; 
+}
+
+/* Blog entry */
+
+#author-avatar {
+    float: right;
+    border: 6px solid #E1F1F6;
+    margin: 1em;
+} 
+
+/* Blog entry */
+#disqus_thread {
+    background: white;
+    border-radius: 4px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#disqus_thread li {
+    color: black
+} 
+
+/* Blog entry */
+
+.entry-utility {
+    line-height: 2em; 
+    margin-bottom: 2em; 
+}
+
+#author-link {
+    margin-top: 2em; 
+    margin-bottom: 2em;
+}
+
+#author-description a {
+    line-height: 2em; 
+}
+
+#author-description {
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+
+}
+
+.entry-meta { 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.entry-content {
+    background: white;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.entry-content strong {
+    color: black;
+}
+
+.entry-content p {
+    color: black;
+    font-size: 105%;
+}
+
+.entry-content ul {
+    list-style-type: circle;
+    color: black;
+}
+
+.entry-content li {
+    word-wrap: break-word; 
+    color: black;
+} 
+
+.nav-next {
+    float: right;
+}
+
+.nav-previous {
+    float: left;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	margin: 0px auto;
+}
+
+.wp-caption-text {
+    font-size: 75% !important;
+    font-style: italic;
+}
+
+/******************************************************************************/
+
+/* Search */
+
+#portal-globalnav {
+    width: 75%;
+}
+
+/* Tables */
+
+/******************************************************************************/
+
+table {
+    background: white;
+    color: black;
+}
+
+table h1, table h2, table h3, table h4 {
+    color: black;
+}
+
+td {
+    padding: 1em;
+}
+
+

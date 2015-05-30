@@ -1,0 +1,159 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="plone">
+
+<metal:block fill-slot="top_slot" />
+
+<body>
+
+<div id="contact-form" metal:fill-slot="main"
+     tal:define="portal context/@@plone_portal_state/portal;
+                 email_from_address portal/email_from_address;
+                 isAnon context/@@plone_portal_state/anonymous;">
+
+
+    <h1 class="documentFirstHeading"
+        i18n:translate="heading_contact_form">
+        Contact
+    </h1>
+
+    <div id="parent-fieldname-description">
+        We look forward to hearing from you
+    </div>
+
+    <div id="contact-wrapper">
+        <table id="contact-table">
+            <tr><td>ACLARK.NET, LLC<br />
+                    Bethesda, MD USA<br />
+                    E-mail: <a href="mailto:info@aclark.net">info@aclark.net</a></td></tr>
+        </table>
+
+        <div tal:condition="not:email_from_address">
+
+            <p class="documentDescription"
+               i18n:translate="text_no_email_setup">
+                This site doesn't have a valid email setup, so you cannot use
+                any contact forms. 
+            </p>
+
+        </div>
+
+        <div tal:condition="email_from_address">
+
+            <form 
+                action=""
+                method="post"
+                tal:define="errors options/state/getErrors"
+                tal:attributes="action string:$portal_url/${template/getId}">
+
+            <div tal:define="member context/@@plone_portal_state/member;
+                                  fullname python:request.get('fullname', not isAnon and member.getProperty('fullname', '') or None);
+                                  email python:request.get('email', not isAnon and member.getProperty('email','') or None);">
+
+                <input type="hidden" name="sender_fullname" value="fullname"
+                       tal:attributes="value fullname"
+                       tal:condition="fullname" />
+
+                <div 
+                     tal:condition="not:fullname"
+                     tal:define="error errors/sender_fullname|nothing"
+                     tal:attributes="class python:test(error, 'field error', 'field')">
+                    <label for="sender_fullname" i18n:translate="label_sender_fullname">
+                        Please tell us your name
+                    </label>
+
+                    <div tal:condition="error"
+                       tal:content="error">Validation error output</div>
+                    <input type="text" 
+                           id="sender_fullname" 
+                           name="sender_fullname" 
+                           size="40" 
+                           value="" 
+                           tal:attributes="value request/sender_fullname|nothing"
+                           />
+                </div>
+
+                <input type="hidden" name="sender_from_address" value="email"
+                       tal:attributes="value email"
+                       tal:condition="email" />
+
+                <div 
+                     tal:condition="not:email"
+                     tal:define="error errors/sender_from_address|nothing"
+                     tal:attributes="class python:test(error, 'field error', 'field')">
+
+                    <label for="sender_from_address" i18n:translate="label_sender_from_address">
+                        And your e-mail address
+                    </label>
+
+                    <div tal:condition="error"
+                         tal:content="error">Validation error output</div>
+
+                    <input type="text" 
+                           id="sender_from_address" 
+                           name="sender_from_address" 
+                           size="40" 
+                           value="" 
+                           tal:attributes="value request/sender_from_address|nothing"
+                           />
+                </div>
+
+                <div 
+                     tal:define="error errors/message|nothing"
+                     tal:attributes="class python:test(error, 'field error', 'field')">
+
+                    <label for="message" i18n:translate="label_message">
+                       And how we can help you
+                    </label>
+
+                    <div tal:condition="error"
+                         tal:content="error">Validation error output</div>
+
+                    <textarea name="message"
+                              id="message"
+                              rows="5"
+                              cols="50"
+                              tal:content="request/message|nothing"
+                              > </textarea>
+                </div>
+
+                <div>
+                    <p> 
+                        When you are done, please fill in the captcha form below and click 'Send form':
+                    </p>
+
+                    <tal:block tal:replace="structure context/@@captcha/image_tag"/>
+
+                    <div id="button-wrapper">
+                        <input class="button"
+                               type="submit"
+                               name="form.button.Send"
+                               value="Send form"
+                               i18n:attributes="value label_send;"
+                               />
+                    </div>
+
+                    <p>
+                        We will get back to you within 24 hours. <strong> If you need immediate assistance, please call 301-312-5236 (24/7) and we will return your call ASAP.</strong>
+                    </p>
+
+                </div>
+
+            </div>
+
+            <input type="hidden" name="form.submitted" value="1" />
+
+            <input type="hidden" name="subject" value="ACLARK.NET, LLC contact form submission" />
+
+            </form>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

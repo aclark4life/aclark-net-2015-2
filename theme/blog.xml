@@ -1,0 +1,18 @@
+<rules 
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <replace content="/html/head/title" theme="/html/head/title" />
+
+    <copy content='//*[@id="content"]' theme='//*[@id="content"]' />
+    <copy content='//*[@id="menu-portal-tabs"]' theme='//*[@id="menu"]' />
+    <copy content='//*[@id="searchform"]' theme='//*[@id="searchform"]' />
+
+    <drop content='//*[@id="searchsubmit"]' /> 
+    <drop theme='//*[@id="sidebar"]' /> 
+
+    <replace content='//*[@id="archives-3"]' theme='//*[@id="archives"]' />
+    <replace content='//*[@id="categories-3"]' theme='//*[@id="categories"]' />
+
+</rules>
